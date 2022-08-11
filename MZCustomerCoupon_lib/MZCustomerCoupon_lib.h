@@ -16,7 +16,7 @@
 // In this header, you should import all the public headers of your framework using statements like #import <MZCustomerCoupon_lib/PublicHeader.h>
 //Common
 #import <MZCustomerCoupon_lib/MZUtils.h>
-#import <MZCustomerCoupon_lib/MZCustomerCouponConfig.h>
+
 //Data
 #import <MZCustomerCoupon_lib/CustomerData.h>
 #import <MZCustomerCoupon_lib/CustomerDeviceData.h>

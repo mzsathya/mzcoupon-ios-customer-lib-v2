@@ -94,8 +94,6 @@
 		5C5B2019282BB6AD00CF52B3 /* MZJastorRuntimeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B2015282BB6AD00CF52B3 /* MZJastorRuntimeHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C5B201A282BB6AD00CF52B3 /* MZJastor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B2016282BB6AD00CF52B3 /* MZJastor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C5B201B282BB6AD00CF52B3 /* MZJastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B2017282BB6AD00CF52B3 /* MZJastorRuntimeHelper.m */; };
-		5C5B2026282BB80000CF52B3 /* MZCustomerCouponConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B2025282BB80000CF52B3 /* MZCustomerCouponConfig.m */; };
-		5C5DFF30282BC13A00ED571D /* MZCustomerCouponConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5DFF2F282BC13A00ED571D /* MZCustomerCouponConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C5DFF37282BC24F00ED571D /* CustomerDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DFF35282BC24F00ED571D /* CustomerDataModel.m */; };
 		5C5DFF38282BC24F00ED571D /* CustomerDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5DFF36282BC24F00ED571D /* CustomerDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C5DFF40282BD3B500ED571D /* AuthToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5DFF3E282BD3B500ED571D /* AuthToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -259,8 +257,6 @@
 		5C5B2015282BB6AD00CF52B3 /* MZJastorRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZJastorRuntimeHelper.h; sourceTree = "<group>"; };
 		5C5B2016282BB6AD00CF52B3 /* MZJastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZJastor.h; sourceTree = "<group>"; };
 		5C5B2017282BB6AD00CF52B3 /* MZJastorRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZJastorRuntimeHelper.m; sourceTree = "<group>"; };
-		5C5B2025282BB80000CF52B3 /* MZCustomerCouponConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZCustomerCouponConfig.m; sourceTree = "<group>"; };
-		5C5DFF2F282BC13A00ED571D /* MZCustomerCouponConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCustomerCouponConfig.h; sourceTree = "<group>"; };
 		5C5DFF35282BC24F00ED571D /* CustomerDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerDataModel.m; sourceTree = "<group>"; };
 		5C5DFF36282BC24F00ED571D /* CustomerDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerDataModel.h; sourceTree = "<group>"; };
 		5C5DFF3E282BD3B500ED571D /* AuthToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthToken.h; sourceTree = "<group>"; };
@@ -398,15 +394,6 @@
 			path = Jastor;
 			sourceTree = "<group>";
 		};
-		5C5B2029282BB81D00CF52B3 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				5C5DFF2F282BC13A00ED571D /* MZCustomerCouponConfig.h */,
-				5C5B2025282BB80000CF52B3 /* MZCustomerCouponConfig.m */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
 		5C8A3C30282902ED002A7BB5 = {
 			isa = PBXGroup;
 			children = (
@@ -430,7 +417,6 @@
 		5C8A3C3C282902EE002A7BB5 /* MZCustomerCoupon_lib */ = {
 			isa = PBXGroup;
 			children = (
-				5C5B2029282BB81D00CF52B3 /* Common */,
 				5C5B2020282BB6BE00CF52B3 /* Jastor */,
 				5C96F1DB28293C000061EB0D /* Utils */,
 				5C96F17A28291B770061EB0D /* Pojo */,
@@ -659,7 +645,6 @@
 				5C5B2019282BB6AD00CF52B3 /* MZJastorRuntimeHelper.h in Headers */,
 				5C5DFF38282BC24F00ED571D /* CustomerDataModel.h in Headers */,
 				5C23650828A0528D0039E904 /* CouponListData.h in Headers */,
-				5C5DFF30282BC13A00ED571D /* MZCustomerCouponConfig.h in Headers */,
 				5C2364FC28A04D530039E904 /* MZCouponResponse.h in Headers */,
 				5C96F18F28292C9B0061EB0D /* CustomerData.h in Headers */,
 				5C23650228A04F8E0039E904 /* SummaryData.h in Headers */,
@@ -914,7 +899,6 @@
 				5CFE741C28A24C29007142B7 /* MZCouponSerialResponse.m in Sources */,
 				5C541E8E28A10189001959B4 /* PaymentListModel.m in Sources */,
 				5CFE744828A25B87007142B7 /* RedeemResponseData.m in Sources */,
-				5C5B2026282BB80000CF52B3 /* MZCustomerCouponConfig.m in Sources */,
 				5C5DFF41282BD3B500ED571D /* AuthToken.m in Sources */,
 				5CFE744E28A25DB0007142B7 /* MZSerialCouponDetailsResponse.m in Sources */,
 				5CFE741528A22E2B007142B7 /* MZPayment.m in Sources */,
@@ -1087,6 +1071,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mezzofy.mzcustomercouponlib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1113,6 +1098,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mezzofy.mzcustomercouponlib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

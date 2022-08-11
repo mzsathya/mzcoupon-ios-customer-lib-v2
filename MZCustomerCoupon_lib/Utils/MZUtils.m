@@ -8,72 +8,8 @@
 
 #import "MZUtils.h"
 
-
-static NSString *_dbpath;
-static NSString *_initpath;
-static NSString *_logindbpath;
-static BOOL iSLocal=FALSE;
-
 @implementation MZUtils
 
-
-+ (NSString*)dbpath {
-    return _dbpath;
-}
-
-+ (void)dbpath:(NSString *)path {
-    _dbpath = path;
-}
-
-
-+ (NSString*) initialpath {
-    return _initpath;
-}
-
-+ (void) initialpath:(NSString *)path {
-    _initpath = path;
-}
-+ (NSString*) pathsettingforreg {
-    
-    NSMutableDictionary *savedStock = [[NSMutableDictionary alloc] initWithContentsOfFile:[MZUtils initialpath]];
-    NSString *urlPath = [savedStock objectForKey:@"SettingsPath"];
-    if(iSLocal)
-        urlPath = [NSString stringWithFormat:@"http://platformuat.dev.com:8080/platformuat/"];
-    else if ([MZCustomerCouponConfig Server])
-        urlPath = [NSString stringWithFormat:@"http://platform.mezzofy.com/"];
-    else
-         urlPath = [NSString stringWithFormat:@"http://platform.uat.mezzofy.com/"];
-    
-    return urlPath;
-}
-+ (NSString*) pathsetting {
-    NSMutableDictionary *savedStock = [[NSMutableDictionary alloc] initWithContentsOfFile:[MZUtils initialpath]];
-    NSString *urlPath = [savedStock objectForKey:@"SettingsPath"];
-    
-    if(iSLocal)
-        urlPath = [NSString stringWithFormat:@"http://%@.dev.com:8080/platformuat/",[MZCustomerCouponConfig merchantid]];
-    else if ([MZCustomerCouponConfig Server])
-        urlPath = [NSString stringWithFormat:@"http://%@.mezzofy.com/",[MZCustomerCouponConfig merchantid]];
-    else 
-        urlPath = [NSString stringWithFormat:@"http://%@.uat.mezzofy.com/",[MZCustomerCouponConfig merchantid]];
-
-    return urlPath;
-}
-//+ (NSData *)encodegetURLdata:(NSString *)str {
-//    long ti = NSDate.date.timeIntervalSince1970;
-//    NSString* sessionstr = str;
-//    
-//    if ([str rangeOfString:@"?"].location == NSNotFound)
-//        sessionstr = [str stringByAppendingString:[NSString stringWithFormat:@"?session=%ld",ti]];
-//    else
-//        sessionstr = [str stringByAppendingString:[NSString stringWithFormat:@"&session=%ld",ti]];
-//
-//     NSString *strEncode = [sessionstr stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-//    NSURL *strURL =[NSURL URLWithString:strEncode];
-//    NSData *data =[NSData dataWithContentsOfURL:strURL options:NSDataReadingUncached error:nil];
-//    
-//    return data;
-//}
 
 + (NSString *)makeImagePath:(NSString *)imagename {
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -208,7 +144,6 @@ static BOOL iSLocal=FALSE;
 }
 
 + (NSData *)urlGetTokenRequest:(NSString *)purl authkey:(NSString *)pauthkey authsecrt:(NSString *)psecrt body:(NSData *)pbody parameters:(NSMutableDictionary *)pparam {
-    NSURL *baseURL = [NSURL URLWithString:[MZUtils pathsetting]];
     NSLog(@"%@", purl);
     
     __block NSData *retdata = NULL;
@@ -414,8 +349,8 @@ static BOOL iSLocal=FALSE;
 }
 //Platform API For Country List
 + (NSData *)urlRegGetRequest:(NSString *)purl param:(NSMutableDictionary*)pparam {
-    NSURL *baseURL = [NSURL URLWithString:[MZUtils pathsettingforreg]];
-    NSLog(@"%@", baseURL);
+    NSURL *baseURL ;
+    
     
     __block NSData *retdata = NULL;
     

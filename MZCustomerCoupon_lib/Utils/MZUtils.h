@@ -10,22 +10,9 @@
 #import <MapKit/MapKit.h>
 #import <AFNetworking/AFHTTPSessionManager.h>
 #import <AFNetworking/AFURLRequestSerialization.h>
-#import "MZCustomerCouponConfig.h"
 
 
 @interface MZUtils : NSObject
-
-+ (NSString*) dbpath;
-+ (void) dbpath:(NSString *)path;
-
-+ (NSString*) initialpath;
-+ (void) initialpath:(NSString *)path;
-
-+ (NSString*) pathsetting;
-+ (NSString*) pathsettingforreg;
-
-
-//+ (NSData *)encodegetURLdata:(NSString *)str;
 
 + (NSString *)makeImagePath:(NSString *)imagename;
 

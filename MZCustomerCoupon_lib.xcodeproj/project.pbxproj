@@ -100,7 +100,6 @@
 		5C5DFF41282BD3B500ED571D /* AuthToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DFF3F282BD3B500ED571D /* AuthToken.m */; };
 		5C67AEDC28A1336200C899ED /* PaymentData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C67AEDA28A1336200C899ED /* PaymentData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C67AEDD28A1336200C899ED /* PaymentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C67AEDB28A1336200C899ED /* PaymentData.m */; };
-		5C8A3C49282902EE002A7BB5 /* MZCustomerCoupon_libTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A3C48282902EE002A7BB5 /* MZCustomerCoupon_libTests.m */; };
 		5C8A3C4B282902EE002A7BB5 /* MZCustomerCoupon_lib.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8A3C3D282902EE002A7BB5 /* MZCustomerCoupon_lib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C96F187282924540061EB0D /* MZLoginResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C96F185282924540061EB0D /* MZLoginResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C96F188282924540061EB0D /* MZLoginResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C96F186282924540061EB0D /* MZLoginResponse.m */; };
@@ -161,16 +160,6 @@
 		5CFE74D328A287D3007142B7 /* RedeemSerialTransactionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFE74D128A287D3007142B7 /* RedeemSerialTransactionData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CFE74D428A287D3007142B7 /* RedeemSerialTransactionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFE74D228A287D3007142B7 /* RedeemSerialTransactionData.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5C8A3C45282902EE002A7BB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5C8A3C31282902ED002A7BB5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5C8A3C39282902EE002A7BB5;
-			remoteInfo = MZCustomerCoupon_lib;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5C2364F328A04C370039E904 /* MZCoupon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZCoupon.h; sourceTree = "<group>"; };
@@ -266,9 +255,6 @@
 		5C8A3C3A282902EE002A7BB5 /* MZCustomerCoupon_lib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZCustomerCoupon_lib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8A3C3D282902EE002A7BB5 /* MZCustomerCoupon_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZCustomerCoupon_lib.h; sourceTree = "<group>"; };
 		5C8A3C3E282902EE002A7BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C8A3C43282902EE002A7BB5 /* MZCustomerCoupon_libTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZCustomerCoupon_libTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C8A3C48282902EE002A7BB5 /* MZCustomerCoupon_libTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZCustomerCoupon_libTests.m; sourceTree = "<group>"; };
-		5C8A3C4A282902EE002A7BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C96F185282924540061EB0D /* MZLoginResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZLoginResponse.h; sourceTree = "<group>"; };
 		5C96F186282924540061EB0D /* MZLoginResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZLoginResponse.m; sourceTree = "<group>"; };
 		5C96F18D28292C980061EB0D /* CustomerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerData.h; sourceTree = "<group>"; };
@@ -343,13 +329,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C8A3C40282902EE002A7BB5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -398,7 +377,6 @@
 			isa = PBXGroup;
 			children = (
 				5C8A3C3C282902EE002A7BB5 /* MZCustomerCoupon_lib */,
-				5C8A3C47282902EE002A7BB5 /* MZCustomerCoupon_libTests */,
 				5C8A3C3B282902EE002A7BB5 /* Products */,
 				97B73FA053E5CE33DCBBA135 /* Pods */,
 				9AD9333F73032505D800E676 /* Frameworks */,
@@ -409,7 +387,6 @@
 			isa = PBXGroup;
 			children = (
 				5C8A3C3A282902EE002A7BB5 /* MZCustomerCoupon_lib.framework */,
-				5C8A3C43282902EE002A7BB5 /* MZCustomerCoupon_libTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -426,15 +403,6 @@
 				5C8A3C3E282902EE002A7BB5 /* Info.plist */,
 			);
 			path = MZCustomerCoupon_lib;
-			sourceTree = "<group>";
-		};
-		5C8A3C47282902EE002A7BB5 /* MZCustomerCoupon_libTests */ = {
-			isa = PBXGroup;
-			children = (
-				5C8A3C48282902EE002A7BB5 /* MZCustomerCoupon_libTests.m */,
-				5C8A3C4A282902EE002A7BB5 /* Info.plist */,
-			);
-			path = MZCustomerCoupon_libTests;
 			sourceTree = "<group>";
 		};
 		5C96F17828291B420061EB0D /* DataResponse */ = {
@@ -738,24 +706,6 @@
 			productReference = 5C8A3C3A282902EE002A7BB5 /* MZCustomerCoupon_lib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5C8A3C42282902EE002A7BB5 /* MZCustomerCoupon_libTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5C8A3C51282902EE002A7BB5 /* Build configuration list for PBXNativeTarget "MZCustomerCoupon_libTests" */;
-			buildPhases = (
-				5C8A3C3F282902EE002A7BB5 /* Sources */,
-				5C8A3C40282902EE002A7BB5 /* Frameworks */,
-				5C8A3C41282902EE002A7BB5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5C8A3C46282902EE002A7BB5 /* PBXTargetDependency */,
-			);
-			name = MZCustomerCoupon_libTests;
-			productName = MZCustomerCoupon_libTests;
-			productReference = 5C8A3C43282902EE002A7BB5 /* MZCustomerCoupon_libTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -765,9 +715,6 @@
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					5C8A3C39282902EE002A7BB5 = {
-						CreatedOnToolsVersion = 12.1;
-					};
-					5C8A3C42282902EE002A7BB5 = {
 						CreatedOnToolsVersion = 12.1;
 					};
 				};
@@ -786,20 +733,12 @@
 			projectRoot = "";
 			targets = (
 				5C8A3C39282902EE002A7BB5 /* MZCustomerCoupon_lib */,
-				5C8A3C42282902EE002A7BB5 /* MZCustomerCoupon_libTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5C8A3C38282902EE002A7BB5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C8A3C41282902EE002A7BB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -916,23 +855,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C8A3C3F282902EE002A7BB5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C8A3C49282902EE002A7BB5 /* MZCustomerCoupon_libTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5C8A3C46282902EE002A7BB5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5C8A3C39282902EE002A7BB5 /* MZCustomerCoupon_lib */;
-			targetProxy = 5C8A3C45282902EE002A7BB5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5C8A3C4C282902EE002A7BB5 /* Debug */ = {
@@ -1109,40 +1032,6 @@
 			};
 			name = Release;
 		};
-		5C8A3C52282902EE002A7BB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A8TLLAK8J8;
-				INFOPLIST_FILE = MZCustomerCoupon_libTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Mezzofy.MZCustomerCoupon-libTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5C8A3C53282902EE002A7BB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A8TLLAK8J8;
-				INFOPLIST_FILE = MZCustomerCoupon_libTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Mezzofy.MZCustomerCoupon-libTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1160,15 +1049,6 @@
 			buildConfigurations = (
 				5C8A3C4F282902EE002A7BB5 /* Debug */,
 				5C8A3C50282902EE002A7BB5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5C8A3C51282902EE002A7BB5 /* Build configuration list for PBXNativeTarget "MZCustomerCoupon_libTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5C8A3C52282902EE002A7BB5 /* Debug */,
-				5C8A3C53282902EE002A7BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

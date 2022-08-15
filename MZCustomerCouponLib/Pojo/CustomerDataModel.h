@@ -12,6 +12,8 @@
 @interface CustomerDataModel : MZJastor
 @property (nonatomic, strong) CustomerData *customer;
 @property (nonatomic, strong) NSString* old_password;
-@property (nonatomic, strong) NSString* new_password;
+@property (strong, nonatomic) NSString *theNew_password;
+@property (strong, nonatomic, getter=theNew_password) NSString *new_password;
+//@property (nonatomic, strong) NSString* new_password;
 
 @end

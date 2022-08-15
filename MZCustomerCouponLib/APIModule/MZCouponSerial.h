@@ -31,6 +31,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (MZRedeemCouponResponse *)CouponTransfer:(CouponTransferModel *)ptransferCoupon token:(NSString*)ptoken;
 // Coupon Void
 - (MZRedeemCouponResponse *)CouponVoid:(CouponVoidModel *)pvoidCoupon token:(NSString*)ptoken;
+//Redeem Void
+- (MZRedeemCouponResponse *)RedeemCouponVoid:(CouponVoidModel *)pvoidCoupon token:(NSString*)ptoken;
 //Get Outlet Details
 - (MZCouponOutletResponse *)getOutletDetails:(NSString *)predeempasscode token:(NSString*)ptoken;
 

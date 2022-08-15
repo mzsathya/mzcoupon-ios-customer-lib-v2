@@ -134,4 +134,22 @@
     
 }
 
+- (MZLoginResponse *)getCustomerDetailsByCustomerId:(NSString *)pcustomerId token:(NSString*)ptoken {
+    MZLoginResponse *returnvalue=[[MZLoginResponse alloc]init];
+   
+    NSData *data = [MZUtils urlGetRequest:[NSString stringWithFormat:@"https://customer.mzapi.mezzofy.com/v2/%@",pcustomerId]  token:ptoken param:nil];
+    NSError* error;
+    if(data){
+        NSDictionary *json = [NSJSONSerialization
+                              JSONObjectWithData:data
+                              options:kNilOptions
+                              error:&error];
+        if (json)
+            returnvalue=[[MZLoginResponse alloc]initWithDictionary:json];
+        
+       // [returnvalue setError:error];
+    }
+    return  returnvalue;
+}
+
 @end

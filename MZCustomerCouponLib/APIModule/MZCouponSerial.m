@@ -169,6 +169,23 @@
     }
     return returnvalue;
 }
+- (MZRedeemCouponResponse *)RedeemCouponVoid:(CouponVoidModel *)pvoidCoupon token:(NSString*)ptoken{
+    MZRedeemCouponResponse *returnvalue=[[MZRedeemCouponResponse alloc]init];
+    NSError *error;
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:[pvoidCoupon toDictionary] options:kNilOptions error:&error];
+    NSData *data =[MZUtils urlPostRequest:[NSString stringWithFormat:@"https://transaction.mzapi.mezzofy.com/v2/void/redeem"] token:ptoken body:jsonData parameters:nil];
+    if(data){
+        NSError *error;
+        NSDictionary* json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
+        NSLog(@"%@",json);
+        if(json)
+            returnvalue=[[MZRedeemCouponResponse alloc]initWithDictionary:json];
+        
+        //[returnvalue setCode:error];
+        
+    }
+    return returnvalue;
+}
 
 - (MZCouponOutletResponse *)getOutletDetails:(NSString *)predeempasscode token:(NSString*)ptoken{
     MZCouponOutletResponse *returnvalue=[[MZCouponOutletResponse alloc]init];

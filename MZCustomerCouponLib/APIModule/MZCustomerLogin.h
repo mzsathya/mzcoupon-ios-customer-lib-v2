@@ -29,6 +29,9 @@ NS_ASSUME_NONNULL_BEGIN
 //Change Password
 - (MZLoginResponse *)PasswordChange:(NSString *)CustomerID CustomerData:(CustomerDataModel*)pcustomermodel token:(NSString*)ptoken;
 
+// Get Customer details
+- (MZLoginResponse *)getCustomerDetailsByCustomerId:(NSString *)pcustomerId token:(NSString*)ptoken;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -26,6 +26,23 @@
     }
     return  returnvalue;
 }
+- (MZCouponResponse *)getCouponsByOutletId:(NSString *)poutletId skip:(NSString *)pskip limit:(NSString *)plimit token:(NSString*)ptoken {
+    MZCouponResponse *returnvalue=[[MZCouponResponse alloc]init];
+   
+    NSData *data = [MZUtils urlGetRequest:[NSString stringWithFormat:@"https://coupon.mzapi.mezzofy.com/v2?outlet_id=%@&include_merchant=S&skip=%@&limit=%@",poutletId,pskip,plimit]  token:ptoken param:nil];
+    NSError* error;
+    if(data){
+        NSDictionary *json = [NSJSONSerialization
+                              JSONObjectWithData:data
+                              options:kNilOptions
+                              error:&error];
+        if (json)
+            returnvalue=[[MZCouponResponse alloc]initWithDictionary:json];
+        
+       // [returnvalue setError:error];
+    }
+    return  returnvalue;
+}
 - (MZCouponDetailsResponse *)getCouponDetailsByCoupoId:(NSString *)pcouponID token:(NSString*)ptoken{
     MZCouponDetailsResponse *returnvalue=[[MZCouponDetailsResponse alloc]init];
    

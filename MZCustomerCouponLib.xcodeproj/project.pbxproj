@@ -1,0 +1,1057 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0869F128A89C63007ED823 /* MZCustomerCouponLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0869EF28A89C63007ED823 /* MZCustomerCouponLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F086A0028A89D88007ED823 /* MZJastor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0869FC28A89D88007ED823 /* MZJastor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F086A0128A89D88007ED823 /* MZJastor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0869FD28A89D88007ED823 /* MZJastor.m */; };
+		4F086A0228A89D88007ED823 /* MZJastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0869FE28A89D88007ED823 /* MZJastorRuntimeHelper.m */; };
+		4F086A0328A89D88007ED823 /* MZJastorRuntimeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0869FF28A89D88007ED823 /* MZJastorRuntimeHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF95A28A9DEAD00017A0C /* MZUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF95828A9DEAD00017A0C /* MZUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF95B28A9DEAD00017A0C /* MZUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF95928A9DEAD00017A0C /* MZUtils.m */; };
+		4F2CF9C728A9DF2300017A0C /* CouponData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF96128A9DF2100017A0C /* CouponData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9C828A9DF2300017A0C /* CouponserialList.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF96228A9DF2100017A0C /* CouponserialList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9C928A9DF2300017A0C /* CouponTransferModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF96328A9DF2100017A0C /* CouponTransferModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9CA28A9DF2300017A0C /* TransactionRedeemData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF96428A9DF2100017A0C /* TransactionRedeemData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9CB28A9DF2300017A0C /* CouponSerialData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF96528A9DF2100017A0C /* CouponSerialData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9CC28A9DF2300017A0C /* CouponVoidModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF96628A9DF2100017A0C /* CouponVoidModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9CD28A9DF2300017A0C /* AuthToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF96728A9DF2100017A0C /* AuthToken.m */; };
+		4F2CF9CE28A9DF2300017A0C /* CustomerDeviceDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF96828A9DF2100017A0C /* CustomerDeviceDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9CF28A9DF2300017A0C /* CustomerCouponData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF96928A9DF2100017A0C /* CustomerCouponData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9D028A9DF2300017A0C /* MerchantData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF96A28A9DF2100017A0C /* MerchantData.m */; };
+		4F2CF9D128A9DF2300017A0C /* CouponImagesData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF96B28A9DF2100017A0C /* CouponImagesData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9D228A9DF2300017A0C /* TransactionLogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF96C28A9DF2100017A0C /* TransactionLogModel.m */; };
+		4F2CF9D328A9DF2300017A0C /* TransactionLogModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF96D28A9DF2100017A0C /* TransactionLogModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9D428A9DF2300017A0C /* PaymentListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF96E28A9DF2100017A0C /* PaymentListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9D528A9DF2300017A0C /* CouponOutletListData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF96F28A9DF2100017A0C /* CouponOutletListData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9D628A9DF2300017A0C /* TransactionLogData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF97028A9DF2100017A0C /* TransactionLogData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9D728A9DF2300017A0C /* ReferenceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF97128A9DF2100017A0C /* ReferenceData.m */; };
+		4F2CF9D828A9DF2300017A0C /* TransactionIssueData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF97228A9DF2100017A0C /* TransactionIssueData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9D928A9DF2300017A0C /* CouponMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF97328A9DF2100017A0C /* CouponMetaData.m */; };
+		4F2CF9DA28A9DF2300017A0C /* SerialOutletData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF97428A9DF2100017A0C /* SerialOutletData.m */; };
+		4F2CF9DB28A9DF2300017A0C /* SummaryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF97528A9DF2100017A0C /* SummaryData.m */; };
+		4F2CF9DC28A9DF2300017A0C /* RedeemTransactionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF97628A9DF2100017A0C /* RedeemTransactionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9DD28A9DF2300017A0C /* RedeemTransactionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF97728A9DF2100017A0C /* RedeemTransactionData.m */; };
+		4F2CF9DE28A9DF2300017A0C /* CouponserialList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF97828A9DF2100017A0C /* CouponserialList.m */; };
+		4F2CF9DF28A9DF2300017A0C /* CustomerDeviceDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF97928A9DF2100017A0C /* CustomerDeviceDataModel.m */; };
+		4F2CF9E028A9DF2300017A0C /* RedeemCouponCommitData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF97A28A9DF2100017A0C /* RedeemCouponCommitData.m */; };
+		4F2CF9E128A9DF2300017A0C /* IssueCouponModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF97B28A9DF2100017A0C /* IssueCouponModel.m */; };
+		4F2CF9E228A9DF2300017A0C /* AuthToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF97C28A9DF2100017A0C /* AuthToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9E328A9DF2300017A0C /* CouponSerialListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF97D28A9DF2100017A0C /* CouponSerialListModel.m */; };
+		4F2CF9E428A9DF2300017A0C /* CustomerDeviceData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF97E28A9DF2100017A0C /* CustomerDeviceData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9E528A9DF2300017A0C /* CustomerCouponData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF97F28A9DF2200017A0C /* CustomerCouponData.m */; };
+		4F2CF9E628A9DF2300017A0C /* IssueCustomerData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF98028A9DF2200017A0C /* IssueCustomerData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9E728A9DF2300017A0C /* CustomerDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF98128A9DF2200017A0C /* CustomerDataModel.m */; };
+		4F2CF9E828A9DF2300017A0C /* CouponVoidTransactionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF98228A9DF2200017A0C /* CouponVoidTransactionData.m */; };
+		4F2CF9E928A9DF2300017A0C /* IssueCustomerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF98328A9DF2200017A0C /* IssueCustomerData.m */; };
+		4F2CF9EA28A9DF2300017A0C /* DeveloperMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF98428A9DF2200017A0C /* DeveloperMessageData.m */; };
+		4F2CF9EB28A9DF2300017A0C /* CouponLinksData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF98528A9DF2200017A0C /* CouponLinksData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9EC28A9DF2300017A0C /* SerialOutletData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF98628A9DF2200017A0C /* SerialOutletData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9ED28A9DF2300017A0C /* TransactionRedeemData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF98728A9DF2200017A0C /* TransactionRedeemData.m */; };
+		4F2CF9EE28A9DF2300017A0C /* ReferenceData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF98828A9DF2200017A0C /* ReferenceData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9EF28A9DF2300017A0C /* CouponOutletListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF98928A9DF2200017A0C /* CouponOutletListData.m */; };
+		4F2CF9F028A9DF2300017A0C /* IssueCouponModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF98A28A9DF2200017A0C /* IssueCouponModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9F128A9DF2300017A0C /* RedeemSerialTransactionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF98B28A9DF2200017A0C /* RedeemSerialTransactionData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9F228A9DF2300017A0C /* SerialTransactionsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF98C28A9DF2200017A0C /* SerialTransactionsModel.m */; };
+		4F2CF9F328A9DF2300017A0C /* SerialOutletListData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF98D28A9DF2200017A0C /* SerialOutletListData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9F428A9DF2300017A0C /* CouponTimingsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF98E28A9DF2200017A0C /* CouponTimingsData.m */; };
+		4F2CF9F528A9DF2300017A0C /* TransactionLogData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF98F28A9DF2200017A0C /* TransactionLogData.m */; };
+		4F2CF9F628A9DF2300017A0C /* CouponCountData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF99028A9DF2200017A0C /* CouponCountData.m */; };
+		4F2CF9F728A9DF2300017A0C /* CouponImageListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF99128A9DF2200017A0C /* CouponImageListData.m */; };
+		4F2CF9F828A9DF2300017A0C /* CouponMerchantData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF99228A9DF2200017A0C /* CouponMerchantData.m */; };
+		4F2CF9F928A9DF2300017A0C /* RedeemTransactionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF99328A9DF2200017A0C /* RedeemTransactionData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9FA28A9DF2300017A0C /* CouponListData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF99428A9DF2200017A0C /* CouponListData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9FB28A9DF2300017A0C /* CouponSerialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF99528A9DF2200017A0C /* CouponSerialModel.m */; };
+		4F2CF9FC28A9DF2300017A0C /* CouponMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF99628A9DF2200017A0C /* CouponMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CF9FD28A9DF2300017A0C /* CouponOutletsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF99728A9DF2200017A0C /* CouponOutletsData.m */; };
+		4F2CF9FE28A9DF2300017A0C /* SerialOutletListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF99828A9DF2200017A0C /* SerialOutletListData.m */; };
+		4F2CF9FF28A9DF2300017A0C /* CouponMerchantData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF99928A9DF2200017A0C /* CouponMerchantData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA0028A9DF2300017A0C /* TransactionVoidData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF99A28A9DF2200017A0C /* TransactionVoidData.m */; };
+		4F2CFA0128A9DF2300017A0C /* CouponSerialListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF99B28A9DF2200017A0C /* CouponSerialListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA0228A9DF2300017A0C /* CouponListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF99C28A9DF2200017A0C /* CouponListData.m */; };
+		4F2CFA0328A9DF2300017A0C /* CouponVoidModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF99D28A9DF2200017A0C /* CouponVoidModel.m */; };
+		4F2CFA0428A9DF2300017A0C /* CouponVoidTransactionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF99E28A9DF2200017A0C /* CouponVoidTransactionData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA0528A9DF2300017A0C /* PaymentData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF99F28A9DF2200017A0C /* PaymentData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA0628A9DF2300017A0C /* CouponImagesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9A028A9DF2200017A0C /* CouponImagesData.m */; };
+		4F2CFA0728A9DF2300017A0C /* SerialTransactionsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9A128A9DF2200017A0C /* SerialTransactionsModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA0828A9DF2300017A0C /* CouponCountData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9A228A9DF2200017A0C /* CouponCountData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA0928A9DF2300017A0C /* RedeemResponseData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9A328A9DF2200017A0C /* RedeemResponseData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA0A28A9DF2300017A0C /* CouponSerialData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9A428A9DF2200017A0C /* CouponSerialData.m */; };
+		4F2CFA0B28A9DF2300017A0C /* CustomerCouponModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9A528A9DF2200017A0C /* CustomerCouponModel.m */; };
+		4F2CFA0C28A9DF2300017A0C /* CustomerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9A628A9DF2200017A0C /* CustomerData.m */; };
+		4F2CFA0D28A9DF2300017A0C /* DeveloperMessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9A728A9DF2200017A0C /* DeveloperMessageData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA0E28A9DF2300017A0C /* CouponTransferData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9A828A9DF2200017A0C /* CouponTransferData.m */; };
+		4F2CFA0F28A9DF2300017A0C /* CouponTransferData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9A928A9DF2200017A0C /* CouponTransferData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA1028A9DF2300017A0C /* PaymentListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9AA28A9DF2200017A0C /* PaymentListModel.m */; };
+		4F2CFA1128A9DF2300017A0C /* CouponImageListData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9AB28A9DF2200017A0C /* CouponImageListData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA1228A9DF2300017A0C /* IssueCouponCommitData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9AC28A9DF2200017A0C /* IssueCouponCommitData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA1328A9DF2300017A0C /* SerialData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9AD28A9DF2200017A0C /* SerialData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA1428A9DF2300017A0C /* CustomerCouponModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9AE28A9DF2200017A0C /* CustomerCouponModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA1528A9DF2300017A0C /* TransactionLogDetailsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9AF28A9DF2200017A0C /* TransactionLogDetailsData.m */; };
+		4F2CFA1628A9DF2300017A0C /* TransactionAllocationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9B028A9DF2200017A0C /* TransactionAllocationData.m */; };
+		4F2CFA1728A9DF2300017A0C /* TransactionVoidData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9B128A9DF2200017A0C /* TransactionVoidData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA1828A9DF2300017A0C /* SummaryData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9B228A9DF2200017A0C /* SummaryData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA1928A9DF2300017A0C /* CouponTimingsData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9B328A9DF2200017A0C /* CouponTimingsData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA1A28A9DF2300017A0C /* TransactionLogDetailsData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9B428A9DF2200017A0C /* TransactionLogDetailsData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA1B28A9DF2300017A0C /* TransactionAllocationData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9B528A9DF2200017A0C /* TransactionAllocationData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA1C28A9DF2300017A0C /* TransactionIssueData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9B628A9DF2200017A0C /* TransactionIssueData.m */; };
+		4F2CFA1D28A9DF2300017A0C /* CustomerDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9B728A9DF2200017A0C /* CustomerDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA1E28A9DF2300017A0C /* CouponData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9B828A9DF2300017A0C /* CouponData.m */; };
+		4F2CFA1F28A9DF2300017A0C /* CouponSerialModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9B928A9DF2300017A0C /* CouponSerialModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA2028A9DF2300017A0C /* RedeemTransactionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9BA28A9DF2300017A0C /* RedeemTransactionModel.m */; };
+		4F2CFA2128A9DF2300017A0C /* IssueCouponCommitData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9BB28A9DF2300017A0C /* IssueCouponCommitData.m */; };
+		4F2CFA2228A9DF2300017A0C /* RedeemSerialTransactionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9BC28A9DF2300017A0C /* RedeemSerialTransactionData.m */; };
+		4F2CFA2328A9DF2300017A0C /* MerchantData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9BD28A9DF2300017A0C /* MerchantData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA2428A9DF2400017A0C /* CouponLinksData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9BE28A9DF2300017A0C /* CouponLinksData.m */; };
+		4F2CFA2528A9DF2400017A0C /* PaymentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9BF28A9DF2300017A0C /* PaymentData.m */; };
+		4F2CFA2628A9DF2400017A0C /* CustomerDeviceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9C028A9DF2300017A0C /* CustomerDeviceData.m */; };
+		4F2CFA2728A9DF2400017A0C /* SerialData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9C128A9DF2300017A0C /* SerialData.m */; };
+		4F2CFA2828A9DF2400017A0C /* CouponTransferModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9C228A9DF2300017A0C /* CouponTransferModel.m */; };
+		4F2CFA2928A9DF2400017A0C /* RedeemCouponCommitData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9C328A9DF2300017A0C /* RedeemCouponCommitData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA2A28A9DF2400017A0C /* RedeemResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF9C428A9DF2300017A0C /* RedeemResponseData.m */; };
+		4F2CFA2B28A9DF2400017A0C /* CustomerData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9C528A9DF2300017A0C /* CustomerData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA2C28A9DF2400017A0C /* CouponOutletsData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CF9C628A9DF2300017A0C /* CouponOutletsData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA3D28A9DF6700017A0C /* MZCustomerLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA2F28A9DF6600017A0C /* MZCustomerLogin.m */; };
+		4F2CFA3E28A9DF6700017A0C /* MZMerchant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA3028A9DF6600017A0C /* MZMerchant.m */; };
+		4F2CFA3F28A9DF6700017A0C /* MZCustomerLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA3128A9DF6600017A0C /* MZCustomerLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA4028A9DF6700017A0C /* MZCouponSerial.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA3228A9DF6600017A0C /* MZCouponSerial.m */; };
+		4F2CFA4128A9DF6700017A0C /* MZCoupon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA3328A9DF6600017A0C /* MZCoupon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA4228A9DF6700017A0C /* MZTransactionLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA3428A9DF6600017A0C /* MZTransactionLog.m */; };
+		4F2CFA4328A9DF6700017A0C /* MZExpressRedeem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA3528A9DF6600017A0C /* MZExpressRedeem.m */; };
+		4F2CFA4428A9DF6700017A0C /* MZPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA3628A9DF6700017A0C /* MZPayment.m */; };
+		4F2CFA4528A9DF6700017A0C /* MZCoupon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA3728A9DF6700017A0C /* MZCoupon.m */; };
+		4F2CFA4628A9DF6700017A0C /* MZTransactionLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA3828A9DF6700017A0C /* MZTransactionLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA4728A9DF6700017A0C /* MZExpressRedeem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA3928A9DF6700017A0C /* MZExpressRedeem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA4828A9DF6700017A0C /* MZMerchant.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA3A28A9DF6700017A0C /* MZMerchant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA4928A9DF6700017A0C /* MZPayment.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA3B28A9DF6700017A0C /* MZPayment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA4A28A9DF6700017A0C /* MZCouponSerial.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA3C28A9DF6700017A0C /* MZCouponSerial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA5428A9E00F00017A0C /* MZMerchantSettingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA4E28A9E00F00017A0C /* MZMerchantSettingResponse.m */; };
+		4F2CFA5528A9E00F00017A0C /* MZMerchantSettingResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA4F28A9E00F00017A0C /* MZMerchantSettingResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA5628A9E00F00017A0C /* MZMerchantResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA5028A9E00F00017A0C /* MZMerchantResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA5728A9E00F00017A0C /* MZMerchantOAuthResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA5128A9E00F00017A0C /* MZMerchantOAuthResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA5828A9E00F00017A0C /* MZMerchantOAuthResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA5228A9E00F00017A0C /* MZMerchantOAuthResponse.m */; };
+		4F2CFA5928A9E00F00017A0C /* MZMerchantResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA5328A9E00F00017A0C /* MZMerchantResponse.m */; };
+		4F2CFA6428A9E04800017A0C /* MZSerialCouponDetailsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA5C28A9E04800017A0C /* MZSerialCouponDetailsResponse.m */; };
+		4F2CFA6528A9E04800017A0C /* MZCouponSerialResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA5D28A9E04800017A0C /* MZCouponSerialResponse.m */; };
+		4F2CFA6628A9E04800017A0C /* MZCouponOutletResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA5E28A9E04800017A0C /* MZCouponOutletResponse.m */; };
+		4F2CFA6728A9E04800017A0C /* MZRedeemCouponResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA5F28A9E04800017A0C /* MZRedeemCouponResponse.m */; };
+		4F2CFA6828A9E04800017A0C /* MZRedeemCouponResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA6028A9E04800017A0C /* MZRedeemCouponResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA6928A9E04800017A0C /* MZSerialCouponDetailsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA6128A9E04800017A0C /* MZSerialCouponDetailsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA6A28A9E04800017A0C /* MZCouponSerialResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA6228A9E04800017A0C /* MZCouponSerialResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA6B28A9E04800017A0C /* MZCouponOutletResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA6328A9E04800017A0C /* MZCouponOutletResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA7828A9E07A00017A0C /* MZCouponDetailsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA6E28A9E07900017A0C /* MZCouponDetailsResponse.m */; };
+		4F2CFA7928A9E07A00017A0C /* MZIssueCouponResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA6F28A9E07900017A0C /* MZIssueCouponResponse.m */; };
+		4F2CFA7A28A9E07A00017A0C /* MZCouponResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA7028A9E07900017A0C /* MZCouponResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA7B28A9E07A00017A0C /* MZPaymentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA7128A9E07900017A0C /* MZPaymentResponse.m */; };
+		4F2CFA7C28A9E07A00017A0C /* MZTransactionLogResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA7228A9E07900017A0C /* MZTransactionLogResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA7D28A9E07A00017A0C /* MZIssueCouponResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA7328A9E07900017A0C /* MZIssueCouponResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA7E28A9E07A00017A0C /* MZCouponResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA7428A9E07900017A0C /* MZCouponResponse.m */; };
+		4F2CFA7F28A9E07A00017A0C /* MZCouponDetailsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA7528A9E07900017A0C /* MZCouponDetailsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA8028A9E07A00017A0C /* MZTransactionLogResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA7628A9E07A00017A0C /* MZTransactionLogResponse.m */; };
+		4F2CFA8128A9E07A00017A0C /* MZPaymentResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA7728A9E07A00017A0C /* MZPaymentResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA8828A9E09800017A0C /* MZAuthTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA8428A9E09800017A0C /* MZAuthTokenResponse.m */; };
+		4F2CFA8928A9E09900017A0C /* MZLoginResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA8528A9E09800017A0C /* MZLoginResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2CFA8A28A9E09900017A0C /* MZLoginResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CFA8628A9E09800017A0C /* MZLoginResponse.m */; };
+		4F2CFA8B28A9E09900017A0C /* MZAuthTokenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CFA8728A9E09800017A0C /* MZAuthTokenResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD345CE763B56043A1F4D303 /* libPods-MZCustomerCouponLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B34A3AB05739501D6ADAAD0 /* libPods-MZCustomerCouponLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B34A3AB05739501D6ADAAD0 /* libPods-MZCustomerCouponLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MZCustomerCouponLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0869EC28A89C63007ED823 /* MZCustomerCouponLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZCustomerCouponLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0869EF28A89C63007ED823 /* MZCustomerCouponLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZCustomerCouponLib.h; sourceTree = "<group>"; };
+		4F0869F028A89C63007ED823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F0869FC28A89D88007ED823 /* MZJastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZJastor.h; sourceTree = "<group>"; };
+		4F0869FD28A89D88007ED823 /* MZJastor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZJastor.m; sourceTree = "<group>"; };
+		4F0869FE28A89D88007ED823 /* MZJastorRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZJastorRuntimeHelper.m; sourceTree = "<group>"; };
+		4F0869FF28A89D88007ED823 /* MZJastorRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZJastorRuntimeHelper.h; sourceTree = "<group>"; };
+		4F2CF95828A9DEAD00017A0C /* MZUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZUtils.h; sourceTree = "<group>"; };
+		4F2CF95928A9DEAD00017A0C /* MZUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZUtils.m; sourceTree = "<group>"; };
+		4F2CF96128A9DF2100017A0C /* CouponData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponData.h; sourceTree = "<group>"; };
+		4F2CF96228A9DF2100017A0C /* CouponserialList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponserialList.h; sourceTree = "<group>"; };
+		4F2CF96328A9DF2100017A0C /* CouponTransferModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponTransferModel.h; sourceTree = "<group>"; };
+		4F2CF96428A9DF2100017A0C /* TransactionRedeemData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionRedeemData.h; sourceTree = "<group>"; };
+		4F2CF96528A9DF2100017A0C /* CouponSerialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponSerialData.h; sourceTree = "<group>"; };
+		4F2CF96628A9DF2100017A0C /* CouponVoidModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponVoidModel.h; sourceTree = "<group>"; };
+		4F2CF96728A9DF2100017A0C /* AuthToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthToken.m; sourceTree = "<group>"; };
+		4F2CF96828A9DF2100017A0C /* CustomerDeviceDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerDeviceDataModel.h; sourceTree = "<group>"; };
+		4F2CF96928A9DF2100017A0C /* CustomerCouponData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerCouponData.h; sourceTree = "<group>"; };
+		4F2CF96A28A9DF2100017A0C /* MerchantData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerchantData.m; sourceTree = "<group>"; };
+		4F2CF96B28A9DF2100017A0C /* CouponImagesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponImagesData.h; sourceTree = "<group>"; };
+		4F2CF96C28A9DF2100017A0C /* TransactionLogModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionLogModel.m; sourceTree = "<group>"; };
+		4F2CF96D28A9DF2100017A0C /* TransactionLogModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionLogModel.h; sourceTree = "<group>"; };
+		4F2CF96E28A9DF2100017A0C /* PaymentListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentListModel.h; sourceTree = "<group>"; };
+		4F2CF96F28A9DF2100017A0C /* CouponOutletListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponOutletListData.h; sourceTree = "<group>"; };
+		4F2CF97028A9DF2100017A0C /* TransactionLogData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionLogData.h; sourceTree = "<group>"; };
+		4F2CF97128A9DF2100017A0C /* ReferenceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceData.m; sourceTree = "<group>"; };
+		4F2CF97228A9DF2100017A0C /* TransactionIssueData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionIssueData.h; sourceTree = "<group>"; };
+		4F2CF97328A9DF2100017A0C /* CouponMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponMetaData.m; sourceTree = "<group>"; };
+		4F2CF97428A9DF2100017A0C /* SerialOutletData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialOutletData.m; sourceTree = "<group>"; };
+		4F2CF97528A9DF2100017A0C /* SummaryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryData.m; sourceTree = "<group>"; };
+		4F2CF97628A9DF2100017A0C /* RedeemTransactionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedeemTransactionModel.h; sourceTree = "<group>"; };
+		4F2CF97728A9DF2100017A0C /* RedeemTransactionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedeemTransactionData.m; sourceTree = "<group>"; };
+		4F2CF97828A9DF2100017A0C /* CouponserialList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponserialList.m; sourceTree = "<group>"; };
+		4F2CF97928A9DF2100017A0C /* CustomerDeviceDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerDeviceDataModel.m; sourceTree = "<group>"; };
+		4F2CF97A28A9DF2100017A0C /* RedeemCouponCommitData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedeemCouponCommitData.m; sourceTree = "<group>"; };
+		4F2CF97B28A9DF2100017A0C /* IssueCouponModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueCouponModel.m; sourceTree = "<group>"; };
+		4F2CF97C28A9DF2100017A0C /* AuthToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthToken.h; sourceTree = "<group>"; };
+		4F2CF97D28A9DF2100017A0C /* CouponSerialListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponSerialListModel.m; sourceTree = "<group>"; };
+		4F2CF97E28A9DF2100017A0C /* CustomerDeviceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerDeviceData.h; sourceTree = "<group>"; };
+		4F2CF97F28A9DF2200017A0C /* CustomerCouponData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerCouponData.m; sourceTree = "<group>"; };
+		4F2CF98028A9DF2200017A0C /* IssueCustomerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueCustomerData.h; sourceTree = "<group>"; };
+		4F2CF98128A9DF2200017A0C /* CustomerDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerDataModel.m; sourceTree = "<group>"; };
+		4F2CF98228A9DF2200017A0C /* CouponVoidTransactionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponVoidTransactionData.m; sourceTree = "<group>"; };
+		4F2CF98328A9DF2200017A0C /* IssueCustomerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueCustomerData.m; sourceTree = "<group>"; };
+		4F2CF98428A9DF2200017A0C /* DeveloperMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeveloperMessageData.m; sourceTree = "<group>"; };
+		4F2CF98528A9DF2200017A0C /* CouponLinksData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponLinksData.h; sourceTree = "<group>"; };
+		4F2CF98628A9DF2200017A0C /* SerialOutletData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialOutletData.h; sourceTree = "<group>"; };
+		4F2CF98728A9DF2200017A0C /* TransactionRedeemData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionRedeemData.m; sourceTree = "<group>"; };
+		4F2CF98828A9DF2200017A0C /* ReferenceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceData.h; sourceTree = "<group>"; };
+		4F2CF98928A9DF2200017A0C /* CouponOutletListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponOutletListData.m; sourceTree = "<group>"; };
+		4F2CF98A28A9DF2200017A0C /* IssueCouponModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueCouponModel.h; sourceTree = "<group>"; };
+		4F2CF98B28A9DF2200017A0C /* RedeemSerialTransactionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedeemSerialTransactionData.h; sourceTree = "<group>"; };
+		4F2CF98C28A9DF2200017A0C /* SerialTransactionsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialTransactionsModel.m; sourceTree = "<group>"; };
+		4F2CF98D28A9DF2200017A0C /* SerialOutletListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialOutletListData.h; sourceTree = "<group>"; };
+		4F2CF98E28A9DF2200017A0C /* CouponTimingsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponTimingsData.m; sourceTree = "<group>"; };
+		4F2CF98F28A9DF2200017A0C /* TransactionLogData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionLogData.m; sourceTree = "<group>"; };
+		4F2CF99028A9DF2200017A0C /* CouponCountData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponCountData.m; sourceTree = "<group>"; };
+		4F2CF99128A9DF2200017A0C /* CouponImageListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponImageListData.m; sourceTree = "<group>"; };
+		4F2CF99228A9DF2200017A0C /* CouponMerchantData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponMerchantData.m; sourceTree = "<group>"; };
+		4F2CF99328A9DF2200017A0C /* RedeemTransactionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedeemTransactionData.h; sourceTree = "<group>"; };
+		4F2CF99428A9DF2200017A0C /* CouponListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponListData.h; sourceTree = "<group>"; };
+		4F2CF99528A9DF2200017A0C /* CouponSerialModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponSerialModel.m; sourceTree = "<group>"; };
+		4F2CF99628A9DF2200017A0C /* CouponMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponMetaData.h; sourceTree = "<group>"; };
+		4F2CF99728A9DF2200017A0C /* CouponOutletsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponOutletsData.m; sourceTree = "<group>"; };
+		4F2CF99828A9DF2200017A0C /* SerialOutletListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialOutletListData.m; sourceTree = "<group>"; };
+		4F2CF99928A9DF2200017A0C /* CouponMerchantData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponMerchantData.h; sourceTree = "<group>"; };
+		4F2CF99A28A9DF2200017A0C /* TransactionVoidData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionVoidData.m; sourceTree = "<group>"; };
+		4F2CF99B28A9DF2200017A0C /* CouponSerialListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponSerialListModel.h; sourceTree = "<group>"; };
+		4F2CF99C28A9DF2200017A0C /* CouponListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponListData.m; sourceTree = "<group>"; };
+		4F2CF99D28A9DF2200017A0C /* CouponVoidModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponVoidModel.m; sourceTree = "<group>"; };
+		4F2CF99E28A9DF2200017A0C /* CouponVoidTransactionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponVoidTransactionData.h; sourceTree = "<group>"; };
+		4F2CF99F28A9DF2200017A0C /* PaymentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentData.h; sourceTree = "<group>"; };
+		4F2CF9A028A9DF2200017A0C /* CouponImagesData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponImagesData.m; sourceTree = "<group>"; };
+		4F2CF9A128A9DF2200017A0C /* SerialTransactionsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialTransactionsModel.h; sourceTree = "<group>"; };
+		4F2CF9A228A9DF2200017A0C /* CouponCountData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponCountData.h; sourceTree = "<group>"; };
+		4F2CF9A328A9DF2200017A0C /* RedeemResponseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedeemResponseData.h; sourceTree = "<group>"; };
+		4F2CF9A428A9DF2200017A0C /* CouponSerialData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponSerialData.m; sourceTree = "<group>"; };
+		4F2CF9A528A9DF2200017A0C /* CustomerCouponModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerCouponModel.m; sourceTree = "<group>"; };
+		4F2CF9A628A9DF2200017A0C /* CustomerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerData.m; sourceTree = "<group>"; };
+		4F2CF9A728A9DF2200017A0C /* DeveloperMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeveloperMessageData.h; sourceTree = "<group>"; };
+		4F2CF9A828A9DF2200017A0C /* CouponTransferData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponTransferData.m; sourceTree = "<group>"; };
+		4F2CF9A928A9DF2200017A0C /* CouponTransferData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponTransferData.h; sourceTree = "<group>"; };
+		4F2CF9AA28A9DF2200017A0C /* PaymentListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentListModel.m; sourceTree = "<group>"; };
+		4F2CF9AB28A9DF2200017A0C /* CouponImageListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponImageListData.h; sourceTree = "<group>"; };
+		4F2CF9AC28A9DF2200017A0C /* IssueCouponCommitData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueCouponCommitData.h; sourceTree = "<group>"; };
+		4F2CF9AD28A9DF2200017A0C /* SerialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialData.h; sourceTree = "<group>"; };
+		4F2CF9AE28A9DF2200017A0C /* CustomerCouponModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerCouponModel.h; sourceTree = "<group>"; };
+		4F2CF9AF28A9DF2200017A0C /* TransactionLogDetailsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionLogDetailsData.m; sourceTree = "<group>"; };
+		4F2CF9B028A9DF2200017A0C /* TransactionAllocationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionAllocationData.m; sourceTree = "<group>"; };
+		4F2CF9B128A9DF2200017A0C /* TransactionVoidData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionVoidData.h; sourceTree = "<group>"; };
+		4F2CF9B228A9DF2200017A0C /* SummaryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryData.h; sourceTree = "<group>"; };
+		4F2CF9B328A9DF2200017A0C /* CouponTimingsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponTimingsData.h; sourceTree = "<group>"; };
+		4F2CF9B428A9DF2200017A0C /* TransactionLogDetailsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionLogDetailsData.h; sourceTree = "<group>"; };
+		4F2CF9B528A9DF2200017A0C /* TransactionAllocationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionAllocationData.h; sourceTree = "<group>"; };
+		4F2CF9B628A9DF2200017A0C /* TransactionIssueData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionIssueData.m; sourceTree = "<group>"; };
+		4F2CF9B728A9DF2200017A0C /* CustomerDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerDataModel.h; sourceTree = "<group>"; };
+		4F2CF9B828A9DF2300017A0C /* CouponData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponData.m; sourceTree = "<group>"; };
+		4F2CF9B928A9DF2300017A0C /* CouponSerialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponSerialModel.h; sourceTree = "<group>"; };
+		4F2CF9BA28A9DF2300017A0C /* RedeemTransactionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedeemTransactionModel.m; sourceTree = "<group>"; };
+		4F2CF9BB28A9DF2300017A0C /* IssueCouponCommitData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueCouponCommitData.m; sourceTree = "<group>"; };
+		4F2CF9BC28A9DF2300017A0C /* RedeemSerialTransactionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedeemSerialTransactionData.m; sourceTree = "<group>"; };
+		4F2CF9BD28A9DF2300017A0C /* MerchantData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchantData.h; sourceTree = "<group>"; };
+		4F2CF9BE28A9DF2300017A0C /* CouponLinksData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponLinksData.m; sourceTree = "<group>"; };
+		4F2CF9BF28A9DF2300017A0C /* PaymentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentData.m; sourceTree = "<group>"; };
+		4F2CF9C028A9DF2300017A0C /* CustomerDeviceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerDeviceData.m; sourceTree = "<group>"; };
+		4F2CF9C128A9DF2300017A0C /* SerialData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialData.m; sourceTree = "<group>"; };
+		4F2CF9C228A9DF2300017A0C /* CouponTransferModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponTransferModel.m; sourceTree = "<group>"; };
+		4F2CF9C328A9DF2300017A0C /* RedeemCouponCommitData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedeemCouponCommitData.h; sourceTree = "<group>"; };
+		4F2CF9C428A9DF2300017A0C /* RedeemResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedeemResponseData.m; sourceTree = "<group>"; };
+		4F2CF9C528A9DF2300017A0C /* CustomerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerData.h; sourceTree = "<group>"; };
+		4F2CF9C628A9DF2300017A0C /* CouponOutletsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponOutletsData.h; sourceTree = "<group>"; };
+		4F2CFA2F28A9DF6600017A0C /* MZCustomerLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCustomerLogin.m; sourceTree = "<group>"; };
+		4F2CFA3028A9DF6600017A0C /* MZMerchant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMerchant.m; sourceTree = "<group>"; };
+		4F2CFA3128A9DF6600017A0C /* MZCustomerLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCustomerLogin.h; sourceTree = "<group>"; };
+		4F2CFA3228A9DF6600017A0C /* MZCouponSerial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCouponSerial.m; sourceTree = "<group>"; };
+		4F2CFA3328A9DF6600017A0C /* MZCoupon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCoupon.h; sourceTree = "<group>"; };
+		4F2CFA3428A9DF6600017A0C /* MZTransactionLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTransactionLog.m; sourceTree = "<group>"; };
+		4F2CFA3528A9DF6600017A0C /* MZExpressRedeem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZExpressRedeem.m; sourceTree = "<group>"; };
+		4F2CFA3628A9DF6700017A0C /* MZPayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZPayment.m; sourceTree = "<group>"; };
+		4F2CFA3728A9DF6700017A0C /* MZCoupon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCoupon.m; sourceTree = "<group>"; };
+		4F2CFA3828A9DF6700017A0C /* MZTransactionLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTransactionLog.h; sourceTree = "<group>"; };
+		4F2CFA3928A9DF6700017A0C /* MZExpressRedeem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZExpressRedeem.h; sourceTree = "<group>"; };
+		4F2CFA3A28A9DF6700017A0C /* MZMerchant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMerchant.h; sourceTree = "<group>"; };
+		4F2CFA3B28A9DF6700017A0C /* MZPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZPayment.h; sourceTree = "<group>"; };
+		4F2CFA3C28A9DF6700017A0C /* MZCouponSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCouponSerial.h; sourceTree = "<group>"; };
+		4F2CFA4E28A9E00F00017A0C /* MZMerchantSettingResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMerchantSettingResponse.m; sourceTree = "<group>"; };
+		4F2CFA4F28A9E00F00017A0C /* MZMerchantSettingResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMerchantSettingResponse.h; sourceTree = "<group>"; };
+		4F2CFA5028A9E00F00017A0C /* MZMerchantResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMerchantResponse.h; sourceTree = "<group>"; };
+		4F2CFA5128A9E00F00017A0C /* MZMerchantOAuthResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMerchantOAuthResponse.h; sourceTree = "<group>"; };
+		4F2CFA5228A9E00F00017A0C /* MZMerchantOAuthResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMerchantOAuthResponse.m; sourceTree = "<group>"; };
+		4F2CFA5328A9E00F00017A0C /* MZMerchantResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMerchantResponse.m; sourceTree = "<group>"; };
+		4F2CFA5C28A9E04800017A0C /* MZSerialCouponDetailsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZSerialCouponDetailsResponse.m; sourceTree = "<group>"; };
+		4F2CFA5D28A9E04800017A0C /* MZCouponSerialResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCouponSerialResponse.m; sourceTree = "<group>"; };
+		4F2CFA5E28A9E04800017A0C /* MZCouponOutletResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCouponOutletResponse.m; sourceTree = "<group>"; };
+		4F2CFA5F28A9E04800017A0C /* MZRedeemCouponResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZRedeemCouponResponse.m; sourceTree = "<group>"; };
+		4F2CFA6028A9E04800017A0C /* MZRedeemCouponResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZRedeemCouponResponse.h; sourceTree = "<group>"; };
+		4F2CFA6128A9E04800017A0C /* MZSerialCouponDetailsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZSerialCouponDetailsResponse.h; sourceTree = "<group>"; };
+		4F2CFA6228A9E04800017A0C /* MZCouponSerialResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCouponSerialResponse.h; sourceTree = "<group>"; };
+		4F2CFA6328A9E04800017A0C /* MZCouponOutletResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCouponOutletResponse.h; sourceTree = "<group>"; };
+		4F2CFA6E28A9E07900017A0C /* MZCouponDetailsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCouponDetailsResponse.m; sourceTree = "<group>"; };
+		4F2CFA6F28A9E07900017A0C /* MZIssueCouponResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZIssueCouponResponse.m; sourceTree = "<group>"; };
+		4F2CFA7028A9E07900017A0C /* MZCouponResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCouponResponse.h; sourceTree = "<group>"; };
+		4F2CFA7128A9E07900017A0C /* MZPaymentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZPaymentResponse.m; sourceTree = "<group>"; };
+		4F2CFA7228A9E07900017A0C /* MZTransactionLogResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTransactionLogResponse.h; sourceTree = "<group>"; };
+		4F2CFA7328A9E07900017A0C /* MZIssueCouponResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZIssueCouponResponse.h; sourceTree = "<group>"; };
+		4F2CFA7428A9E07900017A0C /* MZCouponResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCouponResponse.m; sourceTree = "<group>"; };
+		4F2CFA7528A9E07900017A0C /* MZCouponDetailsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCouponDetailsResponse.h; sourceTree = "<group>"; };
+		4F2CFA7628A9E07A00017A0C /* MZTransactionLogResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTransactionLogResponse.m; sourceTree = "<group>"; };
+		4F2CFA7728A9E07A00017A0C /* MZPaymentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZPaymentResponse.h; sourceTree = "<group>"; };
+		4F2CFA8428A9E09800017A0C /* MZAuthTokenResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZAuthTokenResponse.m; sourceTree = "<group>"; };
+		4F2CFA8528A9E09800017A0C /* MZLoginResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZLoginResponse.h; sourceTree = "<group>"; };
+		4F2CFA8628A9E09800017A0C /* MZLoginResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZLoginResponse.m; sourceTree = "<group>"; };
+		4F2CFA8728A9E09800017A0C /* MZAuthTokenResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZAuthTokenResponse.h; sourceTree = "<group>"; };
+		55D9780246AAA73901A0CE26 /* Pods-MZCustomerCouponLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZCustomerCouponLib.release.xcconfig"; path = "Target Support Files/Pods-MZCustomerCouponLib/Pods-MZCustomerCouponLib.release.xcconfig"; sourceTree = "<group>"; };
+		E6059A03DF022F5B24AA094B /* Pods-MZCustomerCouponLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZCustomerCouponLib.debug.xcconfig"; path = "Target Support Files/Pods-MZCustomerCouponLib/Pods-MZCustomerCouponLib.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F0869E928A89C63007ED823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD345CE763B56043A1F4D303 /* libPods-MZCustomerCouponLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B55AD826190144E857B7A5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B34A3AB05739501D6ADAAD0 /* libPods-MZCustomerCouponLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F0869E228A89C63007ED823 = {
+			isa = PBXGroup;
+			children = (
+				4F0869EE28A89C63007ED823 /* MZCustomerCouponLib */,
+				4F0869ED28A89C63007ED823 /* Products */,
+				8A1D0F3735669A8AE31490A5 /* Pods */,
+				0B55AD826190144E857B7A5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F0869ED28A89C63007ED823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F0869EC28A89C63007ED823 /* MZCustomerCouponLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F0869EE28A89C63007ED823 /* MZCustomerCouponLib */ = {
+			isa = PBXGroup;
+			children = (
+				4F2CFA4C28A9DF7B00017A0C /* DataResponse */,
+				4F2CFA2E28A9DF3200017A0C /* APIModule */,
+				4F2CF95D28A9DEB600017A0C /* Pojo */,
+				4F086A0528A89D9B007ED823 /* Utils */,
+				4F0869FB28A89D50007ED823 /* Jastor */,
+				4F0869EF28A89C63007ED823 /* MZCustomerCouponLib.h */,
+				4F0869F028A89C63007ED823 /* Info.plist */,
+			);
+			path = MZCustomerCouponLib;
+			sourceTree = "<group>";
+		};
+		4F0869FB28A89D50007ED823 /* Jastor */ = {
+			isa = PBXGroup;
+			children = (
+				4F0869FC28A89D88007ED823 /* MZJastor.h */,
+				4F0869FD28A89D88007ED823 /* MZJastor.m */,
+				4F0869FF28A89D88007ED823 /* MZJastorRuntimeHelper.h */,
+				4F0869FE28A89D88007ED823 /* MZJastorRuntimeHelper.m */,
+			);
+			path = Jastor;
+			sourceTree = "<group>";
+		};
+		4F086A0528A89D9B007ED823 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4F2CF95828A9DEAD00017A0C /* MZUtils.h */,
+				4F2CF95928A9DEAD00017A0C /* MZUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4F2CF95D28A9DEB600017A0C /* Pojo */ = {
+			isa = PBXGroup;
+			children = (
+				4F2CF97C28A9DF2100017A0C /* AuthToken.h */,
+				4F2CF96728A9DF2100017A0C /* AuthToken.m */,
+				4F2CF9A228A9DF2200017A0C /* CouponCountData.h */,
+				4F2CF99028A9DF2200017A0C /* CouponCountData.m */,
+				4F2CF96128A9DF2100017A0C /* CouponData.h */,
+				4F2CF9B828A9DF2300017A0C /* CouponData.m */,
+				4F2CF9AB28A9DF2200017A0C /* CouponImageListData.h */,
+				4F2CF99128A9DF2200017A0C /* CouponImageListData.m */,
+				4F2CF96B28A9DF2100017A0C /* CouponImagesData.h */,
+				4F2CF9A028A9DF2200017A0C /* CouponImagesData.m */,
+				4F2CF98528A9DF2200017A0C /* CouponLinksData.h */,
+				4F2CF9BE28A9DF2300017A0C /* CouponLinksData.m */,
+				4F2CF99428A9DF2200017A0C /* CouponListData.h */,
+				4F2CF99C28A9DF2200017A0C /* CouponListData.m */,
+				4F2CF99928A9DF2200017A0C /* CouponMerchantData.h */,
+				4F2CF99228A9DF2200017A0C /* CouponMerchantData.m */,
+				4F2CF99628A9DF2200017A0C /* CouponMetaData.h */,
+				4F2CF97328A9DF2100017A0C /* CouponMetaData.m */,
+				4F2CF96F28A9DF2100017A0C /* CouponOutletListData.h */,
+				4F2CF98928A9DF2200017A0C /* CouponOutletListData.m */,
+				4F2CF9C628A9DF2300017A0C /* CouponOutletsData.h */,
+				4F2CF99728A9DF2200017A0C /* CouponOutletsData.m */,
+				4F2CF96528A9DF2100017A0C /* CouponSerialData.h */,
+				4F2CF9A428A9DF2200017A0C /* CouponSerialData.m */,
+				4F2CF96228A9DF2100017A0C /* CouponserialList.h */,
+				4F2CF97828A9DF2100017A0C /* CouponserialList.m */,
+				4F2CF99B28A9DF2200017A0C /* CouponSerialListModel.h */,
+				4F2CF97D28A9DF2100017A0C /* CouponSerialListModel.m */,
+				4F2CF9B928A9DF2300017A0C /* CouponSerialModel.h */,
+				4F2CF99528A9DF2200017A0C /* CouponSerialModel.m */,
+				4F2CF9B328A9DF2200017A0C /* CouponTimingsData.h */,
+				4F2CF98E28A9DF2200017A0C /* CouponTimingsData.m */,
+				4F2CF9A928A9DF2200017A0C /* CouponTransferData.h */,
+				4F2CF9A828A9DF2200017A0C /* CouponTransferData.m */,
+				4F2CF96328A9DF2100017A0C /* CouponTransferModel.h */,
+				4F2CF9C228A9DF2300017A0C /* CouponTransferModel.m */,
+				4F2CF96628A9DF2100017A0C /* CouponVoidModel.h */,
+				4F2CF99D28A9DF2200017A0C /* CouponVoidModel.m */,
+				4F2CF99E28A9DF2200017A0C /* CouponVoidTransactionData.h */,
+				4F2CF98228A9DF2200017A0C /* CouponVoidTransactionData.m */,
+				4F2CF96928A9DF2100017A0C /* CustomerCouponData.h */,
+				4F2CF97F28A9DF2200017A0C /* CustomerCouponData.m */,
+				4F2CF9AE28A9DF2200017A0C /* CustomerCouponModel.h */,
+				4F2CF9A528A9DF2200017A0C /* CustomerCouponModel.m */,
+				4F2CF9C528A9DF2300017A0C /* CustomerData.h */,
+				4F2CF9A628A9DF2200017A0C /* CustomerData.m */,
+				4F2CF9B728A9DF2200017A0C /* CustomerDataModel.h */,
+				4F2CF98128A9DF2200017A0C /* CustomerDataModel.m */,
+				4F2CF97E28A9DF2100017A0C /* CustomerDeviceData.h */,
+				4F2CF9C028A9DF2300017A0C /* CustomerDeviceData.m */,
+				4F2CF96828A9DF2100017A0C /* CustomerDeviceDataModel.h */,
+				4F2CF97928A9DF2100017A0C /* CustomerDeviceDataModel.m */,
+				4F2CF9A728A9DF2200017A0C /* DeveloperMessageData.h */,
+				4F2CF98428A9DF2200017A0C /* DeveloperMessageData.m */,
+				4F2CF9AC28A9DF2200017A0C /* IssueCouponCommitData.h */,
+				4F2CF9BB28A9DF2300017A0C /* IssueCouponCommitData.m */,
+				4F2CF98A28A9DF2200017A0C /* IssueCouponModel.h */,
+				4F2CF97B28A9DF2100017A0C /* IssueCouponModel.m */,
+				4F2CF98028A9DF2200017A0C /* IssueCustomerData.h */,
+				4F2CF98328A9DF2200017A0C /* IssueCustomerData.m */,
+				4F2CF9BD28A9DF2300017A0C /* MerchantData.h */,
+				4F2CF96A28A9DF2100017A0C /* MerchantData.m */,
+				4F2CF99F28A9DF2200017A0C /* PaymentData.h */,
+				4F2CF9BF28A9DF2300017A0C /* PaymentData.m */,
+				4F2CF96E28A9DF2100017A0C /* PaymentListModel.h */,
+				4F2CF9AA28A9DF2200017A0C /* PaymentListModel.m */,
+				4F2CF9C328A9DF2300017A0C /* RedeemCouponCommitData.h */,
+				4F2CF97A28A9DF2100017A0C /* RedeemCouponCommitData.m */,
+				4F2CF9A328A9DF2200017A0C /* RedeemResponseData.h */,
+				4F2CF9C428A9DF2300017A0C /* RedeemResponseData.m */,
+				4F2CF98B28A9DF2200017A0C /* RedeemSerialTransactionData.h */,
+				4F2CF9BC28A9DF2300017A0C /* RedeemSerialTransactionData.m */,
+				4F2CF99328A9DF2200017A0C /* RedeemTransactionData.h */,
+				4F2CF97728A9DF2100017A0C /* RedeemTransactionData.m */,
+				4F2CF97628A9DF2100017A0C /* RedeemTransactionModel.h */,
+				4F2CF9BA28A9DF2300017A0C /* RedeemTransactionModel.m */,
+				4F2CF98828A9DF2200017A0C /* ReferenceData.h */,
+				4F2CF97128A9DF2100017A0C /* ReferenceData.m */,
+				4F2CF9AD28A9DF2200017A0C /* SerialData.h */,
+				4F2CF9C128A9DF2300017A0C /* SerialData.m */,
+				4F2CF98628A9DF2200017A0C /* SerialOutletData.h */,
+				4F2CF97428A9DF2100017A0C /* SerialOutletData.m */,
+				4F2CF98D28A9DF2200017A0C /* SerialOutletListData.h */,
+				4F2CF99828A9DF2200017A0C /* SerialOutletListData.m */,
+				4F2CF9A128A9DF2200017A0C /* SerialTransactionsModel.h */,
+				4F2CF98C28A9DF2200017A0C /* SerialTransactionsModel.m */,
+				4F2CF9B228A9DF2200017A0C /* SummaryData.h */,
+				4F2CF97528A9DF2100017A0C /* SummaryData.m */,
+				4F2CF9B528A9DF2200017A0C /* TransactionAllocationData.h */,
+				4F2CF9B028A9DF2200017A0C /* TransactionAllocationData.m */,
+				4F2CF97228A9DF2100017A0C /* TransactionIssueData.h */,
+				4F2CF9B628A9DF2200017A0C /* TransactionIssueData.m */,
+				4F2CF97028A9DF2100017A0C /* TransactionLogData.h */,
+				4F2CF98F28A9DF2200017A0C /* TransactionLogData.m */,
+				4F2CF9B428A9DF2200017A0C /* TransactionLogDetailsData.h */,
+				4F2CF9AF28A9DF2200017A0C /* TransactionLogDetailsData.m */,
+				4F2CF96D28A9DF2100017A0C /* TransactionLogModel.h */,
+				4F2CF96C28A9DF2100017A0C /* TransactionLogModel.m */,
+				4F2CF96428A9DF2100017A0C /* TransactionRedeemData.h */,
+				4F2CF98728A9DF2200017A0C /* TransactionRedeemData.m */,
+				4F2CF9B128A9DF2200017A0C /* TransactionVoidData.h */,
+				4F2CF99A28A9DF2200017A0C /* TransactionVoidData.m */,
+			);
+			path = Pojo;
+			sourceTree = "<group>";
+		};
+		4F2CFA2E28A9DF3200017A0C /* APIModule */ = {
+			isa = PBXGroup;
+			children = (
+				4F2CFA5128A9E00F00017A0C /* MZMerchantOAuthResponse.h */,
+				4F2CFA5228A9E00F00017A0C /* MZMerchantOAuthResponse.m */,
+				4F2CFA5028A9E00F00017A0C /* MZMerchantResponse.h */,
+				4F2CFA5328A9E00F00017A0C /* MZMerchantResponse.m */,
+				4F2CFA4F28A9E00F00017A0C /* MZMerchantSettingResponse.h */,
+				4F2CFA4E28A9E00F00017A0C /* MZMerchantSettingResponse.m */,
+				4F2CFA3328A9DF6600017A0C /* MZCoupon.h */,
+				4F2CFA3728A9DF6700017A0C /* MZCoupon.m */,
+				4F2CFA3C28A9DF6700017A0C /* MZCouponSerial.h */,
+				4F2CFA3228A9DF6600017A0C /* MZCouponSerial.m */,
+				4F2CFA3128A9DF6600017A0C /* MZCustomerLogin.h */,
+				4F2CFA2F28A9DF6600017A0C /* MZCustomerLogin.m */,
+				4F2CFA3928A9DF6700017A0C /* MZExpressRedeem.h */,
+				4F2CFA3528A9DF6600017A0C /* MZExpressRedeem.m */,
+				4F2CFA3A28A9DF6700017A0C /* MZMerchant.h */,
+				4F2CFA3028A9DF6600017A0C /* MZMerchant.m */,
+				4F2CFA3B28A9DF6700017A0C /* MZPayment.h */,
+				4F2CFA3628A9DF6700017A0C /* MZPayment.m */,
+				4F2CFA3828A9DF6700017A0C /* MZTransactionLog.h */,
+				4F2CFA3428A9DF6600017A0C /* MZTransactionLog.m */,
+			);
+			path = APIModule;
+			sourceTree = "<group>";
+		};
+		4F2CFA4C28A9DF7B00017A0C /* DataResponse */ = {
+			isa = PBXGroup;
+			children = (
+				4F2CFA8328A9E08100017A0C /* Login */,
+				4F2CFA6D28A9E05D00017A0C /* Coupon */,
+				4F2CFA5B28A9E01500017A0C /* CouponSerial */,
+				4F2CFA4D28A9DF9400017A0C /* Merchant */,
+			);
+			path = DataResponse;
+			sourceTree = "<group>";
+		};
+		4F2CFA4D28A9DF9400017A0C /* Merchant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Merchant;
+			sourceTree = "<group>";
+		};
+		4F2CFA5B28A9E01500017A0C /* CouponSerial */ = {
+			isa = PBXGroup;
+			children = (
+				4F2CFA6328A9E04800017A0C /* MZCouponOutletResponse.h */,
+				4F2CFA5E28A9E04800017A0C /* MZCouponOutletResponse.m */,
+				4F2CFA6228A9E04800017A0C /* MZCouponSerialResponse.h */,
+				4F2CFA5D28A9E04800017A0C /* MZCouponSerialResponse.m */,
+				4F2CFA6028A9E04800017A0C /* MZRedeemCouponResponse.h */,
+				4F2CFA5F28A9E04800017A0C /* MZRedeemCouponResponse.m */,
+				4F2CFA6128A9E04800017A0C /* MZSerialCouponDetailsResponse.h */,
+				4F2CFA5C28A9E04800017A0C /* MZSerialCouponDetailsResponse.m */,
+			);
+			path = CouponSerial;
+			sourceTree = "<group>";
+		};
+		4F2CFA6D28A9E05D00017A0C /* Coupon */ = {
+			isa = PBXGroup;
+			children = (
+				4F2CFA7528A9E07900017A0C /* MZCouponDetailsResponse.h */,
+				4F2CFA6E28A9E07900017A0C /* MZCouponDetailsResponse.m */,
+				4F2CFA7028A9E07900017A0C /* MZCouponResponse.h */,
+				4F2CFA7428A9E07900017A0C /* MZCouponResponse.m */,
+				4F2CFA7328A9E07900017A0C /* MZIssueCouponResponse.h */,
+				4F2CFA6F28A9E07900017A0C /* MZIssueCouponResponse.m */,
+				4F2CFA7728A9E07A00017A0C /* MZPaymentResponse.h */,
+				4F2CFA7128A9E07900017A0C /* MZPaymentResponse.m */,
+				4F2CFA7228A9E07900017A0C /* MZTransactionLogResponse.h */,
+				4F2CFA7628A9E07A00017A0C /* MZTransactionLogResponse.m */,
+			);
+			path = Coupon;
+			sourceTree = "<group>";
+		};
+		4F2CFA8328A9E08100017A0C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4F2CFA8728A9E09800017A0C /* MZAuthTokenResponse.h */,
+				4F2CFA8428A9E09800017A0C /* MZAuthTokenResponse.m */,
+				4F2CFA8528A9E09800017A0C /* MZLoginResponse.h */,
+				4F2CFA8628A9E09800017A0C /* MZLoginResponse.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8A1D0F3735669A8AE31490A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6059A03DF022F5B24AA094B /* Pods-MZCustomerCouponLib.debug.xcconfig */,
+				55D9780246AAA73901A0CE26 /* Pods-MZCustomerCouponLib.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F0869E728A89C63007ED823 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2CFA6A28A9E04800017A0C /* MZCouponSerialResponse.h in Headers */,
+				4F2CFA0528A9DF2300017A0C /* PaymentData.h in Headers */,
+				4F2CFA0828A9DF2300017A0C /* CouponCountData.h in Headers */,
+				4F2CFA0728A9DF2300017A0C /* SerialTransactionsModel.h in Headers */,
+				4F2CFA5728A9E00F00017A0C /* MZMerchantOAuthResponse.h in Headers */,
+				4F2CF9C728A9DF2300017A0C /* CouponData.h in Headers */,
+				4F2CF9D328A9DF2300017A0C /* TransactionLogModel.h in Headers */,
+				4F2CFA7D28A9E07A00017A0C /* MZIssueCouponResponse.h in Headers */,
+				4F2CF9D528A9DF2300017A0C /* CouponOutletListData.h in Headers */,
+				4F2CF9C828A9DF2300017A0C /* CouponserialList.h in Headers */,
+				4F2CFA0D28A9DF2300017A0C /* DeveloperMessageData.h in Headers */,
+				4F2CF9D428A9DF2300017A0C /* PaymentListModel.h in Headers */,
+				4F2CFA1B28A9DF2300017A0C /* TransactionAllocationData.h in Headers */,
+				4F2CFA7F28A9E07A00017A0C /* MZCouponDetailsResponse.h in Headers */,
+				4F2CF9EB28A9DF2300017A0C /* CouponLinksData.h in Headers */,
+				4F2CF9C928A9DF2300017A0C /* CouponTransferModel.h in Headers */,
+				4F2CFA1428A9DF2300017A0C /* CustomerCouponModel.h in Headers */,
+				4F2CFA2328A9DF2300017A0C /* MerchantData.h in Headers */,
+				4F2CFA6B28A9E04800017A0C /* MZCouponOutletResponse.h in Headers */,
+				4F2CFA4128A9DF6700017A0C /* MZCoupon.h in Headers */,
+				4F2CFA5628A9E00F00017A0C /* MZMerchantResponse.h in Headers */,
+				4F2CFA3F28A9DF6700017A0C /* MZCustomerLogin.h in Headers */,
+				4F2CFA1D28A9DF2300017A0C /* CustomerDataModel.h in Headers */,
+				4F2CF9FF28A9DF2300017A0C /* CouponMerchantData.h in Headers */,
+				4F2CF9FA28A9DF2300017A0C /* CouponListData.h in Headers */,
+				4F2CF9CB28A9DF2300017A0C /* CouponSerialData.h in Headers */,
+				4F2CF9F928A9DF2300017A0C /* RedeemTransactionData.h in Headers */,
+				4F2CF9E628A9DF2300017A0C /* IssueCustomerData.h in Headers */,
+				4F2CFA0928A9DF2300017A0C /* RedeemResponseData.h in Headers */,
+				4F2CFA8128A9E07A00017A0C /* MZPaymentResponse.h in Headers */,
+				4F2CFA0F28A9DF2300017A0C /* CouponTransferData.h in Headers */,
+				4F2CF9F128A9DF2300017A0C /* RedeemSerialTransactionData.h in Headers */,
+				4F2CF9CE28A9DF2300017A0C /* CustomerDeviceDataModel.h in Headers */,
+				4F2CFA6828A9E04800017A0C /* MZRedeemCouponResponse.h in Headers */,
+				4F2CF9F028A9DF2300017A0C /* IssueCouponModel.h in Headers */,
+				4F2CFA0428A9DF2300017A0C /* CouponVoidTransactionData.h in Headers */,
+				4F2CF9CC28A9DF2300017A0C /* CouponVoidModel.h in Headers */,
+				4F2CFA1228A9DF2300017A0C /* IssueCouponCommitData.h in Headers */,
+				4F2CF9E428A9DF2300017A0C /* CustomerDeviceData.h in Headers */,
+				4F2CFA1928A9DF2300017A0C /* CouponTimingsData.h in Headers */,
+				4F2CFA5528A9E00F00017A0C /* MZMerchantSettingResponse.h in Headers */,
+				4F2CF9FC28A9DF2300017A0C /* CouponMetaData.h in Headers */,
+				4F2CFA1728A9DF2300017A0C /* TransactionVoidData.h in Headers */,
+				4F2CF9D828A9DF2300017A0C /* TransactionIssueData.h in Headers */,
+				4F2CFA7C28A9E07A00017A0C /* MZTransactionLogResponse.h in Headers */,
+				4F2CF9D628A9DF2300017A0C /* TransactionLogData.h in Headers */,
+				4F2CF9CF28A9DF2300017A0C /* CustomerCouponData.h in Headers */,
+				4F2CF9E228A9DF2300017A0C /* AuthToken.h in Headers */,
+				4F2CFA2B28A9DF2400017A0C /* CustomerData.h in Headers */,
+				4F2CFA4628A9DF6700017A0C /* MZTransactionLog.h in Headers */,
+				4F2CF9CA28A9DF2300017A0C /* TransactionRedeemData.h in Headers */,
+				4F2CFA1F28A9DF2300017A0C /* CouponSerialModel.h in Headers */,
+				4F2CF9F328A9DF2300017A0C /* SerialOutletListData.h in Headers */,
+				4F2CFA4828A9DF6700017A0C /* MZMerchant.h in Headers */,
+				4F2CFA4728A9DF6700017A0C /* MZExpressRedeem.h in Headers */,
+				4F2CF9D128A9DF2300017A0C /* CouponImagesData.h in Headers */,
+				4F2CFA1828A9DF2300017A0C /* SummaryData.h in Headers */,
+				4F2CFA6928A9E04800017A0C /* MZSerialCouponDetailsResponse.h in Headers */,
+				4F2CFA1A28A9DF2300017A0C /* TransactionLogDetailsData.h in Headers */,
+				4F2CF9DC28A9DF2300017A0C /* RedeemTransactionModel.h in Headers */,
+				4F2CFA7A28A9E07A00017A0C /* MZCouponResponse.h in Headers */,
+				4F2CFA0128A9DF2300017A0C /* CouponSerialListModel.h in Headers */,
+				4F2CFA2928A9DF2400017A0C /* RedeemCouponCommitData.h in Headers */,
+				4F2CFA4928A9DF6700017A0C /* MZPayment.h in Headers */,
+				4F2CFA1328A9DF2300017A0C /* SerialData.h in Headers */,
+				4F2CFA8928A9E09900017A0C /* MZLoginResponse.h in Headers */,
+				4F2CF9EC28A9DF2300017A0C /* SerialOutletData.h in Headers */,
+				4F2CFA2C28A9DF2400017A0C /* CouponOutletsData.h in Headers */,
+				4F2CFA1128A9DF2300017A0C /* CouponImageListData.h in Headers */,
+				4F2CF9EE28A9DF2300017A0C /* ReferenceData.h in Headers */,
+				4F2CFA4A28A9DF6700017A0C /* MZCouponSerial.h in Headers */,
+				4F086A0328A89D88007ED823 /* MZJastorRuntimeHelper.h in Headers */,
+				4F086A0028A89D88007ED823 /* MZJastor.h in Headers */,
+				4F2CF95A28A9DEAD00017A0C /* MZUtils.h in Headers */,
+				4F0869F128A89C63007ED823 /* MZCustomerCouponLib.h in Headers */,
+				4F2CFA8B28A9E09900017A0C /* MZAuthTokenResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F0869EB28A89C63007ED823 /* MZCustomerCouponLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F0869F428A89C63007ED823 /* Build configuration list for PBXNativeTarget "MZCustomerCouponLib" */;
+			buildPhases = (
+				467CC52C59D71A04458B23F9 /* [CP] Check Pods Manifest.lock */,
+				4F0869E728A89C63007ED823 /* Headers */,
+				4F0869E828A89C63007ED823 /* Sources */,
+				4F0869E928A89C63007ED823 /* Frameworks */,
+				4F0869EA28A89C63007ED823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZCustomerCouponLib;
+			productName = MZCustomerCouponLib;
+			productReference = 4F0869EC28A89C63007ED823 /* MZCustomerCouponLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F0869E328A89C63007ED823 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4F0869EB28A89C63007ED823 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4F0869E628A89C63007ED823 /* Build configuration list for PBXProject "MZCustomerCouponLib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F0869E228A89C63007ED823;
+			productRefGroup = 4F0869ED28A89C63007ED823 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F0869EB28A89C63007ED823 /* MZCustomerCouponLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F0869EA28A89C63007ED823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		467CC52C59D71A04458B23F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MZCustomerCouponLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F0869E828A89C63007ED823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2CF9D928A9DF2300017A0C /* CouponMetaData.m in Sources */,
+				4F2CFA0228A9DF2300017A0C /* CouponListData.m in Sources */,
+				4F2CFA5428A9E00F00017A0C /* MZMerchantSettingResponse.m in Sources */,
+				4F2CFA3D28A9DF6700017A0C /* MZCustomerLogin.m in Sources */,
+				4F2CFA0C28A9DF2300017A0C /* CustomerData.m in Sources */,
+				4F2CF9E728A9DF2300017A0C /* CustomerDataModel.m in Sources */,
+				4F2CF9F628A9DF2300017A0C /* CouponCountData.m in Sources */,
+				4F086A0228A89D88007ED823 /* MZJastorRuntimeHelper.m in Sources */,
+				4F2CFA6628A9E04800017A0C /* MZCouponOutletResponse.m in Sources */,
+				4F2CFA8A28A9E09900017A0C /* MZLoginResponse.m in Sources */,
+				4F2CFA2128A9DF2300017A0C /* IssueCouponCommitData.m in Sources */,
+				4F2CFA0028A9DF2300017A0C /* TransactionVoidData.m in Sources */,
+				4F2CF9FE28A9DF2300017A0C /* SerialOutletListData.m in Sources */,
+				4F2CF9DD28A9DF2300017A0C /* RedeemTransactionData.m in Sources */,
+				4F2CFA2228A9DF2300017A0C /* RedeemSerialTransactionData.m in Sources */,
+				4F2CFA8028A9E07A00017A0C /* MZTransactionLogResponse.m in Sources */,
+				4F2CF9E528A9DF2300017A0C /* CustomerCouponData.m in Sources */,
+				4F2CFA2028A9DF2300017A0C /* RedeemTransactionModel.m in Sources */,
+				4F2CF9E328A9DF2300017A0C /* CouponSerialListModel.m in Sources */,
+				4F2CF9DB28A9DF2300017A0C /* SummaryData.m in Sources */,
+				4F2CFA4028A9DF6700017A0C /* MZCouponSerial.m in Sources */,
+				4F2CF9F828A9DF2300017A0C /* CouponMerchantData.m in Sources */,
+				4F2CF9FD28A9DF2300017A0C /* CouponOutletsData.m in Sources */,
+				4F2CF9CD28A9DF2300017A0C /* AuthToken.m in Sources */,
+				4F2CFA0A28A9DF2300017A0C /* CouponSerialData.m in Sources */,
+				4F2CFA6428A9E04800017A0C /* MZSerialCouponDetailsResponse.m in Sources */,
+				4F2CF9E828A9DF2300017A0C /* CouponVoidTransactionData.m in Sources */,
+				4F2CFA5928A9E00F00017A0C /* MZMerchantResponse.m in Sources */,
+				4F2CFA2528A9DF2400017A0C /* PaymentData.m in Sources */,
+				4F2CFA6728A9E04800017A0C /* MZRedeemCouponResponse.m in Sources */,
+				4F2CF9F528A9DF2300017A0C /* TransactionLogData.m in Sources */,
+				4F2CFA1028A9DF2300017A0C /* PaymentListModel.m in Sources */,
+				4F2CF9EA28A9DF2300017A0C /* DeveloperMessageData.m in Sources */,
+				4F2CFA4228A9DF6700017A0C /* MZTransactionLog.m in Sources */,
+				4F2CF9ED28A9DF2300017A0C /* TransactionRedeemData.m in Sources */,
+				4F2CFA7928A9E07A00017A0C /* MZIssueCouponResponse.m in Sources */,
+				4F2CFA0328A9DF2300017A0C /* CouponVoidModel.m in Sources */,
+				4F2CF9F728A9DF2300017A0C /* CouponImageListData.m in Sources */,
+				4F2CF95B28A9DEAD00017A0C /* MZUtils.m in Sources */,
+				4F2CFA7828A9E07A00017A0C /* MZCouponDetailsResponse.m in Sources */,
+				4F2CFA2A28A9DF2400017A0C /* RedeemResponseData.m in Sources */,
+				4F2CF9D228A9DF2300017A0C /* TransactionLogModel.m in Sources */,
+				4F2CFA1E28A9DF2300017A0C /* CouponData.m in Sources */,
+				4F2CFA0B28A9DF2300017A0C /* CustomerCouponModel.m in Sources */,
+				4F2CF9D728A9DF2300017A0C /* ReferenceData.m in Sources */,
+				4F2CFA0E28A9DF2300017A0C /* CouponTransferData.m in Sources */,
+				4F2CF9DA28A9DF2300017A0C /* SerialOutletData.m in Sources */,
+				4F2CF9FB28A9DF2300017A0C /* CouponSerialModel.m in Sources */,
+				4F2CFA1C28A9DF2300017A0C /* TransactionIssueData.m in Sources */,
+				4F2CFA4328A9DF6700017A0C /* MZExpressRedeem.m in Sources */,
+				4F2CFA0628A9DF2300017A0C /* CouponImagesData.m in Sources */,
+				4F2CFA4528A9DF6700017A0C /* MZCoupon.m in Sources */,
+				4F2CFA7B28A9E07A00017A0C /* MZPaymentResponse.m in Sources */,
+				4F2CF9DE28A9DF2300017A0C /* CouponserialList.m in Sources */,
+				4F2CFA4428A9DF6700017A0C /* MZPayment.m in Sources */,
+				4F2CFA3E28A9DF6700017A0C /* MZMerchant.m in Sources */,
+				4F086A0128A89D88007ED823 /* MZJastor.m in Sources */,
+				4F2CF9D028A9DF2300017A0C /* MerchantData.m in Sources */,
+				4F2CFA5828A9E00F00017A0C /* MZMerchantOAuthResponse.m in Sources */,
+				4F2CFA1628A9DF2300017A0C /* TransactionAllocationData.m in Sources */,
+				4F2CFA2728A9DF2400017A0C /* SerialData.m in Sources */,
+				4F2CFA2428A9DF2400017A0C /* CouponLinksData.m in Sources */,
+				4F2CF9F428A9DF2300017A0C /* CouponTimingsData.m in Sources */,
+				4F2CF9E028A9DF2300017A0C /* RedeemCouponCommitData.m in Sources */,
+				4F2CFA6528A9E04800017A0C /* MZCouponSerialResponse.m in Sources */,
+				4F2CFA7E28A9E07A00017A0C /* MZCouponResponse.m in Sources */,
+				4F2CFA2628A9DF2400017A0C /* CustomerDeviceData.m in Sources */,
+				4F2CF9EF28A9DF2300017A0C /* CouponOutletListData.m in Sources */,
+				4F2CF9E128A9DF2300017A0C /* IssueCouponModel.m in Sources */,
+				4F2CFA2828A9DF2400017A0C /* CouponTransferModel.m in Sources */,
+				4F2CFA8828A9E09800017A0C /* MZAuthTokenResponse.m in Sources */,
+				4F2CFA1528A9DF2300017A0C /* TransactionLogDetailsData.m in Sources */,
+				4F2CF9DF28A9DF2300017A0C /* CustomerDeviceDataModel.m in Sources */,
+				4F2CF9F228A9DF2300017A0C /* SerialTransactionsModel.m in Sources */,
+				4F2CF9E928A9DF2300017A0C /* IssueCustomerData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F0869F228A89C63007ED823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F0869F328A89C63007ED823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F0869F528A89C63007ED823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6059A03DF022F5B24AA094B /* Pods-MZCustomerCouponLib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A8TLLAK8J8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MZCustomerCouponLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MZCustomerCouponLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F0869F628A89C63007ED823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D9780246AAA73901A0CE26 /* Pods-MZCustomerCouponLib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A8TLLAK8J8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MZCustomerCouponLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MZCustomerCouponLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F0869E628A89C63007ED823 /* Build configuration list for PBXProject "MZCustomerCouponLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0869F228A89C63007ED823 /* Debug */,
+				4F0869F328A89C63007ED823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F0869F428A89C63007ED823 /* Build configuration list for PBXNativeTarget "MZCustomerCouponLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0869F528A89C63007ED823 /* Debug */,
+				4F0869F628A89C63007ED823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F0869E328A89C63007ED823 /* Project object */;
+}

@@ -504,12 +504,6 @@
 		4F2CFA2E28A9DF3200017A0C /* APIModule */ = {
 			isa = PBXGroup;
 			children = (
-				4F2CFA5128A9E00F00017A0C /* MZMerchantOAuthResponse.h */,
-				4F2CFA5228A9E00F00017A0C /* MZMerchantOAuthResponse.m */,
-				4F2CFA5028A9E00F00017A0C /* MZMerchantResponse.h */,
-				4F2CFA5328A9E00F00017A0C /* MZMerchantResponse.m */,
-				4F2CFA4F28A9E00F00017A0C /* MZMerchantSettingResponse.h */,
-				4F2CFA4E28A9E00F00017A0C /* MZMerchantSettingResponse.m */,
 				4F2CFA3328A9DF6600017A0C /* MZCoupon.h */,
 				4F2CFA3728A9DF6700017A0C /* MZCoupon.m */,
 				4F2CFA3C28A9DF6700017A0C /* MZCouponSerial.h */,
@@ -542,6 +536,12 @@
 		4F2CFA4D28A9DF9400017A0C /* Merchant */ = {
 			isa = PBXGroup;
 			children = (
+				4F2CFA5128A9E00F00017A0C /* MZMerchantOAuthResponse.h */,
+				4F2CFA5228A9E00F00017A0C /* MZMerchantOAuthResponse.m */,
+				4F2CFA5028A9E00F00017A0C /* MZMerchantResponse.h */,
+				4F2CFA5328A9E00F00017A0C /* MZMerchantResponse.m */,
+				4F2CFA4F28A9E00F00017A0C /* MZMerchantSettingResponse.h */,
+				4F2CFA4E28A9E00F00017A0C /* MZMerchantSettingResponse.m */,
 			);
 			path = Merchant;
 			sourceTree = "<group>";

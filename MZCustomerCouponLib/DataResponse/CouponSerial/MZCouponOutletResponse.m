@@ -38,4 +38,5 @@
 @synthesize message;
 @synthesize status;
 @synthesize code;
+
 @end

@@ -99,14 +99,15 @@
     
     return region;
 }
-+ (NSData *)urlGetMerchantOAuth:(NSString *)purl param:(NSMutableDictionary*)pparam {
++ (NSData *)urlGetMerchantOAuth:(NSString *)purl merchauthkey:(NSString *)pmerchauthkey merchauthsecrt:(NSString *)pmerchsecrt param:(NSMutableDictionary*)pparam {
    // NSURL *baseURL = [NSURL URLWithString:[MZUtils pathsetting]];
     NSLog(@"%@", purl);
     
     __block NSData *retdata = NULL;
     
     dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
-    NSData *plainData = [[NSString stringWithFormat:@"By3I7fX:platform"] dataUsingEncoding:NSUTF8StringEncoding];
+    NSData *plainData = [[NSString stringWithFormat:@"%@:%@",pmerchauthkey,pmerchsecrt] dataUsingEncoding:NSUTF8StringEncoding];
+//    NSData *plainData = [[NSString stringWithFormat:@"By3I7fX:platform"] dataUsingEncoding:NSUTF8StringEncoding];
     NSString *encodedUsernameAndPassword = [plainData base64EncodedStringWithOptions:0];
     
     

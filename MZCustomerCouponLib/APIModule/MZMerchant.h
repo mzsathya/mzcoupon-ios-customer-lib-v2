@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MZMerchant : NSObject
 - (MZMerchantResponse *)GetMerchantDetails:(NSString *)pmerchantId token:(NSString*)ptoken;
 - (MZMerchantSettingResponse *)GetMerchantDownloadSetting:(NSString*)ptoken;
-- (MZMerchantOAuthResponse *)GetMerchantOAuth:(NSString*)pmerchantId;
+- (MZMerchantOAuthResponse *)GetMerchantOAuth:(NSString*)pmerchantId Oauth:(NSString *)pauth secrt:(NSString *)serc;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -26,7 +26,7 @@
 
 +(MKCoordinateRegion) getRegionByMiles:(double)miles Location:(CLLocationCoordinate2D)newLocation;
 
-+ (NSData *)urlGetMerchantOAuth:(NSString *)purl param:(NSMutableDictionary*)pparam;
++ (NSData *)urlGetMerchantOAuth:(NSString *)purl merchauthkey:(NSString *)pmerchauthkey merchauthsecrt:(NSString *)pmerchsecrt param:(NSMutableDictionary*)pparam;
 + (NSData *)urlGetTokenRequest:(NSString *)purl authkey:(NSString*)pauthkey authsecrt:(NSString*)psecrt body:(NSData*)pbody parameters:(NSMutableDictionary*)pparam;
 + (NSData *)urlGetRequest:(NSString *)purl token:(NSString*)ptoken param:(NSMutableDictionary*)pparam;
 + (NSData *)urlPostRequest:(NSString *)purl token:(NSString*)ptoken body:(NSData*)pbody parameters:(NSMutableDictionary*)pparam;

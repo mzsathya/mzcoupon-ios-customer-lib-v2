@@ -9,11 +9,11 @@ CocoaPods is a dependency manager for Objective-C, which automates and simplifie
 
   
 #### Installation Guide for MZCustomerCouponLib
-###### You want to add pod 'MZCustomerCouponLib', '~> 1.0.0' similar to the following to your Podfile:
+###### You want to add pod 'MZCustomerCouponLib', '~> 1.0.5' similar to the following to your Podfile:
 
 ``` objc
 target 'MyApp' do
-pod 'MZCustomerCouponLib', '~> 1.0.0'
+pod 'MZCustomerCouponLib', '~> 1.0.5'
 end
 ```
 Then run a pod install inside your terminal, or from CocoaPods.app.
@@ -37,7 +37,7 @@ pod try MZCustomerCouponLib
 // OAuth Get Token
 AuthToken *objmezzofy=[[AuthToken alloc]init];
 MZCustomerLogin *objMzcustomer=[[MZCustomerLogin alloc]init];
-objmezzofy=[objMzcustomer loginmerchantauth:@"UJPTKH" secrt:@"NLCG"];
+objmezzofy=[objMzcustomer loginmerchantauth:@"OAuthkey" secrt:@"Secrt"];
 NSString * strtoken = objmezzofy.accessToken;
 
 return YES;
@@ -66,7 +66,7 @@ Login to Merchant Account
 
 AuthToken *objmezzofy=[[AuthToken alloc]init];
 MZCustomerLogin *objMzcustomer=[[MZCustomerLogin alloc]init];
-objmezzofy=[objMzcustomer loginmerchantauth:@"UJPTKH" secrt:@"NLCG"];
+objmezzofy=[objMzcustomer loginmerchantauth:@"OAuthkey" secrt:@"secrt"];
 NSString * strtoken = objmezzofy.accessToken; 
   
   -(MZAuthTokenResponse *)loginmerchantauth:(NSString *)pauth secrt:(nonnull NSString *)serc{
@@ -95,9 +95,9 @@ accessTokenExpiresAt;
 
 ```objc  
 CustomerData *objcust1=[[CustomerData alloc]init];
-[objcust1 setCustomer_email:@"kumartest005@gmail.com"];
-[objcust1 setCustomer_password:@"12345678"];
-[objcust1 setCustomer_first_name:@"Test sdk"];
+[objcust1 setCustomer_email:@"test@test.com"];
+[objcust1 setCustomer_password:@"password"];
+[objcust1 setCustomer_first_name:@"Test"];
 [objcust1 setCustomer_mobile:@"12345678"];
 [objcust1 setUser_type:@"C"];
 
@@ -128,8 +128,8 @@ customer_status;
 ```objc
 
 CustomerData *objcust=[[CustomerData alloc]init];
-[objcust setCustomer_email:@"kumartest005@gmail.com"];
-[objcust setCustomer_password:@"87654321"];
+[objcust setCustomer_email:@"test@test.com"];
+[objcust setCustomer_password:@"password"];
 
 CustomerDeviceData *objdevice=[[CustomerDeviceData alloc]init];
 [objdevice setDevice_token:@""];
@@ -165,7 +165,7 @@ customer_status;
 ```objc
 
 MZLoginResponse *retval2= [[MZLoginResponse alloc]init];
-retval2=[objMzcustomer PasswordForgot:@"Kumartest005@gmail.com" token:strtoken];
+retval2=[objMzcustomer PasswordForgot:@"test@test.com" token:strtoken];
 
 ```
 **Return**
@@ -188,7 +188,7 @@ otp_code;
 ```objc
 
 CustomerDataModel *objdata1=[[CustomerDataModel alloc]init];
-[objdata1 setNew_password:@"12345678"];
+[objdata1 setNew_password:@"password"];
 MZLoginResponse *retval3= [[MZLoginResponse alloc]init];
 
 retval3=(MZLoginResponse *)OtpPasswordForgot:(NSString*)CustomerID otp:(NSString*)potp CustomerData:(CustomerDataModel*)pnewpassword token:(NSString*)ptoken;
@@ -218,11 +218,11 @@ customer_status;
 ``` objc
 
 CustomerData *objcust2=[[CustomerData alloc]init];
-[objcust2 setCustomer_email:@"kumartest005@gmail.com"];
-[objcust2 setCustomer_first_name:@"kumar"];
+[objcust2 setCustomer_email:@"test@test.com"];
+[objcust2 setCustomer_first_name:@"test"];
 [objcust2 setCustomer_last_name:@"Test"];
-[objcust2 setCustomer_mobile:@"9976229202"];
-[objcust2 setCustomer_address:@"Chennai, india"];
+[objcust2 setCustomer_mobile:@"mobileNo"];
+[objcust2 setCustomer_address:@"Address,country"];
 CustomerDataModel *objdata3=[[CustomerDataModel alloc]init];
 [objdata3 setCustomer:objcust2];
 MZLoginResponse *retval5= [[MZLoginResponse alloc]init];  
@@ -249,8 +249,8 @@ customer_status;
 ```objc
 
 CustomerDataModel *objdata2=[[CustomerDataModel alloc]init];
-[objdata2 setOld_password:@"87654321"];
-[objdata2 setNew_password:@"12345678"];
+[objdata2 setOld_password:@"old password"];
+[objdata2 setNew_password:@"new password"];
 MZLoginResponse *retval4= [[MZLoginResponse alloc]init];
 
 retval4  = (MZLoginResponse *)PasswordChange:(NSString *)CustomerID CustomerData:(CustomerDataModel*)pcustomermodel token:(NSString*)ptoken;
@@ -373,7 +373,7 @@ default_lang;
 **Call Function For Get Merchant OAuth By Merchant Id**
 ``` objc
 
-(MZMerchantOAuthResponse *)GetMerchantOAuth:(NSString*)pmerchantId;
+(MZMerchantOAuthResponse *)GetMerchantOAuth:(NSString*)pmerchantId Oauth:(NSString *)pauth secrt:(NSString *)serc;
 
 ```
 
@@ -386,11 +386,39 @@ oauth_key;
  
 
 ``` objc
-MZCoupon *objc=[[MZCoupon alloc]init];
-MZCouponResponse *retvalc = [[MZCouponResponse alloc]init];
-retvalc = [objc getCouponsByOutletId:@"SPUFE" skip:@"0" limit:@"20" token:strtoken];  
+MZCoupon *objcoupon=[[MZCoupon alloc]init];
+MZCouponResponse *retvalcoupon = [[MZCouponResponse alloc]init];
+retvalcoupon = [objcoupon getCoupons:@"0" limit:@"20" token:strtoken];  
   
 (MZCouponResponse *)getCoupons:(NSString *)pskip limit:(NSString *)plimit token:(NSString*)ptoken;
+
+```
+limit -> returns a reduced stream of first N elements
+skip -> returns a stream of remaining elements after skipping first N elements
+
+**Return**
+Summary summary;  
+ArrayList<**CouponData**> results;
+**CouponData**
+Coupon;  
+CouponCounts ;  
+CouponMetadata;  
+CouponTimings;  
+CouponLinks;  
+Localization;  
+ArrayList<CouponImage>;  
+ArrayList<CouponOutlet>;
+
+**Call Function For Active Coupon List  by OutletId**
+![](https://mzcoupon.s3.ap-southeast-1.amazonaws.com/logo/8F0A4D7B-9E6A-478E-827E-F94BD7ABF835.jpg)
+ 
+
+``` objc
+MZCoupon *objc=[[MZCoupon alloc]init];
+MZCouponResponse *retvalc = [[MZCouponResponse alloc]init];
+retvalc = [objc getCouponsByOutletId:@"outletId" skip:@"0" limit:@"20" token:strtoken];  
+  
+(MZCouponResponse *)getCouponsByOutletId:@"outletId" skip:(NSString *)pskip limit:(NSString *)plimit token:(NSString*)ptoken;
 
 ```
 limit -> returns a reduced stream of first N elements
@@ -435,8 +463,8 @@ MZCouponSerial *couponserial8=[[MZCouponSerial alloc]init];
    CouponVoidTransactionData * txnvoiddata = [[CouponVoidTransactionData alloc]init];
 
 NSMutableArray *arraycoupon3 = [[NSMutableArray alloc]init];
-[arraycoupon3 addObject:@"HQBMWGVEPS"];
-[txnvoiddata setReference_id:@"JT7XFG"];// CustomerId
+[arraycoupon3 addObject:@"couponserial"];
+[txnvoiddata setReference_id:@"CustomerId"];// CustomerId
 [txnvoiddata setRemarks:@"Testing (Void By Customer App)"];
 [txnvoiddata setLang:@"en"];
 [txnvoiddata setTemplate_id:@""];
@@ -502,18 +530,18 @@ MZCoupon *objcoupon2=[[MZCoupon alloc]init];
 MZIssueCouponResponse *retvalcoupon2 = [[MZIssueCouponResponse alloc]init];
 IssueCustomerData * customer = [[IssueCustomerData alloc]init];
 IssueCouponModel * issuemodel = [[IssueCouponModel alloc]init];
-[customer setName:@"Kumar"];
-[customer setEmail:@"kumartest005@gmail.com"];
+[customer setName:@"Test"];
+[customer setEmail:@"test@test.com"];
 NSMutableArray *arraycoupon = [[NSMutableArray alloc]init];
 CouponData *coupon = [[CouponData alloc]init];
-[coupon setCoupon_code:@"1026390"];
+[coupon setCoupon_code:@"CouponCode"];
 [coupon setCoupon_count:@"1"];
 [arraycoupon addObject:coupon];
 
 [issuemodel setDelivery_method:@"E"];
 [issuemodel setTransaction_amount:@""];
 [issuemodel setLang:@"en"];
-[issuemodel setOutlet_id:@"SPUFE"];
+[issuemodel setOutlet_id:@"outletId"];
 [issuemodel setCoupons:arraycoupon];
 [issuemodel setCustomer: customer];
 
@@ -633,12 +661,12 @@ MZCouponSerial *couponserial7=[[MZCouponSerial alloc]init];
    CouponTransferData * txndata1 = [[CouponTransferData alloc]init];
 
     NSMutableArray *arraycoupon2 = [[NSMutableArray alloc]init];
-    [arraycoupon2 addObject:@"HQBMWGVEPS"];
-    [txndata1 setCustomer_email:@"vinothini@mezzofy.com"];
+    [arraycoupon2 addObject:@"couponserial"];
+    [txndata1 setCustomer_email:@"test@test.com"];
     [txndata1 setSerials:arraycoupon2];
     [txnmodel setTransfer_to:txndata1];
     [txnmodel setLang:@"en"];
-    [txnmodel setCustomer_id:@"JT7XFG"];
+    [txnmodel setCustomer_id:@"customerId"];
     [txnmodel setSender_message:@"Take as gift"];
     [txnmodel setTransfer_template_id:@""];
     retval6 = [couponserial7 CouponTransfer:txnmodel token:strtoken];
@@ -695,9 +723,9 @@ RedeemSerialTransactionData * txnserial = [[RedeemSerialTransactionData alloc]in
 RedeemTransactionModel * redeemmodel = [[RedeemTransactionModel alloc]init];
 [txndata setLang:@"en"];
 [txndata setTransaction_by:@"App Redemption"];
-[txndata setOutlet_id:@"SPUFE"];
+[txndata setOutlet_id:@"OutletId"];
 
-[txnserial setSerial:@"XSW4C60L5S"];
+[txnserial setSerial:@"couponserial"];
 [txnserial setRedeem_value:@"0"];
 NSMutableArray *arraycoupon1 = [[NSMutableArray alloc]init];
 [arraycoupon1 addObject:txnserial];
@@ -793,11 +821,11 @@ MZCouponSerial *couponserialre=[[MZCouponSerial alloc]init];
    CouponVoidTransactionData * txnvoiddata1 = [[CouponVoidTransactionData alloc]init];
 
 NSMutableArray *arraycouponre = [[NSMutableArray alloc]init];
-[arraycouponre addObject:@"PFRKAVHY3U"];
-[txnvoiddata1 setReference_id:@"JT7XFG"];// CustomerId
+[arraycouponre addObject:@"couponserial"];
+[txnvoiddata1 setReference_id:@"CustomerId"];// CustomerId
 [txnvoiddata1 setRemarks:@"Testing (Void By Customer App)"];
 [txnvoiddata1 setLang:@"en"];
-[txnvoiddata1 setTemplate_id:@"REFUND_HYATT_COUPON"];
+[txnvoiddata1 setTemplate_id:@"REFUND_COUPON"];
 [txnvoiddata1 setDelivery_method:@"E"];
 [voidmodel1 setTxn_serials:arraycouponre];
 [voidmodel1 setTxn_void:txnvoiddata1];
@@ -828,7 +856,7 @@ branchCode;
 ``` objc
 MZCouponSerial *couponserial4=[[MZCouponSerial alloc]init];
 MZCouponSerialResponse *retvalserial1 = [[MZCouponSerialResponse alloc]init];
-retvalserial1 = [couponserial4 getCouponSerials:@"JT7XFG" skip:@"0" limit:@"20" token:strtoken];  
+retvalserial1 = [couponserial4 getCouponSerials:@"CustomerId" skip:@"0" limit:@"20" token:strtoken];  
   
 (MZCouponSerialResponse *)getCouponSerials:(NSString *)pcustomerId skip:(NSString *)pskip limit:(NSString *)plimit token:(NSString*)ptoken;
 ```
@@ -851,7 +879,7 @@ coupon_images;
 
 MZCouponSerial* couponserial6=[[MZCouponSerial alloc]init];
 MZCouponSerialResponse *retvalserial3 = [[MZCouponSerialResponse alloc]init];
-retvalserial3 = [couponserial6 getCouponSerialsByCouponId:@"JT7XFG" couponId:@"AP0TUS" skip:@"0" limit:@"20" token:strtoken];
+retvalserial3 = [couponserial6 getCouponSerialsByCouponId:@"CustomerId" couponId:@"couponId" skip:@"0" limit:@"20" token:strtoken];
 
 (MZCouponSerialResponse *)getCouponSerialsByCouponId:(NSString *)pcustomerId couponId:(NSString *)pcouponId skip:(NSString *)pskip limit:(NSString *)plimit token:(NSString*)ptoken
 ```
@@ -872,7 +900,7 @@ coupon_images;
 
 MZCouponSerial *couponserial=[[MZCouponSerial alloc]init];
 MZSerialCouponDetailsResponse *retvalserial = [[MZSerialCouponDetailsResponse alloc]init];
-retvalserial = [couponserial getSerialCouponDetailsByCouposerial:@"XSW4C60L5S" token:strtoken]; 
+retvalserial = [couponserial getSerialCouponDetailsByCouposerial:@"couponserial" token:strtoken]; 
   
 (MZSerialCouponDetailsResponse *)getSerialCouponDetailsByCouposerial:(NSString *)pcouponserial token:(NSString*)ptoken;
 
@@ -889,7 +917,7 @@ coupon_images
 
 MZCouponSerial *couponserial5=[[MZCouponSerial alloc]init];
 MZCouponSerialResponse *retvalserial2 = [[MZCouponSerialResponse alloc]init];
-retvalserial2 = [couponserial5 getCouponSerialsByStatus:@"JT7XFG" status:@"T" skip:@"0" limit:@"20" token:strtoken];
+retvalserial2 = [couponserial5 getCouponSerialsByStatus:@"CustomerId" status:@"T" skip:@"0" limit:@"20" token:strtoken];
 
 (MZCouponSerialResponse *)getCouponSerialsByStatus:(NSString *)pcustomerId status:(NSString *)pstatus skip:(NSString *)pskip limit:(NSString *)plimit token:(NSString*)ptoken
 
@@ -915,7 +943,7 @@ Status  "R" - Redeemed
 
 MZCouponSerial *couponserial9=[[MZCouponSerial alloc]init];
 MZCouponOutletResponse *retval8 = [[MZCouponOutletResponse alloc]init];
-retval8 = [couponserial9 getOutletDetails:@"1234" token:strtoken]; 
+retval8 = [couponserial9 getOutletDetails:@"XXXX" token:strtoken]; 
   
 (MZCouponOutletResponse *)getOutletDetails:(NSString *)predeempasscode token:(NSString*)ptoken;
 ```
@@ -932,10 +960,10 @@ RedeemSerialTransactionData * txnsserial = [[RedeemSerialTransactionData alloc]i
 RedeemTransactionModel * Tredeemmodel = [[RedeemTransactionModel alloc]init];
 [txnsdata setLang:@"en"];
 [txnsdata setTransaction_by:@"App Pin Redemption"];
-[txnsdata setOutlet_id:@"SPUFE"];
+[txnsdata setOutlet_id:@"outletId"];
 [txnsdata setTransaction_note:@""];
 
-[txnsserial setSerial:@"LFTOUVV44T"];
+[txnsserial setSerial:@"couponserial"];
 [txnsserial setRedeem_value:@"0"];
 NSMutableArray *arraycoupon4 = [[NSMutableArray alloc]init];
 [arraycoupon4 addObject:txnsserial];
@@ -972,10 +1000,10 @@ RedeemSerialTransactionData * trxnserial = [[RedeemSerialTransactionData alloc]i
 RedeemTransactionModel * tredeemmodel = [[RedeemTransactionModel alloc]init];
 [trxndata setLang:@"en"];
 [trxndata setTransaction_by:@"App Pin Redemption"];
-[trxndata setOutlet_id:@"SPUFE"];
+[trxndata setOutlet_id:@"OutletId"];
 [trxndata setTransaction_note:@"Expired Redemption"];
 
-[trxnserial setSerial:@"LFTOUVV44T"];
+[trxnserial setSerial:@"couponserial"];
 [trxnserial setRedeem_value:@"0"];
 NSMutableArray *arraycoupon5 = [[NSMutableArray alloc]init];
 [arraycoupon5 addObject:trxnserial];
@@ -1012,7 +1040,7 @@ ReferenceData * refdata = [[ReferenceData alloc]init];
 [refdata setTransaction_ref_no:@"Testing"];
 [refdata setReference_image:@""];
 
-retvalredeem6 = [couponredeem6 UpdateReferenceCouponRedeem:refdata transactionId:@"1ATW6B1DNXCFJCO6Z6U2" token:strtoken];
+retvalredeem6 = [couponredeem6 UpdateReferenceCouponRedeem:refdata transactionId:@"transactionId" token:strtoken];
   
 (MZRedeemCouponResponse *)UpdateReferenceCouponRedeem:(ReferenceData *)preference transactionId:(NSString *)ptransactionId token:(NSString*)ptoken;
 ```
@@ -1026,7 +1054,7 @@ Reference_image;
 ``` objc
 MZTransactionLog *log = [[MZTransactionLog alloc]init];
 MZTransactionLogResponse *returnlog = [[MZTransactionLogResponse alloc]init];
-returnlog = [log GetTransactionLogByCustomerId:@"JT7XFG" skip:@"0" limit:@"20" token:strtoken];
+returnlog = [log GetTransactionLogByCustomerId:@"customerId" skip:@"0" limit:@"20" token:strtoken];
 
 (MZTransactionLogResponse *)GetTransactionLogByCustomerId:(NSString *)pcustomerId skip:(NSString *)pskip limit:(NSString *)plimit token:(NSString*)ptoken;
 ```

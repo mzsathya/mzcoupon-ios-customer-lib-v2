@@ -45,10 +45,10 @@
         return  returnvalue;
 }
 
-- (MZMerchantOAuthResponse *)GetMerchantOAuth:(NSString*)pmerchantId {
+- (MZMerchantOAuthResponse *)GetMerchantOAuth:(NSString*)pmerchantId Oauth:(nonnull NSString *)pauth secrt:(nonnull NSString *)serc {
     MZMerchantOAuthResponse *returnvalue=[[MZMerchantOAuthResponse alloc]init];
        
-        NSData *data = [MZUtils urlGetMerchantOAuth:[NSString stringWithFormat:@"https://merchant.mzapi.mezzofy.com/v2/oauth/%@",pmerchantId] param:nil];
+        NSData *data = [MZUtils urlGetMerchantOAuth:[NSString stringWithFormat:@"https://merchant.mzapi.mezzofy.com/v2/oauth/%@",pmerchantId] merchauthkey:pauth merchauthsecrt:serc param:nil];
         NSError* error;
         if(data){
             NSDictionary *json = [NSJSONSerialization

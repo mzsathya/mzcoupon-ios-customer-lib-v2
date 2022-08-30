@@ -32,4 +32,10 @@
 @synthesize pickup_delivery;
 @synthesize member_gln;
 @synthesize redemption_outlet_id;
+
+@synthesize error;
+@synthesize developerMessage;
+@synthesize message;
+@synthesize status;
+@synthesize code;
 @end

@@ -34,6 +34,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *pickup_delivery;
 @property (nonatomic, copy) NSString *member_gln;
 @property (nonatomic, copy) NSString *redemption_outlet_id;
+
+@property (nonatomic, strong)NSError *error;
+@property (nonatomic, copy) NSString *status;
+@property (nonatomic, copy) NSString *code;
+@property (nonatomic, copy) NSString *message;
+@property (nonatomic, copy) NSString *developerMessage;
 @end
 
 NS_ASSUME_NONNULL_END

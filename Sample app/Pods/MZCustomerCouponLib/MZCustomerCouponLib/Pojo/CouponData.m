@@ -1,0 +1,86 @@
+//
+//  CouponData.m
+//  MZCustomerCoupon_lib
+//
+//  Created by Sathya on 08/08/22.
+//
+
+#import "CouponData.h"
+
+@implementation CouponData
+@synthesize coupon_id;
+@synthesize coupon_code;
+@synthesize merchant_id;
+@synthesize productmerchant_id;
+@synthesize product_id;
+@synthesize coupon_name;
+@synthesize coupon_desc;
+@synthesize selling_price;
+@synthesize brand;
+@synthesize coupon_tc;
+@synthesize coupon_status;
+@synthesize coupon_remark;
+@synthesize tx_brand;
+@synthesize coupon_note1;
+@synthesize coupon_note2;
+@synthesize orginal_price;
+@synthesize coupon_note3;
+@synthesize pickup;
+@synthesize delivery;
+@synthesize daily_limit;
+@synthesize pack_qty;
+@synthesize booking;
+@synthesize outcall;
+@synthesize type_service;
+@synthesize email_staff;
+@synthesize coupon_over;
+@synthesize expiry_day_filter;
+@synthesize expiry_days;
+@synthesize from_date;
+@synthesize to_date;
+@synthesize coupon_type;
+@synthesize total_redeem;
+@synthesize allocation_count;
+@synthesize daily_limit_type;
+@synthesize online_redeem;
+@synthesize gtin;
+@synthesize publish;
+@synthesize start_day_filter;
+@synthesize start_days;
+@synthesize face_value;
+@synthesize coupon_discount_value;
+@synthesize daily_issue_limit;
+@synthesize display_redemption;
+@synthesize redemption_message;
+@synthesize transfer_coupon;
+@synthesize  hash_code;
+@synthesize created_on;
+@synthesize updated_on;
+@synthesize day_filter;
+@synthesize currency;
+@synthesize expired_redemption_status;
+@synthesize expiry_notification2_time;
+@synthesize expiry_notification3_time;
+@synthesize expiry_notification_days;
+@synthesize expiry_notification_days2;
+@synthesize expiry_notification_days3;
+@synthesize expiry_notification_time;
+@synthesize  notification_flag;
+@synthesize book_value;
+@synthesize refund_coupon;
+@synthesize refund_days;
+@synthesize refund_message;
+@synthesize gift_value;
+@synthesize redeemable_flag;
+@synthesize redeemable_type;
+@synthesize symbol;
+@synthesize reference_no;
+@synthesize auto_allocation_qty;
+@synthesize inventory_notification_flag;
+@synthesize trigger_qty;
+@synthesize expiry_notify_via;
+@synthesize display_redeemable_qty;
+@synthesize coupon_direct_url;
+@synthesize direct_download_flag;
+@synthesize coupon_count;
+@end

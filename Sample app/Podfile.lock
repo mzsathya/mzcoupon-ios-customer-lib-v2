@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - MZCustomerCouponLib (1.0.5):
+    - AFNetworking (~> 4.0)
+    - MZCustomerCouponLib/no-arc (= 1.0.5)
+  - MZCustomerCouponLib/no-arc (1.0.5):
+    - AFNetworking (~> 4.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0)
+  - MZCustomerCouponLib (~> 1.0.5)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - MZCustomerCouponLib
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  MZCustomerCouponLib: e9249f4307f1f18613659899ca4e2b3757b8c50b
+
+PODFILE CHECKSUM: d464797d9bd8b09ce25aa168a99dd00a9e136f80
+
+COCOAPODS: 1.10.1

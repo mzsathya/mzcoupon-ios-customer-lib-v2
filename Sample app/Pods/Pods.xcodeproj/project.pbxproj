@@ -1,0 +1,1432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0154CBA864011086A90C30A601A15EA9 /* TransactionLogModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB6D675D57BB6A5D721A76517DEDE8D /* TransactionLogModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0362D6F9FFFE4724A3DD8ABBC7345177 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E546829A91892B19E2453417F35173DB /* UIProgressView+AFNetworking.m */; };
+		0479D9A76B452E6808F76D84437DFE31 /* CouponCountData.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DEC261A2FC5EF7A6BDE982108DC7C5 /* CouponCountData.m */; };
+		05AF1757987BE74693CEEC3D066459CF /* CouponLinksData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B018404999F56E92C449544D28B83FE /* CouponLinksData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		080E0D1A081E1E451108906AA9B3CF36 /* CouponSerialListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE2A339B216A7C9F21EA69E921B72A4 /* CouponSerialListModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08A8333B9E90827A92F77D44EB7EF9CE /* DeveloperMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAC0D7C077D751A18D3E00B7FAC4DD0 /* DeveloperMessageData.m */; };
+		0A15C977AB5BF85797371DE5B8BFBEAE /* SerialTransactionsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F208EBB9A0490CE9AF168F8AEBB814AE /* SerialTransactionsModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C3D76ADC71F61796FC1591C5BF2F3D2 /* CouponMerchantData.h in Headers */ = {isa = PBXBuildFile; fileRef = 015C8D5ABB38329B6A0809FED2BF0AE9 /* CouponMerchantData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D722474929FAF56B63E3767ED71DE48 /* TransactionRedeemData.h in Headers */ = {isa = PBXBuildFile; fileRef = AB913B96EF97089409494B081FF531E7 /* TransactionRedeemData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DD5197FE356065BC338B911BC93035C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F9D8AAA9F4282327D97E02F0717DBE /* AFURLRequestSerialization.m */; };
+		0ED47D853DA2920A304F167B5FEBE112 /* TransactionIssueData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A6F1C11A1F6928EC65BAA91BE3C3A9E /* TransactionIssueData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F5048828137D4AF0F35DA724E18BD43 /* MZIssueCouponResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A3B5E7172E7F2361E1642B0F11FDCC /* MZIssueCouponResponse.m */; };
+		126EB8F5D568AEAF528F728A396B5205 /* SerialData.h in Headers */ = {isa = PBXBuildFile; fileRef = DB564498B0D4748DB6183668E2DB8CC8 /* SerialData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1412578A3A5DCE23C553570CDD7D28F4 /* MZCouponResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E8852B66D102C372FBB12CEC175C8998 /* MZCouponResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16B2B4A252698342651259F6B3E23B5F /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8934B37C69232C026E42401400D417 /* AFImageDownloader.m */; };
+		17288584A08F61D8B57F4B62BF170329 /* TransactionAllocationData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3615C95FC3A43428205E121D643CB8ED /* TransactionAllocationData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1888FDCAAA3AAE8056FA3048C4090A07 /* MZCustomerLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B96BCF05A6BC5F675B016CAA51BB7C0 /* MZCustomerLogin.m */; };
+		194FB9DAD3FB79555117FBBDEFFE23A0 /* CustomerDeviceDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E00EAACCAFAC10A5C7685C765DAA81 /* CustomerDeviceDataModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A1CB70F11FAA4C13F971AF15DEB8C3F /* MZLoginResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C3FD860B539130158AD824590BBAD /* MZLoginResponse.m */; };
+		1D2E7104E58DE4065AF7209DBA059C8F /* MZCouponSerialResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ACAF598D2CD08E8D2A9E197A23C453 /* MZCouponSerialResponse.m */; };
+		1D309AA428411E3FB36AED031282B5E1 /* MZTransactionLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FDA5C32DBF95812B750A2EF11C59D6E /* MZTransactionLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D3E78C7D7B784B7973BBEFE1F9DBE95 /* IssueCustomerData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FDF678348B2C45148FEDBE09DD3913E /* IssueCustomerData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		20891D3C4424AD0FBCFD0F8BC420A05C /* MerchantData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E01A1921E1704F316C5867127D4FB97 /* MerchantData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		20E5264222EF2C1AE2063B72EF13C707 /* PaymentData.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BE70376E4D4AAC36BF3BF081F145DC /* PaymentData.m */; };
+		2126F08640A83B4731CFE6565AA7700B /* SerialOutletData.m in Sources */ = {isa = PBXBuildFile; fileRef = B22AC93F1E6FC8BE40BF63FA4CCA6ADD /* SerialOutletData.m */; };
+		214383CD2601E7D469ECFCE2713839AC /* CouponserialList.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BB51967E22D8296E9F9C0B2239B8D3 /* CouponserialList.m */; };
+		21CD4038B75A9B68BCC7CB3A470A1463 /* CouponTimingsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1634FA69D4F9B1B54ED98B64B94623 /* CouponTimingsData.m */; };
+		230D4BDFC26D30F58F760614A723AD92 /* IssueCouponCommitData.m in Sources */ = {isa = PBXBuildFile; fileRef = B132340F7BDD5E23BE98BE97D393861E /* IssueCouponCommitData.m */; };
+		25BDE68C15F69C0BA1B719A9993E8A81 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D13CF201D889C0AAA9CCA3D07DF1822A /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		288E471A1AF4ED02BFC4FA3E02689309 /* CustomerDeviceDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CCD6823E173D472E3576A54E6FF01F /* CustomerDeviceDataModel.m */; };
+		2BC1D6BF2BC07C45C4F89A543DA3D55E /* CouponImagesData.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C4E14656E55C7764271C4763869CB8 /* CouponImagesData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2EC4F3CC2EE796EA1EBDB5D854BB602A /* MZMerchant.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC367EE10EFE4EE2E567CAC67032620 /* MZMerchant.m */; };
+		2F924D995A0D68EEE5AB9E64712FC27D /* RedeemSerialTransactionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF199B12815520C1EB87DAAE4124B9 /* RedeemSerialTransactionData.m */; };
+		2F9ADF3A88ADBCBAD21A309E5807EA3C /* MZCouponResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1548624C630BA1FFE96CBCA1F418EC /* MZCouponResponse.m */; };
+		3276205C4CD22B960EA97FE45F481588 /* TransactionLogDetailsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DC23FAF490A29D1FF1DE068F55B68 /* TransactionLogDetailsData.m */; };
+		33CD54C0DBDB94DBD808DBAA29EFBC82 /* CouponLinksData.m in Sources */ = {isa = PBXBuildFile; fileRef = 361B95168BA5BC6D0E19DEE31CC24225 /* CouponLinksData.m */; };
+		34E62F05ED95A4317D0F2B39DEBF12B4 /* MZAuthTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E1830CBB7E6DF02FDEF51FF0FA8D5E67 /* MZAuthTokenResponse.m */; };
+		371C619D3C8E9284056A87D7CE10D9CB /* CouponSerialListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D759B2935D738CCD77365E135AFA06 /* CouponSerialListModel.m */; };
+		3891FE980B9B030FF542F62C2DF049EA /* CouponTransferData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC23C86B3B9EE3E019BDD998D7102DD /* CouponTransferData.m */; };
+		3BA55DD41D4EF85E78C74F84A419334B /* MZRedeemCouponResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE50399D72B855485229444BCEAA91C /* MZRedeemCouponResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3DC8403F7343F6DAF3004E6C36793F25 /* CouponVoidModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F711C849D7B48371CE758EE4CA27C5F4 /* CouponVoidModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E5D2116666B5BBF7003B4DF1F2B8E70 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4EDFA4E0C9F8D8AEC902C08369CDD9 /* AFURLResponseSerialization.m */; };
+		3E810B450F5776164ED2B2136F376988 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF3E4B01E3E00EAF74FD058784D3E75 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		422FC8AFD08F403080A14BB88D050FBD /* Pods-testpos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B85799E4DA2AB7BF7ADA5DEA497090E5 /* Pods-testpos-dummy.m */; };
+		485778FB430AE2E4D600DA4242E2ABAE /* PaymentListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E97664D5C857E3B8008498BFDF2CC171 /* PaymentListModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B15E9A40E135D65B76AF8AC5AAACE8B /* RedeemResponseData.h in Headers */ = {isa = PBXBuildFile; fileRef = DACD93C817472E2DA3D660BAF95502FB /* RedeemResponseData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C462AAC75684BF8620D7D3095280381 /* CouponOutletsData.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C882732B65D76003EFDD243CAE9606 /* CouponOutletsData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4DB186A476EA25A417BED31EC978DAA4 /* CouponListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2D1BC34D07F712194159FF722C34D2 /* CouponListData.m */; };
+		4F15427743694F1A161117EFA5136CC0 /* RedeemResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E01C2D783AB26A2413B1BB2607070E /* RedeemResponseData.m */; };
+		508908F5D1679AD6DD06A17A1F307211 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C11F4326B78D5D1E99E4670FAB7FC /* UIImageView+AFNetworking.m */; };
+		50AF3B7F03EA4433987775FF6C6BD020 /* MZPayment.h in Headers */ = {isa = PBXBuildFile; fileRef = 3947E20D630F3684C93864DC947DC47A /* MZPayment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		517C94804E88443C3EFD518C9762FE81 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 756B41F28277C77CAA8440C1EF11DB09 /* AFNetworkActivityIndicatorManager.m */; };
+		51EA3A1B77144FCA8FB2BE01E674C904 /* ReferenceData.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A54B41CC253D03F30557D187EDB7FC /* ReferenceData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		54C6ED5D0B3F088A737F93BF2B955F94 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D4BB17117D6A88DC82E914BE5932D /* AFAutoPurgingImageCache.m */; };
+		55C69F04B03EAF75325C926B6B97AB51 /* IssueCouponModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B50CA87D11A17FC068EEEB9ABC31C04 /* IssueCouponModel.m */; };
+		55F3153D1DBAC97FE790B39E1A5FBA93 /* MZJastorRuntimeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F678E77E56088D5DA4F2FB3280B4A0 /* MZJastorRuntimeHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56C022169B9D21A4E4DDB653617DB29E /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353ED24CB78556EDB58A8BC85EEDF6B /* WKWebView+AFNetworking.m */; };
+		5707570AB305B316D5580391A9ED9D65 /* MZPaymentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE77DD3AE0C6FBBF351B0009F8B330 /* MZPaymentResponse.m */; };
+		5741E36A2063802C987597A3F54D1EE5 /* RedeemSerialTransactionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9053A906993C5BA9BEB6A735E3BE17E7 /* RedeemSerialTransactionData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		586D54E48EB243E9BA9E7E70A000D5AB /* MZJastor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A2A8836FFBDC020A1297CD057FF22C /* MZJastor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		5B110124138572BA3C242DB9899392CD /* MZTransactionLogResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C95B4B0BD70227CDFD770C6A2EA6D8CA /* MZTransactionLogResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B177874210BD89259B60A5B1BDF05A3 /* MZCustomerCouponLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 919ADCDA2DE30BADEB1369A3CBB35697 /* MZCustomerCouponLib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CDE30F2320ABAED5CE9BB13CE087BC1 /* CustomerDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA728BAA2CF29087D07E5F5EB7F20 /* CustomerDataModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E542F46366F9E6922FB711624B930CD /* MZMerchantOAuthResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C455F05573A7B64F7E8E66C7E97139E4 /* MZMerchantOAuthResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E6BE955193A2EEB020D2AA8B4F8AE2A /* RedeemTransactionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB15C6072E4F0CEEDA52D32BD4011BF /* RedeemTransactionModel.m */; };
+		60042A54B7923BA8BA04A6AC7913A794 /* CouponTransferModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 095D4D58FD2008A06A7992A62E357285 /* CouponTransferModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		616D9A51E2A7612ED844A95F8B6D24F9 /* CouponSerialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E05BC2CFC3346CAB6279461D3F2745CF /* CouponSerialModel.m */; };
+		64AE37A3C8FEE91C4A2FD904B06D1D71 /* CouponMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D8B0CEB5C34C652E493ECF17F995ED /* CouponMetaData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6707C13A68D408E10A4E656105AD1BAB /* CustomerCouponData.m in Sources */ = {isa = PBXBuildFile; fileRef = 590FC97195F995A376ACA91A3911DBEE /* CustomerCouponData.m */; };
+		67E3A569B6369031770BD7AD3C9B4361 /* CustomerCouponData.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F6B1BD14F4B4D9EC1CC23599EC2F44 /* CustomerCouponData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		686C8573BAF946A865C85F99811BC916 /* MZJastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9771A9785E697F31428B7AC277D440 /* MZJastorRuntimeHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		69569A19469194C73F74117D322356FD /* TransactionVoidData.h in Headers */ = {isa = PBXBuildFile; fileRef = 36716AE74CEBAFE5B12EFC2390D38920 /* TransactionVoidData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6972A358F2E63DE60D4FAB9806D1726D /* CouponImageListData.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA2CC1E2B0C7113B1CB36E55FB966D1 /* CouponImageListData.m */; };
+		69E060C687C095E8C6AD70F4355A54DA /* MZCouponSerial.m in Sources */ = {isa = PBXBuildFile; fileRef = 3994B975FDB0FFEABD2F0E68FDDB01CD /* MZCouponSerial.m */; };
+		6D1E012B9DCB81A34BB0F25CFA807A52 /* MZSerialCouponDetailsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FF805C68D089160BD2FC8A8ABDA87853 /* MZSerialCouponDetailsResponse.m */; };
+		6D44D2F192EF4F3C69A5BD0893F66013 /* MZPaymentResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = CF444D51D4E0F71E3F62F505D6A1EEB9 /* MZPaymentResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6E7CD41C4B467BD435203C0688353906 /* IssueCouponCommitData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA6710B63352E29D9578B4816727636 /* IssueCouponCommitData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		703EDC28A8CDF23D85A1DC97907D5CFF /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 497CE1A506C98374F10391F8157C0779 /* AFNetworkReachabilityManager.m */; };
+		74676D35D75D5E8F7A294A9DCA2E4D5A /* MZTransactionLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D2D9579D46DC846BAEECB3CFF97B5 /* MZTransactionLog.m */; };
+		760E1899AEAA102651CB096F14BE60AA /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D02370699E04818053370A489887A0EA /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76B0B411B622F2DAA962A6540232FE5E /* CouponMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = BD832E2DF465B74B1EDE00810E57E251 /* CouponMetaData.m */; };
+		789EC007D6ECCA23FD82B1533C18B060 /* CustomerDeviceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A650FC23703EF1E8DB255533BE9D49C /* CustomerDeviceData.m */; };
+		7A69EEE80DB275628512EFDBDF306D8D /* CustomerCouponModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E739CDC0195F65D4B4CE3AE6635A8A /* CustomerCouponModel.m */; };
+		7CE5C9B4E947E7A548EB444FA181B7D8 /* MZMerchant.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED1F4273E0C8119A543AC202BEBB08B /* MZMerchant.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E760584953713162F90E4B090232F08 /* MZCustomerLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E25B23FDA2D1BB808729D4CE9E593 /* MZCustomerLogin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		822A0E34D1599176AE725355A439C811 /* RedeemCouponCommitData.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AA2E7E35B3A72048F2B79B7FE76060 /* RedeemCouponCommitData.m */; };
+		847A4B40C618458C463D0E301DAA6EDF /* TransactionRedeemData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA9A34E7D9DEE082242E8440A4FB892 /* TransactionRedeemData.m */; };
+		8528D53AD0B50027BFD3B185A8DD1BB7 /* CustomerData.h in Headers */ = {isa = PBXBuildFile; fileRef = 08653BC10844DDE55E8070A214000575 /* CustomerData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85CAF5CD1D692EDE420B0BD5FFD5CBC5 /* RedeemCouponCommitData.h in Headers */ = {isa = PBXBuildFile; fileRef = F3C79C454831139CE68AB51CDE59C912 /* RedeemCouponCommitData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87525AA667414CE828DD9A015D99FDC8 /* TransactionLogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F36794E1C675E188571D8F3930479D59 /* TransactionLogModel.m */; };
+		87E7AC5D2524D9C2348C2219FE1368F1 /* CouponSerialModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 59762717978EDA026254A142279A5664 /* CouponSerialModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8957AA7B1A07DF7E81A0117D57E9A2A9 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 577616A08A459E64C3B1B42D53EDF5EE /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89F78066144CFDBD90D296CFF193744C /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DB7A965E485081B53A90AC5F4D03A0 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C3068DC0AA3937AF054E9BA36A5C2FA /* TransactionLogData.h in Headers */ = {isa = PBXBuildFile; fileRef = F861FAA5E6C093E51056EB82728535C0 /* TransactionLogData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C980BBE2D88514A15B772233F414F4F /* CouponSerialData.h in Headers */ = {isa = PBXBuildFile; fileRef = 52EFACB9624FABDA50853B801D9E85E4 /* CouponSerialData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E134901B5B3E7B0E8BD3F1E0229430C /* CouponTransferModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3986458AD3A9CABF913282DE21554C5 /* CouponTransferModel.m */; };
+		8FDB85FB21FC47EC794745DDDA1A504D /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = E44AEA3E0381FF63463641F4FADE1FBD /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		906A146CCA0CEF0B57C8182B07E94F8D /* MZUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 654C830FAE5A046EB7408258781AE781 /* MZUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		906C48308FD1772A1C8D3C3C60B36DF5 /* TransactionLogDetailsData.h in Headers */ = {isa = PBXBuildFile; fileRef = 629A542C0CB8F3431BF1AD03E6A00F30 /* TransactionLogDetailsData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90D15A815F91BD2F4A29FC456D6AC303 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6677BC34205465A4D0D4FDF3312478 /* AFNetworking-dummy.m */; };
+		915B64894678962AF637CF6E6812584A /* TransactionIssueData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1670AF9F319DCF3D872827564FD916EA /* TransactionIssueData.m */; };
+		934369FF599DDA35F12D1B9718CFB789 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4796225FDB54E239A65EDF1B2FD2F385 /* AFSecurityPolicy.m */; };
+		94D720848AD1E1602EF12DA8A447B82D /* SerialTransactionsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0644EDA4803CAB6CC0DC4892F9E4392 /* SerialTransactionsModel.m */; };
+		96712447C7726DB45CD7212DA4B9C3E2 /* TransactionLogData.m in Sources */ = {isa = PBXBuildFile; fileRef = B61044FEBF21D732E0366C0620DF972A /* TransactionLogData.m */; };
+		9834BAC11D67A37DBE192E490C075FD5 /* SerialOutletListData.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DF40D989A4D6ECE7FBC74CC09F5BC4 /* SerialOutletListData.m */; };
+		9872CE9A700D77FC2869214824CA2A71 /* MZCouponOutletResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = F8607BCA370CB79BDDCB078CD9A2E4C8 /* MZCouponOutletResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99C3ABC639238C3FB4570783A3284367 /* CouponOutletListData.h in Headers */ = {isa = PBXBuildFile; fileRef = C9977AD3AC3F9ABEB58054EF226F755C /* CouponOutletListData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EB1DA15FC8D25CE08AD3889D7CB8454 /* MerchantData.m in Sources */ = {isa = PBXBuildFile; fileRef = BC134C210D953A09E23E1CA88E65E466 /* MerchantData.m */; };
+		9F448FEB9E27FB18B826AC7F7089274C /* MZPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC74A7F106A41DB985D7F7013FFC9A /* MZPayment.m */; };
+		9F97A17D9C6BDCB44C69DD57C9D5F51A /* CouponMerchantData.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CE08639F1E18F8F677ECBCB4F630C1 /* CouponMerchantData.m */; };
+		A000FB9B2FE259333CC579D53363460D /* CouponCountData.h in Headers */ = {isa = PBXBuildFile; fileRef = A80A98CB5ACCA599867CAA113848D727 /* CouponCountData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A0DE26E18A4ACDADC485BC5B42695542 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EDCDBA72DB22493072F08D82B370FE /* UIButton+AFNetworking.m */; };
+		A15512F0E631E6E750F616EA6310020E /* DeveloperMessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E91359011F9B5E114EA6B410062096 /* DeveloperMessageData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A23CE43DEF1DD149F38DACC05FDEB4D5 /* MZCouponDetailsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6AA6684F4783FEC372B7512D89E29B /* MZCouponDetailsResponse.m */; };
+		A31688C942EEC73F18F196F42FA37320 /* MZCustomerCouponLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADA43152BAC93446719EC4183FA0854 /* MZCustomerCouponLib-dummy.m */; };
+		A3FEABE9EED2D6B8AC8D0B056DC2A118 /* SummaryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8589A876836B607E1B66FCBCF8C7E /* SummaryData.m */; };
+		A43CA70CF379D8E2CEA0D9B9142F03BF /* CouponVoidModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4798E1B4520D78E2E1F694867AF863E /* CouponVoidModel.m */; };
+		A4E4BD914404BF20AFE5E288BE2608D3 /* CouponOutletsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CC19B92318B100A79C3292221D6D0E /* CouponOutletsData.m */; };
+		A56B02E155D72F55F098672069BB4387 /* CouponData.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F36137673C0EC724550D402089EBDB /* CouponData.m */; };
+		A58D961B3131B67678B39D582FF72B46 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B7952B523333843BA7EFA0B095A24521 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A693E7C90C6AC5D000CAED3CF677AF36 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C9ECBC03D79BBDEA886136E41168AA /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A814621B535049E533A4662F8AF43642 /* CustomerDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B7BC64E147B20C0FABA401E8969A5 /* CustomerDataModel.m */; };
+		A84B28429A0016284B3399A7C7682F9D /* CouponVoidTransactionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18238AC470B91E926EC0E6B8D7E9A717 /* CouponVoidTransactionData.m */; };
+		A8B344E8ECB949A3DE8C99744ACF5545 /* CouponImageListData.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE241D70C839A22B04B6560F5C725AB /* CouponImageListData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8BCEA0C86FC8B44E0035EA1859A12CF /* CouponTimingsData.h in Headers */ = {isa = PBXBuildFile; fileRef = 235A2966E5E2A79FB6FEA4852C3FD1AE /* CouponTimingsData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A924D0F76B01DAE0182FFF539E702871 /* CouponOutletListData.m in Sources */ = {isa = PBXBuildFile; fileRef = A739A375A04B1070469145ADCC14D03B /* CouponOutletListData.m */; };
+		A9AE5BA55FF726BA9B3B4324935EDCE3 /* MZAuthTokenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E22DF196353117CB922CADBC0A110A /* MZAuthTokenResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA2CD9BC8AF7E7D96041DEC6779FE8B4 /* SerialOutletData.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5F9343C0862BF8C3395D12BCE40DAB /* SerialOutletData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB7B07954A58639530989B470A7B379F /* MZMerchantResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2861C4DEB08E7175DF85731678D51315 /* MZMerchantResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AFAA7085A00A0351A1E5ADDBC02E0DD1 /* CouponserialList.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F37B9BD9DD83C01F17203ABB1E9313 /* CouponserialList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5F7AE6BEE24CD0E035E16046CC40E05 /* MZMerchantSettingResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A339C59175136D961F7A434B8A22B8 /* MZMerchantSettingResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7B82E12541B71F6BCADF0129AF754C9 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = B33A915E9A5E4319E54B028D5F541098 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B912784B041A1FA093269EB66862873D /* WKWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CF4104A80BA6ED82CD0E2D8C60E9A189 /* WKWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BAA035AF842966309992F1B7E7E5B17E /* MZRedeemCouponResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 85710958942705DFBE7E989006E6E92A /* MZRedeemCouponResponse.m */; };
+		BAF3BFA25F479D221D8A73AC219A0D21 /* AuthToken.h in Headers */ = {isa = PBXBuildFile; fileRef = A10C00D48B079037CE3DDD707DA02F59 /* AuthToken.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC71ADFAE509F6DE8C73D33CCC920ACB /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22AF45F115D1F6B9496E22E22557D4BD /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC9BBDDB7C1939B0F76D0DD306F5AF00 /* CouponData.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA2C053349362B8115828322E6EB47C /* CouponData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C08FD8A72F5922E426423F2BFBB74012 /* MZMerchantResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 838A1BFD40F19710E4ED7316BE726264 /* MZMerchantResponse.m */; };
+		C0D6C7DB1B813CDCF4D72B73A7514112 /* CouponImagesData.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A5726A959F21C49B5C499E730F8A1B /* CouponImagesData.m */; };
+		C25D8AA7AC5183E0499F1125534B9B72 /* CouponVoidTransactionData.h in Headers */ = {isa = PBXBuildFile; fileRef = B364458576E9BB3144DBE63A9987E42A /* CouponVoidTransactionData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C39B6EDE6D628CF99C25E54A108756A4 /* MZCouponDetailsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 835B76C354D58CEA4004A77759B890C3 /* MZCouponDetailsResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3E4DF942B484EB661C3F1482C64F7C3 /* MZLoginResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D593C3E6F7D552D887C3C737CAFAD5 /* MZLoginResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C506F7D16284BC3898F5E5333F3A15FA /* RedeemTransactionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 123F92919F9A78E0EEF438BC7B95D4D7 /* RedeemTransactionData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C53724481EDE8B6D88B45CE0B587AEFC /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4069BAB63AC8919D398F0155FE15DFDD /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CAB09959CEF5E3A10E28CB2B9F4F211A /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 30FE691D1CDCB31F9246B4EA87044816 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CADA1EB4516CA50D6FFC526DBACAB03A /* MZMerchantOAuthResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4C17E5851B61691768D326EC363F4E /* MZMerchantOAuthResponse.m */; };
+		CAF8580D6ED4980C7ADF9DE194F85650 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC22954D8F45DE10A8659820A4043DE /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC4718FB1BFB356A02492A7A5579C3F4 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3933FC6588293826997BD7C5538969 /* UIActivityIndicatorView+AFNetworking.m */; };
+		CC835E206359BC857F4533D575F15E5F /* SerialOutletListData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5056E1FDFFE2AACB79D286115B37B66B /* SerialOutletListData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCAD3058C1A7AF7AC4D29324D416147E /* ReferenceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669D593AD5C672C9FCFFC66096777CB /* ReferenceData.m */; };
+		CEBD9BDC63D4B70F591AAE37BD5537B8 /* AuthToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4251DC45AB7B8BFF3B457F137FFD44 /* AuthToken.m */; };
+		CFFA68D606240C00F71DCCD49B27FC07 /* SerialData.m in Sources */ = {isa = PBXBuildFile; fileRef = 179DF4BCFB1F1DEE63038D2449596DE5 /* SerialData.m */; };
+		D42439DE1BAA17AC1E4AF83B38427C24 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A6449E83210962BB420168BE7F78AF02 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D458579EF42169670CF966C8A768476C /* RedeemTransactionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 19357D0DD6A658E4ABDB8C0EAAC0548A /* RedeemTransactionModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D4F3C1375E2823AB641F0D5574447F90 /* MZIssueCouponResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 51399389D8B30201823C2EB6D631D4DB /* MZIssueCouponResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5C7A15EC936E7A18BECFFD45609080C /* PaymentListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D784734D6B8ABF3C26170FEDAA6C15 /* PaymentListModel.m */; };
+		D8914C93AC290F510500C1FF4B8FC956 /* TransactionVoidData.m in Sources */ = {isa = PBXBuildFile; fileRef = 122E2D81FC31246BF6E04A9E81C844FF /* TransactionVoidData.m */; };
+		D930EDB651BDC79858D5553ED88C7241 /* MZCouponSerial.h in Headers */ = {isa = PBXBuildFile; fileRef = 388CAC6CE2946A02F748DC29E5D695D5 /* MZCouponSerial.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D9F56517E1D97B48C7D8F30522969E5E /* TransactionAllocationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 94724E8177DE8856D003DE7307336179 /* TransactionAllocationData.m */; };
+		DB6219C37A71EF717732C8857942A6C3 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DDC66A6FB2475DB636D01A1A83AB1C /* UIRefreshControl+AFNetworking.m */; };
+		DB941D59CF0E33549046E16A1A74C5C5 /* MZJastor.h in Headers */ = {isa = PBXBuildFile; fileRef = 437C08C5ECCDF2738C7C20E13FD6CFC3 /* MZJastor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCC18DC81BA5872A8757AE82A097785D /* MZSerialCouponDetailsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ECE930B25A669CFF767820693D6DCB4 /* MZSerialCouponDetailsResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDA09D4C8D1559D493911B825FCE4D8B /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91391A724BE7D3551C2578524F9D9209 /* AFHTTPSessionManager.m */; };
+		DE8C07A91ABD8E0211FCB086D5C1FB44 /* MZUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A65CDF1C67D7B7E1E56CAD2EEB055C56 /* MZUtils.m */; };
+		DEE3CBDA2426FB23A0FFC4D00CFDFF23 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE28C6EE6750461E2F094A9BDE8C84B /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DEF15CA0EE28ED85D234DEED5CE8645C /* CouponSerialData.m in Sources */ = {isa = PBXBuildFile; fileRef = C307C2AA8AE382C356E35FE78613CA43 /* CouponSerialData.m */; };
+		E1CC9DEF8E23E687539760BE46103BD2 /* MZMerchantSettingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 971A105E68EFB78D23345F0881493AAA /* MZMerchantSettingResponse.m */; };
+		E3BB3ABAC1A510C02CB2D54E59DACFC8 /* IssueCouponModel.h in Headers */ = {isa = PBXBuildFile; fileRef = DF391AA0E29F0AB95ED44CC6D2A00B53 /* IssueCouponModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3F13E0C8101120289740D6ED0FF7B52 /* MZTransactionLogResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BCA012F543585BCA1BDFAC8759F5AF /* MZTransactionLogResponse.m */; };
+		E438F428EA31C79DD9303976921B3AF4 /* MZCoupon.h in Headers */ = {isa = PBXBuildFile; fileRef = DB468D03E0C6AD01DA56B03E408B55C3 /* MZCoupon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5CB5D873EE0E259DA28CBF9C8EC78DA /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F303A3BD6E5BF6A38E5C7ED7DFC472B /* AFURLSessionManager.m */; };
+		E67DF8AE2B4AE024111A8482D031E13A /* CouponListData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B3AB52A47D832270BF8195FD2D902F6 /* CouponListData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E700D209497E847267E64DAF010E04CB /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 104788CB068D77C8B3540CD1FD1A25D3 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E71192D76FB8CA046AABA874B79C09DF /* MZExpressRedeem.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D7C127EF9CC4103E30AE5BE64E9432 /* MZExpressRedeem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E71BFE13A78DDB87407584A8A94C4AEB /* CustomerData.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F47680D9ECF991446D8C2CC2A4605A /* CustomerData.m */; };
+		EA53586FBB614B0D778AE5AAE4857137 /* CouponTransferData.h in Headers */ = {isa = PBXBuildFile; fileRef = F4371DD8EB88EC70283D43CFDB259D57 /* CouponTransferData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EBE7D68941A498D27AC5457083B678ED /* MZCoupon.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D2E30C415F6FF6F5819D81E95C395F /* MZCoupon.m */; };
+		EC28321A651D747F25F3701CC9BD2E16 /* MZCouponSerialResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BCE504015CEE6AAA697D5C36FC215AF /* MZCouponSerialResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDF8D992DE442BD3828BA2630AF8652C /* MZExpressRedeem.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDCA2A2E5400705BDD6313CB0DE7C11 /* MZExpressRedeem.m */; };
+		F0154DF529181ED15B0895B3349A9715 /* CustomerCouponModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 660E3D7819828A671E2AFE110293CC2A /* CustomerCouponModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F03B276745F37E505667479C9DE0C7F2 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B010E143137174F9453B41E8F8F4208 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F137EA5F9C8FAA0C1573E723D3087DB3 /* RedeemTransactionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F48372EA2EA72206AB27F612375D91D /* RedeemTransactionData.m */; };
+		F418243B37FD5C46906BF419AEE8EEE1 /* IssueCustomerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 20449589C40D8A53196A594A7191F91F /* IssueCustomerData.m */; };
+		F65C86C93B942CACB2C512F31F73A808 /* MZCouponOutletResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B0FD4E9FC7830F2BF8ED9FA8D9BE1 /* MZCouponOutletResponse.m */; };
+		FAB61E375CE8B6F508CC7D08AA0539A5 /* SummaryData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9FABC658FD1DF1CB78E35446F2F174 /* SummaryData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB99535BD0C31CBEDFA2A936AE7D4FE0 /* PaymentData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0C043DEF26D7DF137C09FE75ABDC07 /* PaymentData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE2CCB8B7FE04AF5AFC1D5C5B26D4DEB /* CustomerDeviceData.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE718061E0F9330D923E9C9C6DCABD5 /* CustomerDeviceData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C7B7EB970F992ADED4093A71C65BB24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77054136E10489F5FB02F2E68F09F0BE;
+			remoteInfo = MZCustomerCouponLib;
+		};
+		2A821CBD1438CF4F2013137A327BB9CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		E143BE8C15E3893616809F0DA351ACE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015C8D5ABB38329B6A0809FED2BF0AE9 /* CouponMerchantData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponMerchantData.h; path = MZCustomerCouponLib/Pojo/CouponMerchantData.h; sourceTree = "<group>"; };
+		03F6B1BD14F4B4D9EC1CC23599EC2F44 /* CustomerCouponData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomerCouponData.h; path = MZCustomerCouponLib/Pojo/CustomerCouponData.h; sourceTree = "<group>"; };
+		08653BC10844DDE55E8070A214000575 /* CustomerData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomerData.h; path = MZCustomerCouponLib/Pojo/CustomerData.h; sourceTree = "<group>"; };
+		095D4D58FD2008A06A7992A62E357285 /* CouponTransferModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponTransferModel.h; path = MZCustomerCouponLib/Pojo/CouponTransferModel.h; sourceTree = "<group>"; };
+		0BE50399D72B855485229444BCEAA91C /* MZRedeemCouponResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZRedeemCouponResponse.h; path = MZCustomerCouponLib/DataResponse/CouponSerial/MZRedeemCouponResponse.h; sourceTree = "<group>"; };
+		0C5DC23FAF490A29D1FF1DE068F55B68 /* TransactionLogDetailsData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransactionLogDetailsData.m; path = MZCustomerCouponLib/Pojo/TransactionLogDetailsData.m; sourceTree = "<group>"; };
+		0DAE77DD3AE0C6FBBF351B0009F8B330 /* MZPaymentResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZPaymentResponse.m; path = MZCustomerCouponLib/DataResponse/Coupon/MZPaymentResponse.m; sourceTree = "<group>"; };
+		0DB15C6072E4F0CEEDA52D32BD4011BF /* RedeemTransactionModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RedeemTransactionModel.m; path = MZCustomerCouponLib/Pojo/RedeemTransactionModel.m; sourceTree = "<group>"; };
+		0E6B0FD4E9FC7830F2BF8ED9FA8D9BE1 /* MZCouponOutletResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZCouponOutletResponse.m; path = MZCustomerCouponLib/DataResponse/CouponSerial/MZCouponOutletResponse.m; sourceTree = "<group>"; };
+		104788CB068D77C8B3540CD1FD1A25D3 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		122E2D81FC31246BF6E04A9E81C844FF /* TransactionVoidData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransactionVoidData.m; path = MZCustomerCouponLib/Pojo/TransactionVoidData.m; sourceTree = "<group>"; };
+		123F92919F9A78E0EEF438BC7B95D4D7 /* RedeemTransactionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RedeemTransactionData.h; path = MZCustomerCouponLib/Pojo/RedeemTransactionData.h; sourceTree = "<group>"; };
+		12A2A8836FFBDC020A1297CD057FF22C /* MZJastor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZJastor.m; path = MZCustomerCouponLib/Jastor/MZJastor.m; sourceTree = "<group>"; };
+		1399F3F847BB2783FB03900E72C63597 /* Pods-testpos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testpos.release.xcconfig"; sourceTree = "<group>"; };
+		1670AF9F319DCF3D872827564FD916EA /* TransactionIssueData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransactionIssueData.m; path = MZCustomerCouponLib/Pojo/TransactionIssueData.m; sourceTree = "<group>"; };
+		179DF4BCFB1F1DEE63038D2449596DE5 /* SerialData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SerialData.m; path = MZCustomerCouponLib/Pojo/SerialData.m; sourceTree = "<group>"; };
+		181C3FD860B539130158AD824590BBAD /* MZLoginResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZLoginResponse.m; path = MZCustomerCouponLib/DataResponse/Login/MZLoginResponse.m; sourceTree = "<group>"; };
+		18238AC470B91E926EC0E6B8D7E9A717 /* CouponVoidTransactionData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponVoidTransactionData.m; path = MZCustomerCouponLib/Pojo/CouponVoidTransactionData.m; sourceTree = "<group>"; };
+		19357D0DD6A658E4ABDB8C0EAAC0548A /* RedeemTransactionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RedeemTransactionModel.h; path = MZCustomerCouponLib/Pojo/RedeemTransactionModel.h; sourceTree = "<group>"; };
+		19CC74A7F106A41DB985D7F7013FFC9A /* MZPayment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZPayment.m; path = MZCustomerCouponLib/APIModule/MZPayment.m; sourceTree = "<group>"; };
+		1A650FC23703EF1E8DB255533BE9D49C /* CustomerDeviceData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomerDeviceData.m; path = MZCustomerCouponLib/Pojo/CustomerDeviceData.m; sourceTree = "<group>"; };
+		1B2D1BC34D07F712194159FF722C34D2 /* CouponListData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponListData.m; path = MZCustomerCouponLib/Pojo/CouponListData.m; sourceTree = "<group>"; };
+		1BCE504015CEE6AAA697D5C36FC215AF /* MZCouponSerialResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZCouponSerialResponse.h; path = MZCustomerCouponLib/DataResponse/CouponSerial/MZCouponSerialResponse.h; sourceTree = "<group>"; };
+		1ED1F4273E0C8119A543AC202BEBB08B /* MZMerchant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZMerchant.h; path = MZCustomerCouponLib/APIModule/MZMerchant.h; sourceTree = "<group>"; };
+		1F303A3BD6E5BF6A38E5C7ED7DFC472B /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		20023CE36B238A34647287D9943AD061 /* MZCustomerCouponLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZCustomerCouponLib.release.xcconfig; sourceTree = "<group>"; };
+		20449589C40D8A53196A594A7191F91F /* IssueCustomerData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IssueCustomerData.m; path = MZCustomerCouponLib/Pojo/IssueCustomerData.m; sourceTree = "<group>"; };
+		21CE08639F1E18F8F677ECBCB4F630C1 /* CouponMerchantData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponMerchantData.m; path = MZCustomerCouponLib/Pojo/CouponMerchantData.m; sourceTree = "<group>"; };
+		21E739CDC0195F65D4B4CE3AE6635A8A /* CustomerCouponModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomerCouponModel.m; path = MZCustomerCouponLib/Pojo/CustomerCouponModel.m; sourceTree = "<group>"; };
+		22AF45F115D1F6B9496E22E22557D4BD /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		235A2966E5E2A79FB6FEA4852C3FD1AE /* CouponTimingsData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponTimingsData.h; path = MZCustomerCouponLib/Pojo/CouponTimingsData.h; sourceTree = "<group>"; };
+		2861C4DEB08E7175DF85731678D51315 /* MZMerchantResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZMerchantResponse.h; path = MZCustomerCouponLib/DataResponse/Merchant/MZMerchantResponse.h; sourceTree = "<group>"; };
+		28F9D8AAA9F4282327D97E02F0717DBE /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		2A97150133054B414C86486154901D64 /* MZCustomerCouponLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZCustomerCouponLib-prefix.pch"; sourceTree = "<group>"; };
+		2B0C043DEF26D7DF137C09FE75ABDC07 /* PaymentData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PaymentData.h; path = MZCustomerCouponLib/Pojo/PaymentData.h; sourceTree = "<group>"; };
+		2B50CA87D11A17FC068EEEB9ABC31C04 /* IssueCouponModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IssueCouponModel.m; path = MZCustomerCouponLib/Pojo/IssueCouponModel.m; sourceTree = "<group>"; };
+		2BE2A339B216A7C9F21EA69E921B72A4 /* CouponSerialListModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponSerialListModel.h; path = MZCustomerCouponLib/Pojo/CouponSerialListModel.h; sourceTree = "<group>"; };
+		30FE691D1CDCB31F9246B4EA87044816 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		32F36137673C0EC724550D402089EBDB /* CouponData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponData.m; path = MZCustomerCouponLib/Pojo/CouponData.m; sourceTree = "<group>"; };
+		34CCD6823E173D472E3576A54E6FF01F /* CustomerDeviceDataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomerDeviceDataModel.m; path = MZCustomerCouponLib/Pojo/CustomerDeviceDataModel.m; sourceTree = "<group>"; };
+		3615C95FC3A43428205E121D643CB8ED /* TransactionAllocationData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionAllocationData.h; path = MZCustomerCouponLib/Pojo/TransactionAllocationData.h; sourceTree = "<group>"; };
+		361B95168BA5BC6D0E19DEE31CC24225 /* CouponLinksData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponLinksData.m; path = MZCustomerCouponLib/Pojo/CouponLinksData.m; sourceTree = "<group>"; };
+		3669D593AD5C672C9FCFFC66096777CB /* ReferenceData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReferenceData.m; path = MZCustomerCouponLib/Pojo/ReferenceData.m; sourceTree = "<group>"; };
+		36716AE74CEBAFE5B12EFC2390D38920 /* TransactionVoidData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionVoidData.h; path = MZCustomerCouponLib/Pojo/TransactionVoidData.h; sourceTree = "<group>"; };
+		371AA728BAA2CF29087D07E5F5EB7F20 /* CustomerDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomerDataModel.h; path = MZCustomerCouponLib/Pojo/CustomerDataModel.h; sourceTree = "<group>"; };
+		37E22DF196353117CB922CADBC0A110A /* MZAuthTokenResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZAuthTokenResponse.h; path = MZCustomerCouponLib/DataResponse/Login/MZAuthTokenResponse.h; sourceTree = "<group>"; };
+		388CAC6CE2946A02F748DC29E5D695D5 /* MZCouponSerial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZCouponSerial.h; path = MZCustomerCouponLib/APIModule/MZCouponSerial.h; sourceTree = "<group>"; };
+		3947E20D630F3684C93864DC947DC47A /* MZPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZPayment.h; path = MZCustomerCouponLib/APIModule/MZPayment.h; sourceTree = "<group>"; };
+		3994B975FDB0FFEABD2F0E68FDDB01CD /* MZCouponSerial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZCouponSerial.m; path = MZCustomerCouponLib/APIModule/MZCouponSerial.m; sourceTree = "<group>"; };
+		3A6677BC34205465A4D0D4FDF3312478 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		3AA6710B63352E29D9578B4816727636 /* IssueCouponCommitData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IssueCouponCommitData.h; path = MZCustomerCouponLib/Pojo/IssueCouponCommitData.h; sourceTree = "<group>"; };
+		3B018404999F56E92C449544D28B83FE /* CouponLinksData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponLinksData.h; path = MZCustomerCouponLib/Pojo/CouponLinksData.h; sourceTree = "<group>"; };
+		3C1634FA69D4F9B1B54ED98B64B94623 /* CouponTimingsData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponTimingsData.m; path = MZCustomerCouponLib/Pojo/CouponTimingsData.m; sourceTree = "<group>"; };
+		3FDA5C32DBF95812B750A2EF11C59D6E /* MZTransactionLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZTransactionLog.h; path = MZCustomerCouponLib/APIModule/MZTransactionLog.h; sourceTree = "<group>"; };
+		3FDF678348B2C45148FEDBE09DD3913E /* IssueCustomerData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IssueCustomerData.h; path = MZCustomerCouponLib/Pojo/IssueCustomerData.h; sourceTree = "<group>"; };
+		4069BAB63AC8919D398F0155FE15DFDD /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		437C08C5ECCDF2738C7C20E13FD6CFC3 /* MZJastor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZJastor.h; path = MZCustomerCouponLib/Jastor/MZJastor.h; sourceTree = "<group>"; };
+		45D8589A876836B607E1B66FCBCF8C7E /* SummaryData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SummaryData.m; path = MZCustomerCouponLib/Pojo/SummaryData.m; sourceTree = "<group>"; };
+		45EDCDBA72DB22493072F08D82B370FE /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		4796225FDB54E239A65EDF1B2FD2F385 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		497CE1A506C98374F10391F8157C0779 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4B3AB52A47D832270BF8195FD2D902F6 /* CouponListData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponListData.h; path = MZCustomerCouponLib/Pojo/CouponListData.h; sourceTree = "<group>"; };
+		4BA9A34E7D9DEE082242E8440A4FB892 /* TransactionRedeemData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransactionRedeemData.m; path = MZCustomerCouponLib/Pojo/TransactionRedeemData.m; sourceTree = "<group>"; };
+		4C9FABC658FD1DF1CB78E35446F2F174 /* SummaryData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SummaryData.h; path = MZCustomerCouponLib/Pojo/SummaryData.h; sourceTree = "<group>"; };
+		4DE28C6EE6750461E2F094A9BDE8C84B /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		5056E1FDFFE2AACB79D286115B37B66B /* SerialOutletListData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SerialOutletListData.h; path = MZCustomerCouponLib/Pojo/SerialOutletListData.h; sourceTree = "<group>"; };
+		50E01C2D783AB26A2413B1BB2607070E /* RedeemResponseData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RedeemResponseData.m; path = MZCustomerCouponLib/Pojo/RedeemResponseData.m; sourceTree = "<group>"; };
+		51399389D8B30201823C2EB6D631D4DB /* MZIssueCouponResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZIssueCouponResponse.h; path = MZCustomerCouponLib/DataResponse/Coupon/MZIssueCouponResponse.h; sourceTree = "<group>"; };
+		52EFACB9624FABDA50853B801D9E85E4 /* CouponSerialData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponSerialData.h; path = MZCustomerCouponLib/Pojo/CouponSerialData.h; sourceTree = "<group>"; };
+		5353ED24CB78556EDB58A8BC85EEDF6B /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		53A339C59175136D961F7A434B8A22B8 /* MZMerchantSettingResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZMerchantSettingResponse.h; path = MZCustomerCouponLib/DataResponse/Merchant/MZMerchantSettingResponse.h; sourceTree = "<group>"; };
+		53B7017981DEDFDFF15CE50A9F8C4091 /* MZCustomerCouponLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZCustomerCouponLib.debug.xcconfig; sourceTree = "<group>"; };
+		55C9ECBC03D79BBDEA886136E41168AA /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		577616A08A459E64C3B1B42D53EDF5EE /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		590FC97195F995A376ACA91A3911DBEE /* CustomerCouponData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomerCouponData.m; path = MZCustomerCouponLib/Pojo/CustomerCouponData.m; sourceTree = "<group>"; };
+		59762717978EDA026254A142279A5664 /* CouponSerialModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponSerialModel.h; path = MZCustomerCouponLib/Pojo/CouponSerialModel.h; sourceTree = "<group>"; };
+		5A6F1C11A1F6928EC65BAA91BE3C3A9E /* TransactionIssueData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionIssueData.h; path = MZCustomerCouponLib/Pojo/TransactionIssueData.h; sourceTree = "<group>"; };
+		5AC23C86B3B9EE3E019BDD998D7102DD /* CouponTransferData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponTransferData.m; path = MZCustomerCouponLib/Pojo/CouponTransferData.m; sourceTree = "<group>"; };
+		5BEE6C1ED272DC5956B6760413268969 /* libPods-testpos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-testpos.a"; path = "libPods-testpos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1D4BB17117D6A88DC82E914BE5932D /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		5D9771A9785E697F31428B7AC277D440 /* MZJastorRuntimeHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZJastorRuntimeHelper.m; path = MZCustomerCouponLib/Jastor/MZJastorRuntimeHelper.m; sourceTree = "<group>"; };
+		5E77D7078A25DABE160341D5D6C09F21 /* libMZCustomerCouponLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMZCustomerCouponLib.a; path = libMZCustomerCouponLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F48372EA2EA72206AB27F612375D91D /* RedeemTransactionData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RedeemTransactionData.m; path = MZCustomerCouponLib/Pojo/RedeemTransactionData.m; sourceTree = "<group>"; };
+		5FC22954D8F45DE10A8659820A4043DE /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		61D8B0CEB5C34C652E493ECF17F995ED /* CouponMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponMetaData.h; path = MZCustomerCouponLib/Pojo/CouponMetaData.h; sourceTree = "<group>"; };
+		629A542C0CB8F3431BF1AD03E6A00F30 /* TransactionLogDetailsData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionLogDetailsData.h; path = MZCustomerCouponLib/Pojo/TransactionLogDetailsData.h; sourceTree = "<group>"; };
+		654C830FAE5A046EB7408258781AE781 /* MZUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZUtils.h; path = MZCustomerCouponLib/Utils/MZUtils.h; sourceTree = "<group>"; };
+		65DEC261A2FC5EF7A6BDE982108DC7C5 /* CouponCountData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponCountData.m; path = MZCustomerCouponLib/Pojo/CouponCountData.m; sourceTree = "<group>"; };
+		660E3D7819828A671E2AFE110293CC2A /* CustomerCouponModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomerCouponModel.h; path = MZCustomerCouponLib/Pojo/CustomerCouponModel.h; sourceTree = "<group>"; };
+		67A54B41CC253D03F30557D187EDB7FC /* ReferenceData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReferenceData.h; path = MZCustomerCouponLib/Pojo/ReferenceData.h; sourceTree = "<group>"; };
+		68CC19B92318B100A79C3292221D6D0E /* CouponOutletsData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponOutletsData.m; path = MZCustomerCouponLib/Pojo/CouponOutletsData.m; sourceTree = "<group>"; };
+		6AF3E4B01E3E00EAF74FD058784D3E75 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		6D30D1382CABCC2371547C40BF9FCF68 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		6D4EDFA4E0C9F8D8AEC902C08369CDD9 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		6E01A1921E1704F316C5867127D4FB97 /* MerchantData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MerchantData.h; path = MZCustomerCouponLib/Pojo/MerchantData.h; sourceTree = "<group>"; };
+		756B41F28277C77CAA8440C1EF11DB09 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		76AA2E7E35B3A72048F2B79B7FE76060 /* RedeemCouponCommitData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RedeemCouponCommitData.m; path = MZCustomerCouponLib/Pojo/RedeemCouponCommitData.m; sourceTree = "<group>"; };
+		76ACAF598D2CD08E8D2A9E197A23C453 /* MZCouponSerialResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZCouponSerialResponse.m; path = MZCustomerCouponLib/DataResponse/CouponSerial/MZCouponSerialResponse.m; sourceTree = "<group>"; };
+		7ADA43152BAC93446719EC4183FA0854 /* MZCustomerCouponLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZCustomerCouponLib-dummy.m"; sourceTree = "<group>"; };
+		7AE9E2209C3EE97C2683373CD505E0C8 /* Pods-testpos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testpos.debug.xcconfig"; sourceTree = "<group>"; };
+		7B96BCF05A6BC5F675B016CAA51BB7C0 /* MZCustomerLogin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZCustomerLogin.m; path = MZCustomerCouponLib/APIModule/MZCustomerLogin.m; sourceTree = "<group>"; };
+		80DDC66A6FB2475DB636D01A1A83AB1C /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		835B76C354D58CEA4004A77759B890C3 /* MZCouponDetailsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZCouponDetailsResponse.h; path = MZCustomerCouponLib/DataResponse/Coupon/MZCouponDetailsResponse.h; sourceTree = "<group>"; };
+		838A1BFD40F19710E4ED7316BE726264 /* MZMerchantResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZMerchantResponse.m; path = MZCustomerCouponLib/DataResponse/Merchant/MZMerchantResponse.m; sourceTree = "<group>"; };
+		84E91359011F9B5E114EA6B410062096 /* DeveloperMessageData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeveloperMessageData.h; path = MZCustomerCouponLib/Pojo/DeveloperMessageData.h; sourceTree = "<group>"; };
+		85710958942705DFBE7E989006E6E92A /* MZRedeemCouponResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZRedeemCouponResponse.m; path = MZCustomerCouponLib/DataResponse/CouponSerial/MZRedeemCouponResponse.m; sourceTree = "<group>"; };
+		872758608D805102C9F6B7842A5303D0 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
+		872B7BC64E147B20C0FABA401E8969A5 /* CustomerDataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomerDataModel.m; path = MZCustomerCouponLib/Pojo/CustomerDataModel.m; sourceTree = "<group>"; };
+		88AAC00D0B3EE749F26D16CAE6FE781B /* Pods-testpos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testpos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A1548624C630BA1FFE96CBCA1F418EC /* MZCouponResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZCouponResponse.m; path = MZCustomerCouponLib/DataResponse/Coupon/MZCouponResponse.m; sourceTree = "<group>"; };
+		8ABF199B12815520C1EB87DAAE4124B9 /* RedeemSerialTransactionData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RedeemSerialTransactionData.m; path = MZCustomerCouponLib/Pojo/RedeemSerialTransactionData.m; sourceTree = "<group>"; };
+		8B010E143137174F9453B41E8F8F4208 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		8CC367EE10EFE4EE2E567CAC67032620 /* MZMerchant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZMerchant.m; path = MZCustomerCouponLib/APIModule/MZMerchant.m; sourceTree = "<group>"; };
+		8E4251DC45AB7B8BFF3B457F137FFD44 /* AuthToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AuthToken.m; path = MZCustomerCouponLib/Pojo/AuthToken.m; sourceTree = "<group>"; };
+		8F3D2D9579D46DC846BAEECB3CFF97B5 /* MZTransactionLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZTransactionLog.m; path = MZCustomerCouponLib/APIModule/MZTransactionLog.m; sourceTree = "<group>"; };
+		9053A906993C5BA9BEB6A735E3BE17E7 /* RedeemSerialTransactionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RedeemSerialTransactionData.h; path = MZCustomerCouponLib/Pojo/RedeemSerialTransactionData.h; sourceTree = "<group>"; };
+		91391A724BE7D3551C2578524F9D9209 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		919ADCDA2DE30BADEB1369A3CBB35697 /* MZCustomerCouponLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZCustomerCouponLib.h; path = MZCustomerCouponLib/MZCustomerCouponLib.h; sourceTree = "<group>"; };
+		94724E8177DE8856D003DE7307336179 /* TransactionAllocationData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransactionAllocationData.m; path = MZCustomerCouponLib/Pojo/TransactionAllocationData.m; sourceTree = "<group>"; };
+		971A105E68EFB78D23345F0881493AAA /* MZMerchantSettingResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZMerchantSettingResponse.m; path = MZCustomerCouponLib/DataResponse/Merchant/MZMerchantSettingResponse.m; sourceTree = "<group>"; };
+		98D593C3E6F7D552D887C3C737CAFAD5 /* MZLoginResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZLoginResponse.h; path = MZCustomerCouponLib/DataResponse/Login/MZLoginResponse.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ECE930B25A669CFF767820693D6DCB4 /* MZSerialCouponDetailsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZSerialCouponDetailsResponse.h; path = MZCustomerCouponLib/DataResponse/CouponSerial/MZSerialCouponDetailsResponse.h; sourceTree = "<group>"; };
+		A10C00D48B079037CE3DDD707DA02F59 /* AuthToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AuthToken.h; path = MZCustomerCouponLib/Pojo/AuthToken.h; sourceTree = "<group>"; };
+		A4F678E77E56088D5DA4F2FB3280B4A0 /* MZJastorRuntimeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZJastorRuntimeHelper.h; path = MZCustomerCouponLib/Jastor/MZJastorRuntimeHelper.h; sourceTree = "<group>"; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6449E83210962BB420168BE7F78AF02 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		A65CDF1C67D7B7E1E56CAD2EEB055C56 /* MZUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZUtils.m; path = MZCustomerCouponLib/Utils/MZUtils.m; sourceTree = "<group>"; };
+		A739A375A04B1070469145ADCC14D03B /* CouponOutletListData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponOutletListData.m; path = MZCustomerCouponLib/Pojo/CouponOutletListData.m; sourceTree = "<group>"; };
+		A80A98CB5ACCA599867CAA113848D727 /* CouponCountData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponCountData.h; path = MZCustomerCouponLib/Pojo/CouponCountData.h; sourceTree = "<group>"; };
+		A8F37B9BD9DD83C01F17203ABB1E9313 /* CouponserialList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponserialList.h; path = MZCustomerCouponLib/Pojo/CouponserialList.h; sourceTree = "<group>"; };
+		AA4C17E5851B61691768D326EC363F4E /* MZMerchantOAuthResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZMerchantOAuthResponse.m; path = MZCustomerCouponLib/DataResponse/Merchant/MZMerchantOAuthResponse.m; sourceTree = "<group>"; };
+		AB913B96EF97089409494B081FF531E7 /* TransactionRedeemData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionRedeemData.h; path = MZCustomerCouponLib/Pojo/TransactionRedeemData.h; sourceTree = "<group>"; };
+		AD8E25B23FDA2D1BB808729D4CE9E593 /* MZCustomerLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZCustomerLogin.h; path = MZCustomerCouponLib/APIModule/MZCustomerLogin.h; sourceTree = "<group>"; };
+		AF5F9343C0862BF8C3395D12BCE40DAB /* SerialOutletData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SerialOutletData.h; path = MZCustomerCouponLib/Pojo/SerialOutletData.h; sourceTree = "<group>"; };
+		B132340F7BDD5E23BE98BE97D393861E /* IssueCouponCommitData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IssueCouponCommitData.m; path = MZCustomerCouponLib/Pojo/IssueCouponCommitData.m; sourceTree = "<group>"; };
+		B1C4E14656E55C7764271C4763869CB8 /* CouponImagesData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponImagesData.h; path = MZCustomerCouponLib/Pojo/CouponImagesData.h; sourceTree = "<group>"; };
+		B1D784734D6B8ABF3C26170FEDAA6C15 /* PaymentListModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PaymentListModel.m; path = MZCustomerCouponLib/Pojo/PaymentListModel.m; sourceTree = "<group>"; };
+		B1E00EAACCAFAC10A5C7685C765DAA81 /* CustomerDeviceDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomerDeviceDataModel.h; path = MZCustomerCouponLib/Pojo/CustomerDeviceDataModel.h; sourceTree = "<group>"; };
+		B22AC93F1E6FC8BE40BF63FA4CCA6ADD /* SerialOutletData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SerialOutletData.m; path = MZCustomerCouponLib/Pojo/SerialOutletData.m; sourceTree = "<group>"; };
+		B2D2E30C415F6FF6F5819D81E95C395F /* MZCoupon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZCoupon.m; path = MZCustomerCouponLib/APIModule/MZCoupon.m; sourceTree = "<group>"; };
+		B33A915E9A5E4319E54B028D5F541098 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		B364458576E9BB3144DBE63A9987E42A /* CouponVoidTransactionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponVoidTransactionData.h; path = MZCustomerCouponLib/Pojo/CouponVoidTransactionData.h; sourceTree = "<group>"; };
+		B5BB51967E22D8296E9F9C0B2239B8D3 /* CouponserialList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponserialList.m; path = MZCustomerCouponLib/Pojo/CouponserialList.m; sourceTree = "<group>"; };
+		B61044FEBF21D732E0366C0620DF972A /* TransactionLogData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransactionLogData.m; path = MZCustomerCouponLib/Pojo/TransactionLogData.m; sourceTree = "<group>"; };
+		B7952B523333843BA7EFA0B095A24521 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B85799E4DA2AB7BF7ADA5DEA497090E5 /* Pods-testpos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testpos-dummy.m"; sourceTree = "<group>"; };
+		B9DB7A965E485081B53A90AC5F4D03A0 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		BA6AA6684F4783FEC372B7512D89E29B /* MZCouponDetailsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZCouponDetailsResponse.m; path = MZCustomerCouponLib/DataResponse/Coupon/MZCouponDetailsResponse.m; sourceTree = "<group>"; };
+		BC134C210D953A09E23E1CA88E65E466 /* MerchantData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MerchantData.m; path = MZCustomerCouponLib/Pojo/MerchantData.m; sourceTree = "<group>"; };
+		BD832E2DF465B74B1EDE00810E57E251 /* CouponMetaData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponMetaData.m; path = MZCustomerCouponLib/Pojo/CouponMetaData.m; sourceTree = "<group>"; };
+		BE8934B37C69232C026E42401400D417 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		BFB6D675D57BB6A5D721A76517DEDE8D /* TransactionLogModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionLogModel.h; path = MZCustomerCouponLib/Pojo/TransactionLogModel.h; sourceTree = "<group>"; };
+		C1C882732B65D76003EFDD243CAE9606 /* CouponOutletsData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponOutletsData.h; path = MZCustomerCouponLib/Pojo/CouponOutletsData.h; sourceTree = "<group>"; };
+		C307C2AA8AE382C356E35FE78613CA43 /* CouponSerialData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponSerialData.m; path = MZCustomerCouponLib/Pojo/CouponSerialData.m; sourceTree = "<group>"; };
+		C455F05573A7B64F7E8E66C7E97139E4 /* MZMerchantOAuthResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZMerchantOAuthResponse.h; path = MZCustomerCouponLib/DataResponse/Merchant/MZMerchantOAuthResponse.h; sourceTree = "<group>"; };
+		C5A3B5E7172E7F2361E1642B0F11FDCC /* MZIssueCouponResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZIssueCouponResponse.m; path = MZCustomerCouponLib/DataResponse/Coupon/MZIssueCouponResponse.m; sourceTree = "<group>"; };
+		C6BE70376E4D4AAC36BF3BF081F145DC /* PaymentData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PaymentData.m; path = MZCustomerCouponLib/Pojo/PaymentData.m; sourceTree = "<group>"; };
+		C6D7C127EF9CC4103E30AE5BE64E9432 /* MZExpressRedeem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZExpressRedeem.h; path = MZCustomerCouponLib/APIModule/MZExpressRedeem.h; sourceTree = "<group>"; };
+		C95B4B0BD70227CDFD770C6A2EA6D8CA /* MZTransactionLogResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZTransactionLogResponse.h; path = MZCustomerCouponLib/DataResponse/Coupon/MZTransactionLogResponse.h; sourceTree = "<group>"; };
+		C9977AD3AC3F9ABEB58054EF226F755C /* CouponOutletListData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponOutletListData.h; path = MZCustomerCouponLib/Pojo/CouponOutletListData.h; sourceTree = "<group>"; };
+		CBA2CC1E2B0C7113B1CB36E55FB966D1 /* CouponImageListData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponImageListData.m; path = MZCustomerCouponLib/Pojo/CouponImageListData.m; sourceTree = "<group>"; };
+		CBE241D70C839A22B04B6560F5C725AB /* CouponImageListData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponImageListData.h; path = MZCustomerCouponLib/Pojo/CouponImageListData.h; sourceTree = "<group>"; };
+		CE3933FC6588293826997BD7C5538969 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		CF4104A80BA6ED82CD0E2D8C60E9A189 /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		CF444D51D4E0F71E3F62F505D6A1EEB9 /* MZPaymentResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZPaymentResponse.h; path = MZCustomerCouponLib/DataResponse/Coupon/MZPaymentResponse.h; sourceTree = "<group>"; };
+		D02370699E04818053370A489887A0EA /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		D13CF201D889C0AAA9CCA3D07DF1822A /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		D4798E1B4520D78E2E1F694867AF863E /* CouponVoidModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponVoidModel.m; path = MZCustomerCouponLib/Pojo/CouponVoidModel.m; sourceTree = "<group>"; };
+		D6A5726A959F21C49B5C499E730F8A1B /* CouponImagesData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponImagesData.m; path = MZCustomerCouponLib/Pojo/CouponImagesData.m; sourceTree = "<group>"; };
+		DAA2C053349362B8115828322E6EB47C /* CouponData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponData.h; path = MZCustomerCouponLib/Pojo/CouponData.h; sourceTree = "<group>"; };
+		DAAC0D7C077D751A18D3E00B7FAC4DD0 /* DeveloperMessageData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DeveloperMessageData.m; path = MZCustomerCouponLib/Pojo/DeveloperMessageData.m; sourceTree = "<group>"; };
+		DACD93C817472E2DA3D660BAF95502FB /* RedeemResponseData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RedeemResponseData.h; path = MZCustomerCouponLib/Pojo/RedeemResponseData.h; sourceTree = "<group>"; };
+		DAE718061E0F9330D923E9C9C6DCABD5 /* CustomerDeviceData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomerDeviceData.h; path = MZCustomerCouponLib/Pojo/CustomerDeviceData.h; sourceTree = "<group>"; };
+		DB468D03E0C6AD01DA56B03E408B55C3 /* MZCoupon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZCoupon.h; path = MZCustomerCouponLib/APIModule/MZCoupon.h; sourceTree = "<group>"; };
+		DB564498B0D4748DB6183668E2DB8CC8 /* SerialData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SerialData.h; path = MZCustomerCouponLib/Pojo/SerialData.h; sourceTree = "<group>"; };
+		DF391AA0E29F0AB95ED44CC6D2A00B53 /* IssueCouponModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IssueCouponModel.h; path = MZCustomerCouponLib/Pojo/IssueCouponModel.h; sourceTree = "<group>"; };
+		E05BC2CFC3346CAB6279461D3F2745CF /* CouponSerialModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponSerialModel.m; path = MZCustomerCouponLib/Pojo/CouponSerialModel.m; sourceTree = "<group>"; };
+		E0644EDA4803CAB6CC0DC4892F9E4392 /* SerialTransactionsModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SerialTransactionsModel.m; path = MZCustomerCouponLib/Pojo/SerialTransactionsModel.m; sourceTree = "<group>"; };
+		E1830CBB7E6DF02FDEF51FF0FA8D5E67 /* MZAuthTokenResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZAuthTokenResponse.m; path = MZCustomerCouponLib/DataResponse/Login/MZAuthTokenResponse.m; sourceTree = "<group>"; };
+		E25C11F4326B78D5D1E99E4670FAB7FC /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		E44AEA3E0381FF63463641F4FADE1FBD /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		E546829A91892B19E2453417F35173DB /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		E8852B66D102C372FBB12CEC175C8998 /* MZCouponResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZCouponResponse.h; path = MZCustomerCouponLib/DataResponse/Coupon/MZCouponResponse.h; sourceTree = "<group>"; };
+		E97664D5C857E3B8008498BFDF2CC171 /* PaymentListModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PaymentListModel.h; path = MZCustomerCouponLib/Pojo/PaymentListModel.h; sourceTree = "<group>"; };
+		EFDCA2A2E5400705BDD6313CB0DE7C11 /* MZExpressRedeem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZExpressRedeem.m; path = MZCustomerCouponLib/APIModule/MZExpressRedeem.m; sourceTree = "<group>"; };
+		F208EBB9A0490CE9AF168F8AEBB814AE /* SerialTransactionsModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SerialTransactionsModel.h; path = MZCustomerCouponLib/Pojo/SerialTransactionsModel.h; sourceTree = "<group>"; };
+		F36794E1C675E188571D8F3930479D59 /* TransactionLogModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransactionLogModel.m; path = MZCustomerCouponLib/Pojo/TransactionLogModel.m; sourceTree = "<group>"; };
+		F3986458AD3A9CABF913282DE21554C5 /* CouponTransferModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponTransferModel.m; path = MZCustomerCouponLib/Pojo/CouponTransferModel.m; sourceTree = "<group>"; };
+		F3C79C454831139CE68AB51CDE59C912 /* RedeemCouponCommitData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RedeemCouponCommitData.h; path = MZCustomerCouponLib/Pojo/RedeemCouponCommitData.h; sourceTree = "<group>"; };
+		F4371DD8EB88EC70283D43CFDB259D57 /* CouponTransferData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponTransferData.h; path = MZCustomerCouponLib/Pojo/CouponTransferData.h; sourceTree = "<group>"; };
+		F5BCA012F543585BCA1BDFAC8759F5AF /* MZTransactionLogResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZTransactionLogResponse.m; path = MZCustomerCouponLib/DataResponse/Coupon/MZTransactionLogResponse.m; sourceTree = "<group>"; };
+		F5D759B2935D738CCD77365E135AFA06 /* CouponSerialListModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CouponSerialListModel.m; path = MZCustomerCouponLib/Pojo/CouponSerialListModel.m; sourceTree = "<group>"; };
+		F5DF40D989A4D6ECE7FBC74CC09F5BC4 /* SerialOutletListData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SerialOutletListData.m; path = MZCustomerCouponLib/Pojo/SerialOutletListData.m; sourceTree = "<group>"; };
+		F711C849D7B48371CE758EE4CA27C5F4 /* CouponVoidModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouponVoidModel.h; path = MZCustomerCouponLib/Pojo/CouponVoidModel.h; sourceTree = "<group>"; };
+		F8607BCA370CB79BDDCB078CD9A2E4C8 /* MZCouponOutletResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZCouponOutletResponse.h; path = MZCustomerCouponLib/DataResponse/CouponSerial/MZCouponOutletResponse.h; sourceTree = "<group>"; };
+		F861FAA5E6C093E51056EB82728535C0 /* TransactionLogData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionLogData.h; path = MZCustomerCouponLib/Pojo/TransactionLogData.h; sourceTree = "<group>"; };
+		F8F47680D9ECF991446D8C2CC2A4605A /* CustomerData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomerData.m; path = MZCustomerCouponLib/Pojo/CustomerData.m; sourceTree = "<group>"; };
+		FB9BAB8564C346CCD945B75F9919445F /* Pods-testpos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testpos-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF333F8B95042CC5D6B0A9054D4A67B3 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		FF805C68D089160BD2FC8A8ABDA87853 /* MZSerialCouponDetailsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZSerialCouponDetailsResponse.m; path = MZCustomerCouponLib/DataResponse/CouponSerial/MZSerialCouponDetailsResponse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		444F582D48D5EEC048FE868187914D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DB1FBE373354D0714284083F6DE10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEBBCBAA4F5D79BCFCCFBEAE4C83C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C16D393DCCE7F29A6F46A79EC21E869 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B7952B523333843BA7EFA0B095A24521 /* AFNetworkReachabilityManager.h */,
+				497CE1A506C98374F10391F8157C0779 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		21462E99871C8B409A8E632D0BAA625B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ADA43152BAC93446719EC4183FA0854 /* MZCustomerCouponLib-dummy.m */,
+				2A97150133054B414C86486154901D64 /* MZCustomerCouponLib-prefix.pch */,
+				53B7017981DEDFDFF15CE50A9F8C4091 /* MZCustomerCouponLib.debug.xcconfig */,
+				20023CE36B238A34647287D9943AD061 /* MZCustomerCouponLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MZCustomerCouponLib";
+			sourceTree = "<group>";
+		};
+		44C29F9F57E24745D33CCABF7DF95E4B /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6AF3E4B01E3E00EAF74FD058784D3E75 /* AFAutoPurgingImageCache.h */,
+				5C1D4BB17117D6A88DC82E914BE5932D /* AFAutoPurgingImageCache.m */,
+				B33A915E9A5E4319E54B028D5F541098 /* AFImageDownloader.h */,
+				BE8934B37C69232C026E42401400D417 /* AFImageDownloader.m */,
+				5FC22954D8F45DE10A8659820A4043DE /* AFNetworkActivityIndicatorManager.h */,
+				756B41F28277C77CAA8440C1EF11DB09 /* AFNetworkActivityIndicatorManager.m */,
+				B9DB7A965E485081B53A90AC5F4D03A0 /* UIActivityIndicatorView+AFNetworking.h */,
+				CE3933FC6588293826997BD7C5538969 /* UIActivityIndicatorView+AFNetworking.m */,
+				577616A08A459E64C3B1B42D53EDF5EE /* UIButton+AFNetworking.h */,
+				45EDCDBA72DB22493072F08D82B370FE /* UIButton+AFNetworking.m */,
+				4DE28C6EE6750461E2F094A9BDE8C84B /* UIImageView+AFNetworking.h */,
+				E25C11F4326B78D5D1E99E4670FAB7FC /* UIImageView+AFNetworking.m */,
+				30FE691D1CDCB31F9246B4EA87044816 /* UIKit+AFNetworking.h */,
+				A6449E83210962BB420168BE7F78AF02 /* UIProgressView+AFNetworking.h */,
+				E546829A91892B19E2453417F35173DB /* UIProgressView+AFNetworking.m */,
+				104788CB068D77C8B3540CD1FD1A25D3 /* UIRefreshControl+AFNetworking.h */,
+				80DDC66A6FB2475DB636D01A1A83AB1C /* UIRefreshControl+AFNetworking.m */,
+				CF4104A80BA6ED82CD0E2D8C60E9A189 /* WKWebView+AFNetworking.h */,
+				5353ED24CB78556EDB58A8BC85EEDF6B /* WKWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		4A4BB345BF4E47951A1A180F493667D3 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				4069BAB63AC8919D398F0155FE15DFDD /* AFSecurityPolicy.h */,
+				4796225FDB54E239A65EDF1B2FD2F385 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		593853DE23AF09422B39A2A510B48AEA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BE9AF3697DE8BD858600A2DC099225D /* Pods-testpos */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6BE9AF3697DE8BD858600A2DC099225D /* Pods-testpos */ = {
+			isa = PBXGroup;
+			children = (
+				88AAC00D0B3EE749F26D16CAE6FE781B /* Pods-testpos-acknowledgements.markdown */,
+				FB9BAB8564C346CCD945B75F9919445F /* Pods-testpos-acknowledgements.plist */,
+				B85799E4DA2AB7BF7ADA5DEA497090E5 /* Pods-testpos-dummy.m */,
+				7AE9E2209C3EE97C2683373CD505E0C8 /* Pods-testpos.debug.xcconfig */,
+				1399F3F847BB2783FB03900E72C63597 /* Pods-testpos.release.xcconfig */,
+			);
+			name = "Pods-testpos";
+			path = "Target Support Files/Pods-testpos";
+			sourceTree = "<group>";
+		};
+		7001916E885544A5DA3CEF78EAD22025 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				55C9ECBC03D79BBDEA886136E41168AA /* AFURLRequestSerialization.h */,
+				28F9D8AAA9F4282327D97E02F0717DBE /* AFURLRequestSerialization.m */,
+				E44AEA3E0381FF63463641F4FADE1FBD /* AFURLResponseSerialization.h */,
+				6D4EDFA4E0C9F8D8AEC902C08369CDD9 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		7A6A4DDA6DF17FE8D7FC8E7960FE5101 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E42343627EA44A82E8BBAEAE4B14F661 /* AFNetworking */,
+				DB9860DD50ECCAB4701954A3D1BDAC17 /* MZCustomerCouponLib */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A2F74C4278B70A0BACC5A467CF22F29 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A6677BC34205465A4D0D4FDF3312478 /* AFNetworking-dummy.m */,
+				6D30D1382CABCC2371547C40BF9FCF68 /* AFNetworking-prefix.pch */,
+				FF333F8B95042CC5D6B0A9054D4A67B3 /* AFNetworking.debug.xcconfig */,
+				872758608D805102C9F6B7842A5303D0 /* AFNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		BE9EE67C6BED25BF0B6A1A24FA111657 /* no-arc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "no-arc";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				7A6A4DDA6DF17FE8D7FC8E7960FE5101 /* Pods */,
+				CF739E7ED0C984803F88BDB29160FC71 /* Products */,
+				593853DE23AF09422B39A2A510B48AEA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF739E7ED0C984803F88BDB29160FC71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */,
+				5E77D7078A25DABE160341D5D6C09F21 /* libMZCustomerCouponLib.a */,
+				5BEE6C1ED272DC5956B6760413268969 /* libPods-testpos.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAFB36D9DEBCCA4DFB0006D440B50679 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				D02370699E04818053370A489887A0EA /* AFCompatibilityMacros.h */,
+				8B010E143137174F9453B41E8F8F4208 /* AFHTTPSessionManager.h */,
+				91391A724BE7D3551C2578524F9D9209 /* AFHTTPSessionManager.m */,
+				22AF45F115D1F6B9496E22E22557D4BD /* AFURLSessionManager.h */,
+				1F303A3BD6E5BF6A38E5C7ED7DFC472B /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		DB9860DD50ECCAB4701954A3D1BDAC17 /* MZCustomerCouponLib */ = {
+			isa = PBXGroup;
+			children = (
+				A10C00D48B079037CE3DDD707DA02F59 /* AuthToken.h */,
+				8E4251DC45AB7B8BFF3B457F137FFD44 /* AuthToken.m */,
+				A80A98CB5ACCA599867CAA113848D727 /* CouponCountData.h */,
+				65DEC261A2FC5EF7A6BDE982108DC7C5 /* CouponCountData.m */,
+				DAA2C053349362B8115828322E6EB47C /* CouponData.h */,
+				32F36137673C0EC724550D402089EBDB /* CouponData.m */,
+				CBE241D70C839A22B04B6560F5C725AB /* CouponImageListData.h */,
+				CBA2CC1E2B0C7113B1CB36E55FB966D1 /* CouponImageListData.m */,
+				B1C4E14656E55C7764271C4763869CB8 /* CouponImagesData.h */,
+				D6A5726A959F21C49B5C499E730F8A1B /* CouponImagesData.m */,
+				3B018404999F56E92C449544D28B83FE /* CouponLinksData.h */,
+				361B95168BA5BC6D0E19DEE31CC24225 /* CouponLinksData.m */,
+				4B3AB52A47D832270BF8195FD2D902F6 /* CouponListData.h */,
+				1B2D1BC34D07F712194159FF722C34D2 /* CouponListData.m */,
+				015C8D5ABB38329B6A0809FED2BF0AE9 /* CouponMerchantData.h */,
+				21CE08639F1E18F8F677ECBCB4F630C1 /* CouponMerchantData.m */,
+				61D8B0CEB5C34C652E493ECF17F995ED /* CouponMetaData.h */,
+				BD832E2DF465B74B1EDE00810E57E251 /* CouponMetaData.m */,
+				C9977AD3AC3F9ABEB58054EF226F755C /* CouponOutletListData.h */,
+				A739A375A04B1070469145ADCC14D03B /* CouponOutletListData.m */,
+				C1C882732B65D76003EFDD243CAE9606 /* CouponOutletsData.h */,
+				68CC19B92318B100A79C3292221D6D0E /* CouponOutletsData.m */,
+				52EFACB9624FABDA50853B801D9E85E4 /* CouponSerialData.h */,
+				C307C2AA8AE382C356E35FE78613CA43 /* CouponSerialData.m */,
+				A8F37B9BD9DD83C01F17203ABB1E9313 /* CouponserialList.h */,
+				B5BB51967E22D8296E9F9C0B2239B8D3 /* CouponserialList.m */,
+				2BE2A339B216A7C9F21EA69E921B72A4 /* CouponSerialListModel.h */,
+				F5D759B2935D738CCD77365E135AFA06 /* CouponSerialListModel.m */,
+				59762717978EDA026254A142279A5664 /* CouponSerialModel.h */,
+				E05BC2CFC3346CAB6279461D3F2745CF /* CouponSerialModel.m */,
+				235A2966E5E2A79FB6FEA4852C3FD1AE /* CouponTimingsData.h */,
+				3C1634FA69D4F9B1B54ED98B64B94623 /* CouponTimingsData.m */,
+				F4371DD8EB88EC70283D43CFDB259D57 /* CouponTransferData.h */,
+				5AC23C86B3B9EE3E019BDD998D7102DD /* CouponTransferData.m */,
+				095D4D58FD2008A06A7992A62E357285 /* CouponTransferModel.h */,
+				F3986458AD3A9CABF913282DE21554C5 /* CouponTransferModel.m */,
+				F711C849D7B48371CE758EE4CA27C5F4 /* CouponVoidModel.h */,
+				D4798E1B4520D78E2E1F694867AF863E /* CouponVoidModel.m */,
+				B364458576E9BB3144DBE63A9987E42A /* CouponVoidTransactionData.h */,
+				18238AC470B91E926EC0E6B8D7E9A717 /* CouponVoidTransactionData.m */,
+				03F6B1BD14F4B4D9EC1CC23599EC2F44 /* CustomerCouponData.h */,
+				590FC97195F995A376ACA91A3911DBEE /* CustomerCouponData.m */,
+				660E3D7819828A671E2AFE110293CC2A /* CustomerCouponModel.h */,
+				21E739CDC0195F65D4B4CE3AE6635A8A /* CustomerCouponModel.m */,
+				08653BC10844DDE55E8070A214000575 /* CustomerData.h */,
+				F8F47680D9ECF991446D8C2CC2A4605A /* CustomerData.m */,
+				371AA728BAA2CF29087D07E5F5EB7F20 /* CustomerDataModel.h */,
+				872B7BC64E147B20C0FABA401E8969A5 /* CustomerDataModel.m */,
+				DAE718061E0F9330D923E9C9C6DCABD5 /* CustomerDeviceData.h */,
+				1A650FC23703EF1E8DB255533BE9D49C /* CustomerDeviceData.m */,
+				B1E00EAACCAFAC10A5C7685C765DAA81 /* CustomerDeviceDataModel.h */,
+				34CCD6823E173D472E3576A54E6FF01F /* CustomerDeviceDataModel.m */,
+				84E91359011F9B5E114EA6B410062096 /* DeveloperMessageData.h */,
+				DAAC0D7C077D751A18D3E00B7FAC4DD0 /* DeveloperMessageData.m */,
+				3AA6710B63352E29D9578B4816727636 /* IssueCouponCommitData.h */,
+				B132340F7BDD5E23BE98BE97D393861E /* IssueCouponCommitData.m */,
+				DF391AA0E29F0AB95ED44CC6D2A00B53 /* IssueCouponModel.h */,
+				2B50CA87D11A17FC068EEEB9ABC31C04 /* IssueCouponModel.m */,
+				3FDF678348B2C45148FEDBE09DD3913E /* IssueCustomerData.h */,
+				20449589C40D8A53196A594A7191F91F /* IssueCustomerData.m */,
+				6E01A1921E1704F316C5867127D4FB97 /* MerchantData.h */,
+				BC134C210D953A09E23E1CA88E65E466 /* MerchantData.m */,
+				37E22DF196353117CB922CADBC0A110A /* MZAuthTokenResponse.h */,
+				E1830CBB7E6DF02FDEF51FF0FA8D5E67 /* MZAuthTokenResponse.m */,
+				DB468D03E0C6AD01DA56B03E408B55C3 /* MZCoupon.h */,
+				B2D2E30C415F6FF6F5819D81E95C395F /* MZCoupon.m */,
+				835B76C354D58CEA4004A77759B890C3 /* MZCouponDetailsResponse.h */,
+				BA6AA6684F4783FEC372B7512D89E29B /* MZCouponDetailsResponse.m */,
+				F8607BCA370CB79BDDCB078CD9A2E4C8 /* MZCouponOutletResponse.h */,
+				0E6B0FD4E9FC7830F2BF8ED9FA8D9BE1 /* MZCouponOutletResponse.m */,
+				E8852B66D102C372FBB12CEC175C8998 /* MZCouponResponse.h */,
+				8A1548624C630BA1FFE96CBCA1F418EC /* MZCouponResponse.m */,
+				388CAC6CE2946A02F748DC29E5D695D5 /* MZCouponSerial.h */,
+				3994B975FDB0FFEABD2F0E68FDDB01CD /* MZCouponSerial.m */,
+				1BCE504015CEE6AAA697D5C36FC215AF /* MZCouponSerialResponse.h */,
+				76ACAF598D2CD08E8D2A9E197A23C453 /* MZCouponSerialResponse.m */,
+				919ADCDA2DE30BADEB1369A3CBB35697 /* MZCustomerCouponLib.h */,
+				AD8E25B23FDA2D1BB808729D4CE9E593 /* MZCustomerLogin.h */,
+				7B96BCF05A6BC5F675B016CAA51BB7C0 /* MZCustomerLogin.m */,
+				C6D7C127EF9CC4103E30AE5BE64E9432 /* MZExpressRedeem.h */,
+				EFDCA2A2E5400705BDD6313CB0DE7C11 /* MZExpressRedeem.m */,
+				51399389D8B30201823C2EB6D631D4DB /* MZIssueCouponResponse.h */,
+				C5A3B5E7172E7F2361E1642B0F11FDCC /* MZIssueCouponResponse.m */,
+				437C08C5ECCDF2738C7C20E13FD6CFC3 /* MZJastor.h */,
+				12A2A8836FFBDC020A1297CD057FF22C /* MZJastor.m */,
+				A4F678E77E56088D5DA4F2FB3280B4A0 /* MZJastorRuntimeHelper.h */,
+				5D9771A9785E697F31428B7AC277D440 /* MZJastorRuntimeHelper.m */,
+				98D593C3E6F7D552D887C3C737CAFAD5 /* MZLoginResponse.h */,
+				181C3FD860B539130158AD824590BBAD /* MZLoginResponse.m */,
+				1ED1F4273E0C8119A543AC202BEBB08B /* MZMerchant.h */,
+				8CC367EE10EFE4EE2E567CAC67032620 /* MZMerchant.m */,
+				C455F05573A7B64F7E8E66C7E97139E4 /* MZMerchantOAuthResponse.h */,
+				AA4C17E5851B61691768D326EC363F4E /* MZMerchantOAuthResponse.m */,
+				2861C4DEB08E7175DF85731678D51315 /* MZMerchantResponse.h */,
+				838A1BFD40F19710E4ED7316BE726264 /* MZMerchantResponse.m */,
+				53A339C59175136D961F7A434B8A22B8 /* MZMerchantSettingResponse.h */,
+				971A105E68EFB78D23345F0881493AAA /* MZMerchantSettingResponse.m */,
+				3947E20D630F3684C93864DC947DC47A /* MZPayment.h */,
+				19CC74A7F106A41DB985D7F7013FFC9A /* MZPayment.m */,
+				CF444D51D4E0F71E3F62F505D6A1EEB9 /* MZPaymentResponse.h */,
+				0DAE77DD3AE0C6FBBF351B0009F8B330 /* MZPaymentResponse.m */,
+				0BE50399D72B855485229444BCEAA91C /* MZRedeemCouponResponse.h */,
+				85710958942705DFBE7E989006E6E92A /* MZRedeemCouponResponse.m */,
+				9ECE930B25A669CFF767820693D6DCB4 /* MZSerialCouponDetailsResponse.h */,
+				FF805C68D089160BD2FC8A8ABDA87853 /* MZSerialCouponDetailsResponse.m */,
+				3FDA5C32DBF95812B750A2EF11C59D6E /* MZTransactionLog.h */,
+				8F3D2D9579D46DC846BAEECB3CFF97B5 /* MZTransactionLog.m */,
+				C95B4B0BD70227CDFD770C6A2EA6D8CA /* MZTransactionLogResponse.h */,
+				F5BCA012F543585BCA1BDFAC8759F5AF /* MZTransactionLogResponse.m */,
+				654C830FAE5A046EB7408258781AE781 /* MZUtils.h */,
+				A65CDF1C67D7B7E1E56CAD2EEB055C56 /* MZUtils.m */,
+				2B0C043DEF26D7DF137C09FE75ABDC07 /* PaymentData.h */,
+				C6BE70376E4D4AAC36BF3BF081F145DC /* PaymentData.m */,
+				E97664D5C857E3B8008498BFDF2CC171 /* PaymentListModel.h */,
+				B1D784734D6B8ABF3C26170FEDAA6C15 /* PaymentListModel.m */,
+				F3C79C454831139CE68AB51CDE59C912 /* RedeemCouponCommitData.h */,
+				76AA2E7E35B3A72048F2B79B7FE76060 /* RedeemCouponCommitData.m */,
+				DACD93C817472E2DA3D660BAF95502FB /* RedeemResponseData.h */,
+				50E01C2D783AB26A2413B1BB2607070E /* RedeemResponseData.m */,
+				9053A906993C5BA9BEB6A735E3BE17E7 /* RedeemSerialTransactionData.h */,
+				8ABF199B12815520C1EB87DAAE4124B9 /* RedeemSerialTransactionData.m */,
+				123F92919F9A78E0EEF438BC7B95D4D7 /* RedeemTransactionData.h */,
+				5F48372EA2EA72206AB27F612375D91D /* RedeemTransactionData.m */,
+				19357D0DD6A658E4ABDB8C0EAAC0548A /* RedeemTransactionModel.h */,
+				0DB15C6072E4F0CEEDA52D32BD4011BF /* RedeemTransactionModel.m */,
+				67A54B41CC253D03F30557D187EDB7FC /* ReferenceData.h */,
+				3669D593AD5C672C9FCFFC66096777CB /* ReferenceData.m */,
+				DB564498B0D4748DB6183668E2DB8CC8 /* SerialData.h */,
+				179DF4BCFB1F1DEE63038D2449596DE5 /* SerialData.m */,
+				AF5F9343C0862BF8C3395D12BCE40DAB /* SerialOutletData.h */,
+				B22AC93F1E6FC8BE40BF63FA4CCA6ADD /* SerialOutletData.m */,
+				5056E1FDFFE2AACB79D286115B37B66B /* SerialOutletListData.h */,
+				F5DF40D989A4D6ECE7FBC74CC09F5BC4 /* SerialOutletListData.m */,
+				F208EBB9A0490CE9AF168F8AEBB814AE /* SerialTransactionsModel.h */,
+				E0644EDA4803CAB6CC0DC4892F9E4392 /* SerialTransactionsModel.m */,
+				4C9FABC658FD1DF1CB78E35446F2F174 /* SummaryData.h */,
+				45D8589A876836B607E1B66FCBCF8C7E /* SummaryData.m */,
+				3615C95FC3A43428205E121D643CB8ED /* TransactionAllocationData.h */,
+				94724E8177DE8856D003DE7307336179 /* TransactionAllocationData.m */,
+				5A6F1C11A1F6928EC65BAA91BE3C3A9E /* TransactionIssueData.h */,
+				1670AF9F319DCF3D872827564FD916EA /* TransactionIssueData.m */,
+				F861FAA5E6C093E51056EB82728535C0 /* TransactionLogData.h */,
+				B61044FEBF21D732E0366C0620DF972A /* TransactionLogData.m */,
+				629A542C0CB8F3431BF1AD03E6A00F30 /* TransactionLogDetailsData.h */,
+				0C5DC23FAF490A29D1FF1DE068F55B68 /* TransactionLogDetailsData.m */,
+				BFB6D675D57BB6A5D721A76517DEDE8D /* TransactionLogModel.h */,
+				F36794E1C675E188571D8F3930479D59 /* TransactionLogModel.m */,
+				AB913B96EF97089409494B081FF531E7 /* TransactionRedeemData.h */,
+				4BA9A34E7D9DEE082242E8440A4FB892 /* TransactionRedeemData.m */,
+				36716AE74CEBAFE5B12EFC2390D38920 /* TransactionVoidData.h */,
+				122E2D81FC31246BF6E04A9E81C844FF /* TransactionVoidData.m */,
+				BE9EE67C6BED25BF0B6A1A24FA111657 /* no-arc */,
+				21462E99871C8B409A8E632D0BAA625B /* Support Files */,
+			);
+			name = MZCustomerCouponLib;
+			path = MZCustomerCouponLib;
+			sourceTree = "<group>";
+		};
+		E42343627EA44A82E8BBAEAE4B14F661 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				D13CF201D889C0AAA9CCA3D07DF1822A /* AFNetworking.h */,
+				DAFB36D9DEBCCA4DFB0006D440B50679 /* NSURLSession */,
+				0C16D393DCCE7F29A6F46A79EC21E869 /* Reachability */,
+				4A4BB345BF4E47951A1A180F493667D3 /* Security */,
+				7001916E885544A5DA3CEF78EAD22025 /* Serialization */,
+				9A2F74C4278B70A0BACC5A467CF22F29 /* Support Files */,
+				44C29F9F57E24745D33CCABF7DF95E4B /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		013D46A2D5E7414B3E0788ED6C4A52D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9A90FBFD6C0443029D5CB1CF9D9934 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF3BFA25F479D221D8A73AC219A0D21 /* AuthToken.h in Headers */,
+				A000FB9B2FE259333CC579D53363460D /* CouponCountData.h in Headers */,
+				BC9BBDDB7C1939B0F76D0DD306F5AF00 /* CouponData.h in Headers */,
+				A8B344E8ECB949A3DE8C99744ACF5545 /* CouponImageListData.h in Headers */,
+				2BC1D6BF2BC07C45C4F89A543DA3D55E /* CouponImagesData.h in Headers */,
+				05AF1757987BE74693CEEC3D066459CF /* CouponLinksData.h in Headers */,
+				E67DF8AE2B4AE024111A8482D031E13A /* CouponListData.h in Headers */,
+				0C3D76ADC71F61796FC1591C5BF2F3D2 /* CouponMerchantData.h in Headers */,
+				64AE37A3C8FEE91C4A2FD904B06D1D71 /* CouponMetaData.h in Headers */,
+				99C3ABC639238C3FB4570783A3284367 /* CouponOutletListData.h in Headers */,
+				4C462AAC75684BF8620D7D3095280381 /* CouponOutletsData.h in Headers */,
+				8C980BBE2D88514A15B772233F414F4F /* CouponSerialData.h in Headers */,
+				AFAA7085A00A0351A1E5ADDBC02E0DD1 /* CouponserialList.h in Headers */,
+				080E0D1A081E1E451108906AA9B3CF36 /* CouponSerialListModel.h in Headers */,
+				87E7AC5D2524D9C2348C2219FE1368F1 /* CouponSerialModel.h in Headers */,
+				A8BCEA0C86FC8B44E0035EA1859A12CF /* CouponTimingsData.h in Headers */,
+				EA53586FBB614B0D778AE5AAE4857137 /* CouponTransferData.h in Headers */,
+				60042A54B7923BA8BA04A6AC7913A794 /* CouponTransferModel.h in Headers */,
+				3DC8403F7343F6DAF3004E6C36793F25 /* CouponVoidModel.h in Headers */,
+				C25D8AA7AC5183E0499F1125534B9B72 /* CouponVoidTransactionData.h in Headers */,
+				67E3A569B6369031770BD7AD3C9B4361 /* CustomerCouponData.h in Headers */,
+				F0154DF529181ED15B0895B3349A9715 /* CustomerCouponModel.h in Headers */,
+				8528D53AD0B50027BFD3B185A8DD1BB7 /* CustomerData.h in Headers */,
+				5CDE30F2320ABAED5CE9BB13CE087BC1 /* CustomerDataModel.h in Headers */,
+				FE2CCB8B7FE04AF5AFC1D5C5B26D4DEB /* CustomerDeviceData.h in Headers */,
+				194FB9DAD3FB79555117FBBDEFFE23A0 /* CustomerDeviceDataModel.h in Headers */,
+				A15512F0E631E6E750F616EA6310020E /* DeveloperMessageData.h in Headers */,
+				6E7CD41C4B467BD435203C0688353906 /* IssueCouponCommitData.h in Headers */,
+				E3BB3ABAC1A510C02CB2D54E59DACFC8 /* IssueCouponModel.h in Headers */,
+				1D3E78C7D7B784B7973BBEFE1F9DBE95 /* IssueCustomerData.h in Headers */,
+				20891D3C4424AD0FBCFD0F8BC420A05C /* MerchantData.h in Headers */,
+				A9AE5BA55FF726BA9B3B4324935EDCE3 /* MZAuthTokenResponse.h in Headers */,
+				E438F428EA31C79DD9303976921B3AF4 /* MZCoupon.h in Headers */,
+				C39B6EDE6D628CF99C25E54A108756A4 /* MZCouponDetailsResponse.h in Headers */,
+				9872CE9A700D77FC2869214824CA2A71 /* MZCouponOutletResponse.h in Headers */,
+				1412578A3A5DCE23C553570CDD7D28F4 /* MZCouponResponse.h in Headers */,
+				D930EDB651BDC79858D5553ED88C7241 /* MZCouponSerial.h in Headers */,
+				EC28321A651D747F25F3701CC9BD2E16 /* MZCouponSerialResponse.h in Headers */,
+				5B177874210BD89259B60A5B1BDF05A3 /* MZCustomerCouponLib.h in Headers */,
+				7E760584953713162F90E4B090232F08 /* MZCustomerLogin.h in Headers */,
+				E71192D76FB8CA046AABA874B79C09DF /* MZExpressRedeem.h in Headers */,
+				D4F3C1375E2823AB641F0D5574447F90 /* MZIssueCouponResponse.h in Headers */,
+				DB941D59CF0E33549046E16A1A74C5C5 /* MZJastor.h in Headers */,
+				55F3153D1DBAC97FE790B39E1A5FBA93 /* MZJastorRuntimeHelper.h in Headers */,
+				C3E4DF942B484EB661C3F1482C64F7C3 /* MZLoginResponse.h in Headers */,
+				7CE5C9B4E947E7A548EB444FA181B7D8 /* MZMerchant.h in Headers */,
+				5E542F46366F9E6922FB711624B930CD /* MZMerchantOAuthResponse.h in Headers */,
+				AB7B07954A58639530989B470A7B379F /* MZMerchantResponse.h in Headers */,
+				B5F7AE6BEE24CD0E035E16046CC40E05 /* MZMerchantSettingResponse.h in Headers */,
+				50AF3B7F03EA4433987775FF6C6BD020 /* MZPayment.h in Headers */,
+				6D44D2F192EF4F3C69A5BD0893F66013 /* MZPaymentResponse.h in Headers */,
+				3BA55DD41D4EF85E78C74F84A419334B /* MZRedeemCouponResponse.h in Headers */,
+				DCC18DC81BA5872A8757AE82A097785D /* MZSerialCouponDetailsResponse.h in Headers */,
+				1D309AA428411E3FB36AED031282B5E1 /* MZTransactionLog.h in Headers */,
+				5B110124138572BA3C242DB9899392CD /* MZTransactionLogResponse.h in Headers */,
+				906A146CCA0CEF0B57C8182B07E94F8D /* MZUtils.h in Headers */,
+				FB99535BD0C31CBEDFA2A936AE7D4FE0 /* PaymentData.h in Headers */,
+				485778FB430AE2E4D600DA4242E2ABAE /* PaymentListModel.h in Headers */,
+				85CAF5CD1D692EDE420B0BD5FFD5CBC5 /* RedeemCouponCommitData.h in Headers */,
+				4B15E9A40E135D65B76AF8AC5AAACE8B /* RedeemResponseData.h in Headers */,
+				5741E36A2063802C987597A3F54D1EE5 /* RedeemSerialTransactionData.h in Headers */,
+				C506F7D16284BC3898F5E5333F3A15FA /* RedeemTransactionData.h in Headers */,
+				D458579EF42169670CF966C8A768476C /* RedeemTransactionModel.h in Headers */,
+				51EA3A1B77144FCA8FB2BE01E674C904 /* ReferenceData.h in Headers */,
+				126EB8F5D568AEAF528F728A396B5205 /* SerialData.h in Headers */,
+				AA2CD9BC8AF7E7D96041DEC6779FE8B4 /* SerialOutletData.h in Headers */,
+				CC835E206359BC857F4533D575F15E5F /* SerialOutletListData.h in Headers */,
+				0A15C977AB5BF85797371DE5B8BFBEAE /* SerialTransactionsModel.h in Headers */,
+				FAB61E375CE8B6F508CC7D08AA0539A5 /* SummaryData.h in Headers */,
+				17288584A08F61D8B57F4B62BF170329 /* TransactionAllocationData.h in Headers */,
+				0ED47D853DA2920A304F167B5FEBE112 /* TransactionIssueData.h in Headers */,
+				8C3068DC0AA3937AF054E9BA36A5C2FA /* TransactionLogData.h in Headers */,
+				906C48308FD1772A1C8D3C3C60B36DF5 /* TransactionLogDetailsData.h in Headers */,
+				0154CBA864011086A90C30A601A15EA9 /* TransactionLogModel.h in Headers */,
+				0D722474929FAF56B63E3767ED71DE48 /* TransactionRedeemData.h in Headers */,
+				69569A19469194C73F74117D322356FD /* TransactionVoidData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC67CFC362D32BD2615E7842794AEC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E810B450F5776164ED2B2136F376988 /* AFAutoPurgingImageCache.h in Headers */,
+				760E1899AEAA102651CB096F14BE60AA /* AFCompatibilityMacros.h in Headers */,
+				F03B276745F37E505667479C9DE0C7F2 /* AFHTTPSessionManager.h in Headers */,
+				B7B82E12541B71F6BCADF0129AF754C9 /* AFImageDownloader.h in Headers */,
+				CAF8580D6ED4980C7ADF9DE194F85650 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				25BDE68C15F69C0BA1B719A9993E8A81 /* AFNetworking.h in Headers */,
+				A58D961B3131B67678B39D582FF72B46 /* AFNetworkReachabilityManager.h in Headers */,
+				C53724481EDE8B6D88B45CE0B587AEFC /* AFSecurityPolicy.h in Headers */,
+				A693E7C90C6AC5D000CAED3CF677AF36 /* AFURLRequestSerialization.h in Headers */,
+				8FDB85FB21FC47EC794745DDDA1A504D /* AFURLResponseSerialization.h in Headers */,
+				BC71ADFAE509F6DE8C73D33CCC920ACB /* AFURLSessionManager.h in Headers */,
+				89F78066144CFDBD90D296CFF193744C /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				8957AA7B1A07DF7E81A0117D57E9A2A9 /* UIButton+AFNetworking.h in Headers */,
+				DEE3CBDA2426FB23A0FFC4D00CFDFF23 /* UIImageView+AFNetworking.h in Headers */,
+				CAB09959CEF5E3A10E28CB2B9F4F211A /* UIKit+AFNetworking.h in Headers */,
+				D42439DE1BAA17AC1E4AF83B38427C24 /* UIProgressView+AFNetworking.h in Headers */,
+				E700D209497E847267E64DAF010E04CB /* UIRefreshControl+AFNetworking.h in Headers */,
+				B912784B041A1FA093269EB66862873D /* WKWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B9D905D41931C2FE6F12321B7C8C39 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				4BC67CFC362D32BD2615E7842794AEC3 /* Headers */,
+				651634E6E7907FC0B356AF2233E81444 /* Sources */,
+				B2DB1FBE373354D0714284083F6DE10D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4AF8933364AF1D3CCE9917BC230224A9 /* Pods-testpos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FD7F3213E2430B0ACEB6DEE810615D /* Build configuration list for PBXNativeTarget "Pods-testpos" */;
+			buildPhases = (
+				013D46A2D5E7414B3E0788ED6C4A52D7 /* Headers */,
+				84232B447F4C26B65DCA424691A44C8B /* Sources */,
+				444F582D48D5EEC048FE868187914D03 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E126A699DF5DA437DA39CA3108D99F8 /* PBXTargetDependency */,
+				833457C33B57F2A9E9D2603169BFC69F /* PBXTargetDependency */,
+			);
+			name = "Pods-testpos";
+			productName = "Pods-testpos";
+			productReference = 5BEE6C1ED272DC5956B6760413268969 /* libPods-testpos.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		77054136E10489F5FB02F2E68F09F0BE /* MZCustomerCouponLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D044EB3D586A8A0994B7E98853CBD2E /* Build configuration list for PBXNativeTarget "MZCustomerCouponLib" */;
+			buildPhases = (
+				1E9A90FBFD6C0443029D5CB1CF9D9934 /* Headers */,
+				65FF58FE57C34B59EE13CBF69779A17D /* Sources */,
+				DFEBBCBAA4F5D79BCFCCFBEAE4C83C6A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				583A8E8C4D995608BE5206ED5ED0856A /* PBXTargetDependency */,
+			);
+			name = MZCustomerCouponLib;
+			productName = MZCustomerCouponLib;
+			productReference = 5E77D7078A25DABE160341D5D6C09F21 /* libMZCustomerCouponLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CF739E7ED0C984803F88BDB29160FC71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */,
+				77054136E10489F5FB02F2E68F09F0BE /* MZCustomerCouponLib */,
+				4AF8933364AF1D3CCE9917BC230224A9 /* Pods-testpos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		651634E6E7907FC0B356AF2233E81444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C6ED5D0B3F088A737F93BF2B955F94 /* AFAutoPurgingImageCache.m in Sources */,
+				DDA09D4C8D1559D493911B825FCE4D8B /* AFHTTPSessionManager.m in Sources */,
+				16B2B4A252698342651259F6B3E23B5F /* AFImageDownloader.m in Sources */,
+				517C94804E88443C3EFD518C9762FE81 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				90D15A815F91BD2F4A29FC456D6AC303 /* AFNetworking-dummy.m in Sources */,
+				703EDC28A8CDF23D85A1DC97907D5CFF /* AFNetworkReachabilityManager.m in Sources */,
+				934369FF599DDA35F12D1B9718CFB789 /* AFSecurityPolicy.m in Sources */,
+				0DD5197FE356065BC338B911BC93035C /* AFURLRequestSerialization.m in Sources */,
+				3E5D2116666B5BBF7003B4DF1F2B8E70 /* AFURLResponseSerialization.m in Sources */,
+				E5CB5D873EE0E259DA28CBF9C8EC78DA /* AFURLSessionManager.m in Sources */,
+				CC4718FB1BFB356A02492A7A5579C3F4 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				A0DE26E18A4ACDADC485BC5B42695542 /* UIButton+AFNetworking.m in Sources */,
+				508908F5D1679AD6DD06A17A1F307211 /* UIImageView+AFNetworking.m in Sources */,
+				0362D6F9FFFE4724A3DD8ABBC7345177 /* UIProgressView+AFNetworking.m in Sources */,
+				DB6219C37A71EF717732C8857942A6C3 /* UIRefreshControl+AFNetworking.m in Sources */,
+				56C022169B9D21A4E4DDB653617DB29E /* WKWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FF58FE57C34B59EE13CBF69779A17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD9BDC63D4B70F591AAE37BD5537B8 /* AuthToken.m in Sources */,
+				0479D9A76B452E6808F76D84437DFE31 /* CouponCountData.m in Sources */,
+				A56B02E155D72F55F098672069BB4387 /* CouponData.m in Sources */,
+				6972A358F2E63DE60D4FAB9806D1726D /* CouponImageListData.m in Sources */,
+				C0D6C7DB1B813CDCF4D72B73A7514112 /* CouponImagesData.m in Sources */,
+				33CD54C0DBDB94DBD808DBAA29EFBC82 /* CouponLinksData.m in Sources */,
+				4DB186A476EA25A417BED31EC978DAA4 /* CouponListData.m in Sources */,
+				9F97A17D9C6BDCB44C69DD57C9D5F51A /* CouponMerchantData.m in Sources */,
+				76B0B411B622F2DAA962A6540232FE5E /* CouponMetaData.m in Sources */,
+				A924D0F76B01DAE0182FFF539E702871 /* CouponOutletListData.m in Sources */,
+				A4E4BD914404BF20AFE5E288BE2608D3 /* CouponOutletsData.m in Sources */,
+				DEF15CA0EE28ED85D234DEED5CE8645C /* CouponSerialData.m in Sources */,
+				214383CD2601E7D469ECFCE2713839AC /* CouponserialList.m in Sources */,
+				371C619D3C8E9284056A87D7CE10D9CB /* CouponSerialListModel.m in Sources */,
+				616D9A51E2A7612ED844A95F8B6D24F9 /* CouponSerialModel.m in Sources */,
+				21CD4038B75A9B68BCC7CB3A470A1463 /* CouponTimingsData.m in Sources */,
+				3891FE980B9B030FF542F62C2DF049EA /* CouponTransferData.m in Sources */,
+				8E134901B5B3E7B0E8BD3F1E0229430C /* CouponTransferModel.m in Sources */,
+				A43CA70CF379D8E2CEA0D9B9142F03BF /* CouponVoidModel.m in Sources */,
+				A84B28429A0016284B3399A7C7682F9D /* CouponVoidTransactionData.m in Sources */,
+				6707C13A68D408E10A4E656105AD1BAB /* CustomerCouponData.m in Sources */,
+				7A69EEE80DB275628512EFDBDF306D8D /* CustomerCouponModel.m in Sources */,
+				E71BFE13A78DDB87407584A8A94C4AEB /* CustomerData.m in Sources */,
+				A814621B535049E533A4662F8AF43642 /* CustomerDataModel.m in Sources */,
+				789EC007D6ECCA23FD82B1533C18B060 /* CustomerDeviceData.m in Sources */,
+				288E471A1AF4ED02BFC4FA3E02689309 /* CustomerDeviceDataModel.m in Sources */,
+				08A8333B9E90827A92F77D44EB7EF9CE /* DeveloperMessageData.m in Sources */,
+				230D4BDFC26D30F58F760614A723AD92 /* IssueCouponCommitData.m in Sources */,
+				55C69F04B03EAF75325C926B6B97AB51 /* IssueCouponModel.m in Sources */,
+				F418243B37FD5C46906BF419AEE8EEE1 /* IssueCustomerData.m in Sources */,
+				9EB1DA15FC8D25CE08AD3889D7CB8454 /* MerchantData.m in Sources */,
+				34E62F05ED95A4317D0F2B39DEBF12B4 /* MZAuthTokenResponse.m in Sources */,
+				EBE7D68941A498D27AC5457083B678ED /* MZCoupon.m in Sources */,
+				A23CE43DEF1DD149F38DACC05FDEB4D5 /* MZCouponDetailsResponse.m in Sources */,
+				F65C86C93B942CACB2C512F31F73A808 /* MZCouponOutletResponse.m in Sources */,
+				2F9ADF3A88ADBCBAD21A309E5807EA3C /* MZCouponResponse.m in Sources */,
+				69E060C687C095E8C6AD70F4355A54DA /* MZCouponSerial.m in Sources */,
+				1D2E7104E58DE4065AF7209DBA059C8F /* MZCouponSerialResponse.m in Sources */,
+				A31688C942EEC73F18F196F42FA37320 /* MZCustomerCouponLib-dummy.m in Sources */,
+				1888FDCAAA3AAE8056FA3048C4090A07 /* MZCustomerLogin.m in Sources */,
+				EDF8D992DE442BD3828BA2630AF8652C /* MZExpressRedeem.m in Sources */,
+				0F5048828137D4AF0F35DA724E18BD43 /* MZIssueCouponResponse.m in Sources */,
+				586D54E48EB243E9BA9E7E70A000D5AB /* MZJastor.m in Sources */,
+				686C8573BAF946A865C85F99811BC916 /* MZJastorRuntimeHelper.m in Sources */,
+				1A1CB70F11FAA4C13F971AF15DEB8C3F /* MZLoginResponse.m in Sources */,
+				2EC4F3CC2EE796EA1EBDB5D854BB602A /* MZMerchant.m in Sources */,
+				CADA1EB4516CA50D6FFC526DBACAB03A /* MZMerchantOAuthResponse.m in Sources */,
+				C08FD8A72F5922E426423F2BFBB74012 /* MZMerchantResponse.m in Sources */,
+				E1CC9DEF8E23E687539760BE46103BD2 /* MZMerchantSettingResponse.m in Sources */,
+				9F448FEB9E27FB18B826AC7F7089274C /* MZPayment.m in Sources */,
+				5707570AB305B316D5580391A9ED9D65 /* MZPaymentResponse.m in Sources */,
+				BAA035AF842966309992F1B7E7E5B17E /* MZRedeemCouponResponse.m in Sources */,
+				6D1E012B9DCB81A34BB0F25CFA807A52 /* MZSerialCouponDetailsResponse.m in Sources */,
+				74676D35D75D5E8F7A294A9DCA2E4D5A /* MZTransactionLog.m in Sources */,
+				E3F13E0C8101120289740D6ED0FF7B52 /* MZTransactionLogResponse.m in Sources */,
+				DE8C07A91ABD8E0211FCB086D5C1FB44 /* MZUtils.m in Sources */,
+				20E5264222EF2C1AE2063B72EF13C707 /* PaymentData.m in Sources */,
+				D5C7A15EC936E7A18BECFFD45609080C /* PaymentListModel.m in Sources */,
+				822A0E34D1599176AE725355A439C811 /* RedeemCouponCommitData.m in Sources */,
+				4F15427743694F1A161117EFA5136CC0 /* RedeemResponseData.m in Sources */,
+				2F924D995A0D68EEE5AB9E64712FC27D /* RedeemSerialTransactionData.m in Sources */,
+				F137EA5F9C8FAA0C1573E723D3087DB3 /* RedeemTransactionData.m in Sources */,
+				5E6BE955193A2EEB020D2AA8B4F8AE2A /* RedeemTransactionModel.m in Sources */,
+				CCAD3058C1A7AF7AC4D29324D416147E /* ReferenceData.m in Sources */,
+				CFFA68D606240C00F71DCCD49B27FC07 /* SerialData.m in Sources */,
+				2126F08640A83B4731CFE6565AA7700B /* SerialOutletData.m in Sources */,
+				9834BAC11D67A37DBE192E490C075FD5 /* SerialOutletListData.m in Sources */,
+				94D720848AD1E1602EF12DA8A447B82D /* SerialTransactionsModel.m in Sources */,
+				A3FEABE9EED2D6B8AC8D0B056DC2A118 /* SummaryData.m in Sources */,
+				D9F56517E1D97B48C7D8F30522969E5E /* TransactionAllocationData.m in Sources */,
+				915B64894678962AF637CF6E6812584A /* TransactionIssueData.m in Sources */,
+				96712447C7726DB45CD7212DA4B9C3E2 /* TransactionLogData.m in Sources */,
+				3276205C4CD22B960EA97FE45F481588 /* TransactionLogDetailsData.m in Sources */,
+				87525AA667414CE828DD9A015D99FDC8 /* TransactionLogModel.m in Sources */,
+				847A4B40C618458C463D0E301DAA6EDF /* TransactionRedeemData.m in Sources */,
+				D8914C93AC290F510500C1FF4B8FC956 /* TransactionVoidData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84232B447F4C26B65DCA424691A44C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422FC8AFD08F403080A14BB88D050FBD /* Pods-testpos-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E126A699DF5DA437DA39CA3108D99F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = E143BE8C15E3893616809F0DA351ACE8 /* PBXContainerItemProxy */;
+		};
+		583A8E8C4D995608BE5206ED5ED0856A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 2A821CBD1438CF4F2013137A327BB9CB /* PBXContainerItemProxy */;
+		};
+		833457C33B57F2A9E9D2603169BFC69F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZCustomerCouponLib;
+			target = 77054136E10489F5FB02F2E68F09F0BE /* MZCustomerCouponLib */;
+			targetProxy = 1C7B7EB970F992ADED4093A71C65BB24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C0068C685CCE47500A398309848988C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE9E2209C3EE97C2683373CD505E0C8 /* Pods-testpos.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		130C97ACE86A455F2B8A0AB1CC202A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1399F3F847BB2783FB03900E72C63597 /* Pods-testpos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4606FDC5FE412EA643B36BBFB7DDBFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B7017981DEDFDFF15CE50A9F8C4091 /* MZCustomerCouponLib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MZCustomerCouponLib/MZCustomerCouponLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MZCustomerCouponLib;
+				PRODUCT_NAME = MZCustomerCouponLib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49DA7E531DF71B46BC598703B8CF2412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872758608D805102C9F6B7842A5303D0 /* AFNetworking.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		80913E2F2E5B531A245B5396419431E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20023CE36B238A34647287D9943AD061 /* MZCustomerCouponLib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MZCustomerCouponLib/MZCustomerCouponLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MZCustomerCouponLib;
+				PRODUCT_NAME = MZCustomerCouponLib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB3E9962331178DB1F41201D382B8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF333F8B95042CC5D6B0A9054D4A67B3 /* AFNetworking.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14B9D905D41931C2FE6F12321B7C8C39 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB3E9962331178DB1F41201D382B8E0 /* Debug */,
+				49DA7E531DF71B46BC598703B8CF2412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D044EB3D586A8A0994B7E98853CBD2E /* Build configuration list for PBXNativeTarget "MZCustomerCouponLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4606FDC5FE412EA643B36BBFB7DDBFB7 /* Debug */,
+				80913E2F2E5B531A245B5396419431E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FD7F3213E2430B0ACEB6DEE810615D /* Build configuration list for PBXNativeTarget "Pods-testpos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C0068C685CCE47500A398309848988C /* Debug */,
+				130C97ACE86A455F2B8A0AB1CC202A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

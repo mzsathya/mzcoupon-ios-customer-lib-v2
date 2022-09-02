@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MZCustomerCouponLib"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "API Access Platform url  and get value from server."
 
   # This description is used to generate tags and improve search results.

@@ -1,0 +1,1 @@
+../../../MZCustomerCouponLib/MZCustomerCouponLib/Pojo/SerialTransactionsModel.h

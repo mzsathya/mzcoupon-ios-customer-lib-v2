@@ -1,0 +1,1 @@
+../../../MZCustomerCouponLib/MZCustomerCouponLib/DataResponse/Login/MZAuthTokenResponse.h

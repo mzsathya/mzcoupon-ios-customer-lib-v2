@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F03DA6B28C0BBCB006DC15F /* OAuthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F03DA6A28C0BBCB006DC15F /* OAuthTableViewController.m */; };
+		4F03DA7028C0BE81006DC15F /* CustomerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F03DA6F28C0BE81006DC15F /* CustomerTableViewController.m */; };
+		4F03DA7528C0BE8A006DC15F /* MerchantTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F03DA7428C0BE8A006DC15F /* MerchantTableViewController.m */; };
+		4F03DA7A28C0BE9B006DC15F /* CouponIssueTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F03DA7928C0BE9B006DC15F /* CouponIssueTableViewController.m */; };
+		4F03DA7F28C0BEA7006DC15F /* CouponRedeemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F03DA7E28C0BEA7006DC15F /* CouponRedeemTableViewController.m */; };
+		4FFD12D728BD5D170006DEAB /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD12D628BD5D170006DEAB /* HomeTableViewController.m */; };
+		4FFD12DD28BD7D160006DEAB /* MerchantOauthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD12DC28BD7D160006DEAB /* MerchantOauthViewController.m */; };
+		4FFD12E228BD7D510006DEAB /* AccessTokenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD12E128BD7D510006DEAB /* AccessTokenViewController.m */; };
+		4FFD12E728BD7D930006DEAB /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD12E628BD7D930006DEAB /* RegisterViewController.m */; };
+		4FFD12EC28BD7DB70006DEAB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD12EB28BD7DB70006DEAB /* LoginViewController.m */; };
+		4FFD12F128BD7DD70006DEAB /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD12F028BD7DD70006DEAB /* ForgetPasswordViewController.m */; };
+		4FFD12F628BD7DFB0006DEAB /* OtpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD12F528BD7DFB0006DEAB /* OtpViewController.m */; };
+		4FFD12FB28BD7E3B0006DEAB /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD12FA28BD7E3B0006DEAB /* ChangePasswordViewController.m */; };
+		4FFD130028BD7E6B0006DEAB /* ProfileUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD12FF28BD7E6B0006DEAB /* ProfileUpdateViewController.m */; };
+		4FFD130528BD7E900006DEAB /* MerchantDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD130428BD7E900006DEAB /* MerchantDetailsViewController.m */; };
+		4FFD130A28BD7EAE0006DEAB /* CustomerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD130928BD7EAE0006DEAB /* CustomerDetailsViewController.m */; };
+		4FFD130F28BD81C10006DEAB /* CouponListByOutletIdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD130E28BD81C10006DEAB /* CouponListByOutletIdViewController.m */; };
+		4FFD131428BD82570006DEAB /* CouponDtlsByCouponIdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD131328BD82570006DEAB /* CouponDtlsByCouponIdViewController.m */; };
+		4FFD131928BD83A80006DEAB /* IssueCouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD131828BD83A80006DEAB /* IssueCouponViewController.m */; };
+		4FFD131E28BD84370006DEAB /* IssueCouponRollbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD131D28BD84370006DEAB /* IssueCouponRollbackViewController.m */; };
+		4FFD132328BD85430006DEAB /* RedeemCouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD132228BD85430006DEAB /* RedeemCouponViewController.m */; };
+		4FFD132828BD86130006DEAB /* RedeemCouponRollbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD132728BD86130006DEAB /* RedeemCouponRollbackViewController.m */; };
+		4FFD132D28BD86A70006DEAB /* SerialDetailsByCouponSerialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD132C28BD86A70006DEAB /* SerialDetailsByCouponSerialViewController.m */; };
+		4FFD133228BD872C0006DEAB /* SerialListByCustomerIdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD133128BD872C0006DEAB /* SerialListByCustomerIdViewController.m */; };
+		4FFD133728BD87D40006DEAB /* SerialListByStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD133628BD87D40006DEAB /* SerialListByStatusViewController.m */; };
+		4FFD133C28BD88660006DEAB /* SerialListByCustomerIdCouponIdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD133B28BD88660006DEAB /* SerialListByCustomerIdCouponIdViewController.m */; };
+		4FFD134128BD89970006DEAB /* TransferCouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD134028BD89970006DEAB /* TransferCouponViewController.m */; };
+		4FFD134628BD89B50006DEAB /* VoidCouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD134528BD89B50006DEAB /* VoidCouponViewController.m */; };
+		4FFD134B28BD8E2A0006DEAB /* OutletDetailsByPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD134A28BD8E2A0006DEAB /* OutletDetailsByPinViewController.m */; };
+		4FFD135028BD8E460006DEAB /* ExpressRedeemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD134F28BD8E460006DEAB /* ExpressRedeemViewController.m */; };
+		4FFD135528BD8E680006DEAB /* ExpiryCouponRedeemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD135428BD8E680006DEAB /* ExpiryCouponRedeemViewController.m */; };
+		4FFD135A28BD8E8E0006DEAB /* UpdateReferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD135928BD8E8E0006DEAB /* UpdateReferenceViewController.m */; };
+		4FFD135F28BD8EA70006DEAB /* TransactionLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD135E28BD8EA70006DEAB /* TransactionLogViewController.m */; };
+		4FFD136428BDC0560006DEAB /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD136328BDC0560006DEAB /* Common.m */; };
+		5C50182A28463A2400CD4C6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50182928463A2400CD4C6A /* AppDelegate.m */; };
+		5C50182D28463A2400CD4C6A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50182C28463A2400CD4C6A /* SceneDelegate.m */; };
+		5C50183028463A2400CD4C6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50182F28463A2400CD4C6A /* ViewController.m */; };
+		5C50183328463A2400CD4C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C50183128463A2400CD4C6A /* Main.storyboard */; };
+		5C50183528463A2600CD4C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C50183428463A2600CD4C6A /* Assets.xcassets */; };
+		5C50183828463A2600CD4C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C50183628463A2600CD4C6A /* LaunchScreen.storyboard */; };
+		5C50183B28463A2600CD4C6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50183A28463A2600CD4C6A /* main.m */; };
+		5C50184528463A2600CD4C6A /* testposTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50184428463A2600CD4C6A /* testposTests.m */; };
+		5C50185028463A2700CD4C6A /* testposUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50184F28463A2700CD4C6A /* testposUITests.m */; };
+		8DC25BECC42E206D77396E96 /* libPods-testpos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B0B93BA06961445A9810CB /* libPods-testpos.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C50184128463A2600CD4C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C50181D28463A2300CD4C6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C50182428463A2300CD4C6A;
+			remoteInfo = testpos;
+		};
+		5C50184C28463A2700CD4C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C50181D28463A2300CD4C6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C50182428463A2300CD4C6A;
+			remoteInfo = testpos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C24BD3F28A37D6000078787 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1BD318BE0B566053D81C26F2 /* Pods-testpos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testpos.debug.xcconfig"; path = "Target Support Files/Pods-testpos/Pods-testpos.debug.xcconfig"; sourceTree = "<group>"; };
+		35B0B93BA06961445A9810CB /* libPods-testpos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testpos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F03DA6928C0BBCB006DC15F /* OAuthTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAuthTableViewController.h; sourceTree = "<group>"; };
+		4F03DA6A28C0BBCB006DC15F /* OAuthTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAuthTableViewController.m; sourceTree = "<group>"; };
+		4F03DA6E28C0BE81006DC15F /* CustomerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerTableViewController.h; sourceTree = "<group>"; };
+		4F03DA6F28C0BE81006DC15F /* CustomerTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerTableViewController.m; sourceTree = "<group>"; };
+		4F03DA7328C0BE8A006DC15F /* MerchantTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MerchantTableViewController.h; sourceTree = "<group>"; };
+		4F03DA7428C0BE8A006DC15F /* MerchantTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MerchantTableViewController.m; sourceTree = "<group>"; };
+		4F03DA7828C0BE9B006DC15F /* CouponIssueTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CouponIssueTableViewController.h; sourceTree = "<group>"; };
+		4F03DA7928C0BE9B006DC15F /* CouponIssueTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CouponIssueTableViewController.m; sourceTree = "<group>"; };
+		4F03DA7D28C0BEA7006DC15F /* CouponRedeemTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CouponRedeemTableViewController.h; sourceTree = "<group>"; };
+		4F03DA7E28C0BEA7006DC15F /* CouponRedeemTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CouponRedeemTableViewController.m; sourceTree = "<group>"; };
+		4FFD12D528BD5D170006DEAB /* HomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		4FFD12D628BD5D170006DEAB /* HomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		4FFD12DB28BD7D160006DEAB /* MerchantOauthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MerchantOauthViewController.h; sourceTree = "<group>"; };
+		4FFD12DC28BD7D160006DEAB /* MerchantOauthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MerchantOauthViewController.m; sourceTree = "<group>"; };
+		4FFD12E028BD7D510006DEAB /* AccessTokenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessTokenViewController.h; sourceTree = "<group>"; };
+		4FFD12E128BD7D510006DEAB /* AccessTokenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessTokenViewController.m; sourceTree = "<group>"; };
+		4FFD12E528BD7D930006DEAB /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		4FFD12E628BD7D930006DEAB /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		4FFD12EA28BD7DB70006DEAB /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4FFD12EB28BD7DB70006DEAB /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		4FFD12EF28BD7DD70006DEAB /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
+		4FFD12F028BD7DD70006DEAB /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
+		4FFD12F428BD7DFB0006DEAB /* OtpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtpViewController.h; sourceTree = "<group>"; };
+		4FFD12F528BD7DFB0006DEAB /* OtpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtpViewController.m; sourceTree = "<group>"; };
+		4FFD12F928BD7E3B0006DEAB /* ChangePasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePasswordViewController.h; sourceTree = "<group>"; };
+		4FFD12FA28BD7E3B0006DEAB /* ChangePasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordViewController.m; sourceTree = "<group>"; };
+		4FFD12FE28BD7E6B0006DEAB /* ProfileUpdateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileUpdateViewController.h; sourceTree = "<group>"; };
+		4FFD12FF28BD7E6B0006DEAB /* ProfileUpdateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileUpdateViewController.m; sourceTree = "<group>"; };
+		4FFD130328BD7E900006DEAB /* MerchantDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MerchantDetailsViewController.h; sourceTree = "<group>"; };
+		4FFD130428BD7E900006DEAB /* MerchantDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MerchantDetailsViewController.m; sourceTree = "<group>"; };
+		4FFD130828BD7EAE0006DEAB /* CustomerDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerDetailsViewController.h; sourceTree = "<group>"; };
+		4FFD130928BD7EAE0006DEAB /* CustomerDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerDetailsViewController.m; sourceTree = "<group>"; };
+		4FFD130D28BD81C10006DEAB /* CouponListByOutletIdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CouponListByOutletIdViewController.h; sourceTree = "<group>"; };
+		4FFD130E28BD81C10006DEAB /* CouponListByOutletIdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CouponListByOutletIdViewController.m; sourceTree = "<group>"; };
+		4FFD131228BD82570006DEAB /* CouponDtlsByCouponIdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CouponDtlsByCouponIdViewController.h; sourceTree = "<group>"; };
+		4FFD131328BD82570006DEAB /* CouponDtlsByCouponIdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CouponDtlsByCouponIdViewController.m; sourceTree = "<group>"; };
+		4FFD131728BD83A80006DEAB /* IssueCouponViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IssueCouponViewController.h; sourceTree = "<group>"; };
+		4FFD131828BD83A80006DEAB /* IssueCouponViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IssueCouponViewController.m; sourceTree = "<group>"; };
+		4FFD131C28BD84370006DEAB /* IssueCouponRollbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IssueCouponRollbackViewController.h; sourceTree = "<group>"; };
+		4FFD131D28BD84370006DEAB /* IssueCouponRollbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IssueCouponRollbackViewController.m; sourceTree = "<group>"; };
+		4FFD132128BD85430006DEAB /* RedeemCouponViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedeemCouponViewController.h; sourceTree = "<group>"; };
+		4FFD132228BD85430006DEAB /* RedeemCouponViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedeemCouponViewController.m; sourceTree = "<group>"; };
+		4FFD132628BD86130006DEAB /* RedeemCouponRollbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedeemCouponRollbackViewController.h; sourceTree = "<group>"; };
+		4FFD132728BD86130006DEAB /* RedeemCouponRollbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedeemCouponRollbackViewController.m; sourceTree = "<group>"; };
+		4FFD132B28BD86A70006DEAB /* SerialDetailsByCouponSerialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialDetailsByCouponSerialViewController.h; sourceTree = "<group>"; };
+		4FFD132C28BD86A70006DEAB /* SerialDetailsByCouponSerialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialDetailsByCouponSerialViewController.m; sourceTree = "<group>"; };
+		4FFD133028BD872C0006DEAB /* SerialListByCustomerIdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialListByCustomerIdViewController.h; sourceTree = "<group>"; };
+		4FFD133128BD872C0006DEAB /* SerialListByCustomerIdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialListByCustomerIdViewController.m; sourceTree = "<group>"; };
+		4FFD133528BD87D40006DEAB /* SerialListByStatusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialListByStatusViewController.h; sourceTree = "<group>"; };
+		4FFD133628BD87D40006DEAB /* SerialListByStatusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialListByStatusViewController.m; sourceTree = "<group>"; };
+		4FFD133A28BD88660006DEAB /* SerialListByCustomerIdCouponIdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialListByCustomerIdCouponIdViewController.h; sourceTree = "<group>"; };
+		4FFD133B28BD88660006DEAB /* SerialListByCustomerIdCouponIdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialListByCustomerIdCouponIdViewController.m; sourceTree = "<group>"; };
+		4FFD133F28BD89970006DEAB /* TransferCouponViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransferCouponViewController.h; sourceTree = "<group>"; };
+		4FFD134028BD89970006DEAB /* TransferCouponViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransferCouponViewController.m; sourceTree = "<group>"; };
+		4FFD134428BD89B50006DEAB /* VoidCouponViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoidCouponViewController.h; sourceTree = "<group>"; };
+		4FFD134528BD89B50006DEAB /* VoidCouponViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoidCouponViewController.m; sourceTree = "<group>"; };
+		4FFD134928BD8E2A0006DEAB /* OutletDetailsByPinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutletDetailsByPinViewController.h; sourceTree = "<group>"; };
+		4FFD134A28BD8E2A0006DEAB /* OutletDetailsByPinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutletDetailsByPinViewController.m; sourceTree = "<group>"; };
+		4FFD134E28BD8E460006DEAB /* ExpressRedeemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressRedeemViewController.h; sourceTree = "<group>"; };
+		4FFD134F28BD8E460006DEAB /* ExpressRedeemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpressRedeemViewController.m; sourceTree = "<group>"; };
+		4FFD135328BD8E680006DEAB /* ExpiryCouponRedeemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpiryCouponRedeemViewController.h; sourceTree = "<group>"; };
+		4FFD135428BD8E680006DEAB /* ExpiryCouponRedeemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpiryCouponRedeemViewController.m; sourceTree = "<group>"; };
+		4FFD135828BD8E8E0006DEAB /* UpdateReferenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdateReferenceViewController.h; sourceTree = "<group>"; };
+		4FFD135928BD8E8E0006DEAB /* UpdateReferenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdateReferenceViewController.m; sourceTree = "<group>"; };
+		4FFD135D28BD8EA70006DEAB /* TransactionLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionLogViewController.h; sourceTree = "<group>"; };
+		4FFD135E28BD8EA70006DEAB /* TransactionLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionLogViewController.m; sourceTree = "<group>"; };
+		4FFD136228BDC0560006DEAB /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		4FFD136328BDC0560006DEAB /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		5C50182528463A2300CD4C6A /* testpos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testpos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C50182828463A2400CD4C6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C50182928463A2400CD4C6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C50182B28463A2400CD4C6A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5C50182C28463A2400CD4C6A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5C50182E28463A2400CD4C6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C50182F28463A2400CD4C6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C50183228463A2400CD4C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C50183428463A2600CD4C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C50183728463A2600CD4C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C50183928463A2600CD4C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C50183A28463A2600CD4C6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C50184028463A2600CD4C6A /* testposTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testposTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C50184428463A2600CD4C6A /* testposTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testposTests.m; sourceTree = "<group>"; };
+		5C50184628463A2600CD4C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C50184B28463A2700CD4C6A /* testposUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testposUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C50184F28463A2700CD4C6A /* testposUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testposUITests.m; sourceTree = "<group>"; };
+		5C50185128463A2700CD4C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EEF9408FEED6CA048221B58 /* Pods-testpos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testpos.release.xcconfig"; path = "Target Support Files/Pods-testpos/Pods-testpos.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C50182228463A2300CD4C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC25BECC42E206D77396E96 /* libPods-testpos.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C50183D28463A2600CD4C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C50184828463A2600CD4C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C50181C28463A2300CD4C6A = {
+			isa = PBXGroup;
+			children = (
+				5C50182728463A2300CD4C6A /* testpos */,
+				5C50184328463A2600CD4C6A /* testposTests */,
+				5C50184E28463A2700CD4C6A /* testposUITests */,
+				5C50182628463A2300CD4C6A /* Products */,
+				6758526F9063DCB5CFE9B113 /* Pods */,
+				CB1D2018D744811B177F206E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C50182628463A2300CD4C6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C50182528463A2300CD4C6A /* testpos.app */,
+				5C50184028463A2600CD4C6A /* testposTests.xctest */,
+				5C50184B28463A2700CD4C6A /* testposUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C50182728463A2300CD4C6A /* testpos */ = {
+			isa = PBXGroup;
+			children = (
+				5C50182828463A2400CD4C6A /* AppDelegate.h */,
+				5C50182928463A2400CD4C6A /* AppDelegate.m */,
+				4FFD136228BDC0560006DEAB /* Common.h */,
+				4FFD136328BDC0560006DEAB /* Common.m */,
+				5C50182B28463A2400CD4C6A /* SceneDelegate.h */,
+				5C50182C28463A2400CD4C6A /* SceneDelegate.m */,
+				5C50182E28463A2400CD4C6A /* ViewController.h */,
+				5C50182F28463A2400CD4C6A /* ViewController.m */,
+				4FFD12D528BD5D170006DEAB /* HomeTableViewController.h */,
+				4FFD12D628BD5D170006DEAB /* HomeTableViewController.m */,
+				4F03DA6928C0BBCB006DC15F /* OAuthTableViewController.h */,
+				4F03DA6A28C0BBCB006DC15F /* OAuthTableViewController.m */,
+				4F03DA6E28C0BE81006DC15F /* CustomerTableViewController.h */,
+				4F03DA6F28C0BE81006DC15F /* CustomerTableViewController.m */,
+				4F03DA7328C0BE8A006DC15F /* MerchantTableViewController.h */,
+				4F03DA7428C0BE8A006DC15F /* MerchantTableViewController.m */,
+				4F03DA7828C0BE9B006DC15F /* CouponIssueTableViewController.h */,
+				4F03DA7928C0BE9B006DC15F /* CouponIssueTableViewController.m */,
+				4F03DA7D28C0BEA7006DC15F /* CouponRedeemTableViewController.h */,
+				4F03DA7E28C0BEA7006DC15F /* CouponRedeemTableViewController.m */,
+				4FFD12DB28BD7D160006DEAB /* MerchantOauthViewController.h */,
+				4FFD12DC28BD7D160006DEAB /* MerchantOauthViewController.m */,
+				4FFD12E028BD7D510006DEAB /* AccessTokenViewController.h */,
+				4FFD12E128BD7D510006DEAB /* AccessTokenViewController.m */,
+				4FFD12E528BD7D930006DEAB /* RegisterViewController.h */,
+				4FFD12E628BD7D930006DEAB /* RegisterViewController.m */,
+				4FFD12EA28BD7DB70006DEAB /* LoginViewController.h */,
+				4FFD12EB28BD7DB70006DEAB /* LoginViewController.m */,
+				4FFD12EF28BD7DD70006DEAB /* ForgetPasswordViewController.h */,
+				4FFD12F028BD7DD70006DEAB /* ForgetPasswordViewController.m */,
+				4FFD12F428BD7DFB0006DEAB /* OtpViewController.h */,
+				4FFD12F528BD7DFB0006DEAB /* OtpViewController.m */,
+				4FFD12F928BD7E3B0006DEAB /* ChangePasswordViewController.h */,
+				4FFD12FA28BD7E3B0006DEAB /* ChangePasswordViewController.m */,
+				4FFD12FE28BD7E6B0006DEAB /* ProfileUpdateViewController.h */,
+				4FFD12FF28BD7E6B0006DEAB /* ProfileUpdateViewController.m */,
+				4FFD130328BD7E900006DEAB /* MerchantDetailsViewController.h */,
+				4FFD130428BD7E900006DEAB /* MerchantDetailsViewController.m */,
+				4FFD130828BD7EAE0006DEAB /* CustomerDetailsViewController.h */,
+				4FFD130928BD7EAE0006DEAB /* CustomerDetailsViewController.m */,
+				4FFD130D28BD81C10006DEAB /* CouponListByOutletIdViewController.h */,
+				4FFD130E28BD81C10006DEAB /* CouponListByOutletIdViewController.m */,
+				4FFD131228BD82570006DEAB /* CouponDtlsByCouponIdViewController.h */,
+				4FFD131328BD82570006DEAB /* CouponDtlsByCouponIdViewController.m */,
+				4FFD131728BD83A80006DEAB /* IssueCouponViewController.h */,
+				4FFD131828BD83A80006DEAB /* IssueCouponViewController.m */,
+				4FFD131C28BD84370006DEAB /* IssueCouponRollbackViewController.h */,
+				4FFD131D28BD84370006DEAB /* IssueCouponRollbackViewController.m */,
+				4FFD132128BD85430006DEAB /* RedeemCouponViewController.h */,
+				4FFD132228BD85430006DEAB /* RedeemCouponViewController.m */,
+				4FFD132628BD86130006DEAB /* RedeemCouponRollbackViewController.h */,
+				4FFD132728BD86130006DEAB /* RedeemCouponRollbackViewController.m */,
+				4FFD132B28BD86A70006DEAB /* SerialDetailsByCouponSerialViewController.h */,
+				4FFD132C28BD86A70006DEAB /* SerialDetailsByCouponSerialViewController.m */,
+				4FFD133028BD872C0006DEAB /* SerialListByCustomerIdViewController.h */,
+				4FFD133128BD872C0006DEAB /* SerialListByCustomerIdViewController.m */,
+				4FFD133528BD87D40006DEAB /* SerialListByStatusViewController.h */,
+				4FFD133628BD87D40006DEAB /* SerialListByStatusViewController.m */,
+				4FFD133A28BD88660006DEAB /* SerialListByCustomerIdCouponIdViewController.h */,
+				4FFD133B28BD88660006DEAB /* SerialListByCustomerIdCouponIdViewController.m */,
+				4FFD133F28BD89970006DEAB /* TransferCouponViewController.h */,
+				4FFD134028BD89970006DEAB /* TransferCouponViewController.m */,
+				4FFD134428BD89B50006DEAB /* VoidCouponViewController.h */,
+				4FFD134528BD89B50006DEAB /* VoidCouponViewController.m */,
+				4FFD134928BD8E2A0006DEAB /* OutletDetailsByPinViewController.h */,
+				4FFD134A28BD8E2A0006DEAB /* OutletDetailsByPinViewController.m */,
+				4FFD134E28BD8E460006DEAB /* ExpressRedeemViewController.h */,
+				4FFD134F28BD8E460006DEAB /* ExpressRedeemViewController.m */,
+				4FFD135328BD8E680006DEAB /* ExpiryCouponRedeemViewController.h */,
+				4FFD135428BD8E680006DEAB /* ExpiryCouponRedeemViewController.m */,
+				4FFD135828BD8E8E0006DEAB /* UpdateReferenceViewController.h */,
+				4FFD135928BD8E8E0006DEAB /* UpdateReferenceViewController.m */,
+				4FFD135D28BD8EA70006DEAB /* TransactionLogViewController.h */,
+				4FFD135E28BD8EA70006DEAB /* TransactionLogViewController.m */,
+				5C50183128463A2400CD4C6A /* Main.storyboard */,
+				5C50183428463A2600CD4C6A /* Assets.xcassets */,
+				5C50183628463A2600CD4C6A /* LaunchScreen.storyboard */,
+				5C50183928463A2600CD4C6A /* Info.plist */,
+				5C50183A28463A2600CD4C6A /* main.m */,
+			);
+			path = testpos;
+			sourceTree = "<group>";
+		};
+		5C50184328463A2600CD4C6A /* testposTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C50184428463A2600CD4C6A /* testposTests.m */,
+				5C50184628463A2600CD4C6A /* Info.plist */,
+			);
+			path = testposTests;
+			sourceTree = "<group>";
+		};
+		5C50184E28463A2700CD4C6A /* testposUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C50184F28463A2700CD4C6A /* testposUITests.m */,
+				5C50185128463A2700CD4C6A /* Info.plist */,
+			);
+			path = testposUITests;
+			sourceTree = "<group>";
+		};
+		6758526F9063DCB5CFE9B113 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BD318BE0B566053D81C26F2 /* Pods-testpos.debug.xcconfig */,
+				5EEF9408FEED6CA048221B58 /* Pods-testpos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB1D2018D744811B177F206E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35B0B93BA06961445A9810CB /* libPods-testpos.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C50182428463A2300CD4C6A /* testpos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C50185428463A2700CD4C6A /* Build configuration list for PBXNativeTarget "testpos" */;
+			buildPhases = (
+				DAE70513DB7A40B0758DD4DF /* [CP] Check Pods Manifest.lock */,
+				5C50182128463A2300CD4C6A /* Sources */,
+				5C50182228463A2300CD4C6A /* Frameworks */,
+				5C50182328463A2300CD4C6A /* Resources */,
+				5C24BD3F28A37D6000078787 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testpos;
+			productName = testpos;
+			productReference = 5C50182528463A2300CD4C6A /* testpos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C50183F28463A2600CD4C6A /* testposTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C50185728463A2700CD4C6A /* Build configuration list for PBXNativeTarget "testposTests" */;
+			buildPhases = (
+				5C50183C28463A2600CD4C6A /* Sources */,
+				5C50183D28463A2600CD4C6A /* Frameworks */,
+				5C50183E28463A2600CD4C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C50184228463A2600CD4C6A /* PBXTargetDependency */,
+			);
+			name = testposTests;
+			productName = testposTests;
+			productReference = 5C50184028463A2600CD4C6A /* testposTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C50184A28463A2600CD4C6A /* testposUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C50185A28463A2700CD4C6A /* Build configuration list for PBXNativeTarget "testposUITests" */;
+			buildPhases = (
+				5C50184728463A2600CD4C6A /* Sources */,
+				5C50184828463A2600CD4C6A /* Frameworks */,
+				5C50184928463A2600CD4C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C50184D28463A2700CD4C6A /* PBXTargetDependency */,
+			);
+			name = testposUITests;
+			productName = testposUITests;
+			productReference = 5C50184B28463A2700CD4C6A /* testposUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C50181D28463A2300CD4C6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					5C50182428463A2300CD4C6A = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					5C50183F28463A2600CD4C6A = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 5C50182428463A2300CD4C6A;
+					};
+					5C50184A28463A2600CD4C6A = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 5C50182428463A2300CD4C6A;
+					};
+				};
+			};
+			buildConfigurationList = 5C50182028463A2300CD4C6A /* Build configuration list for PBXProject "testpos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C50181C28463A2300CD4C6A;
+			productRefGroup = 5C50182628463A2300CD4C6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C50182428463A2300CD4C6A /* testpos */,
+				5C50183F28463A2600CD4C6A /* testposTests */,
+				5C50184A28463A2600CD4C6A /* testposUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C50182328463A2300CD4C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C50183828463A2600CD4C6A /* LaunchScreen.storyboard in Resources */,
+				5C50183528463A2600CD4C6A /* Assets.xcassets in Resources */,
+				5C50183328463A2400CD4C6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C50183E28463A2600CD4C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C50184928463A2600CD4C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAE70513DB7A40B0758DD4DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testpos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C50182128463A2300CD4C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFD136428BDC0560006DEAB /* Common.m in Sources */,
+				4FFD135F28BD8EA70006DEAB /* TransactionLogViewController.m in Sources */,
+				4FFD132328BD85430006DEAB /* RedeemCouponViewController.m in Sources */,
+				4F03DA7A28C0BE9B006DC15F /* CouponIssueTableViewController.m in Sources */,
+				5C50183028463A2400CD4C6A /* ViewController.m in Sources */,
+				4FFD135028BD8E460006DEAB /* ExpressRedeemViewController.m in Sources */,
+				4FFD132828BD86130006DEAB /* RedeemCouponRollbackViewController.m in Sources */,
+				4FFD133728BD87D40006DEAB /* SerialListByStatusViewController.m in Sources */,
+				4FFD12FB28BD7E3B0006DEAB /* ChangePasswordViewController.m in Sources */,
+				4FFD134B28BD8E2A0006DEAB /* OutletDetailsByPinViewController.m in Sources */,
+				4FFD12D728BD5D170006DEAB /* HomeTableViewController.m in Sources */,
+				4FFD130F28BD81C10006DEAB /* CouponListByOutletIdViewController.m in Sources */,
+				4FFD135528BD8E680006DEAB /* ExpiryCouponRedeemViewController.m in Sources */,
+				4FFD134128BD89970006DEAB /* TransferCouponViewController.m in Sources */,
+				4FFD130528BD7E900006DEAB /* MerchantDetailsViewController.m in Sources */,
+				4FFD12F128BD7DD70006DEAB /* ForgetPasswordViewController.m in Sources */,
+				4FFD135A28BD8E8E0006DEAB /* UpdateReferenceViewController.m in Sources */,
+				5C50182A28463A2400CD4C6A /* AppDelegate.m in Sources */,
+				4FFD134628BD89B50006DEAB /* VoidCouponViewController.m in Sources */,
+				4FFD12F628BD7DFB0006DEAB /* OtpViewController.m in Sources */,
+				5C50183B28463A2600CD4C6A /* main.m in Sources */,
+				4FFD12DD28BD7D160006DEAB /* MerchantOauthViewController.m in Sources */,
+				4FFD132D28BD86A70006DEAB /* SerialDetailsByCouponSerialViewController.m in Sources */,
+				4FFD131428BD82570006DEAB /* CouponDtlsByCouponIdViewController.m in Sources */,
+				4FFD12EC28BD7DB70006DEAB /* LoginViewController.m in Sources */,
+				4FFD130028BD7E6B0006DEAB /* ProfileUpdateViewController.m in Sources */,
+				4FFD133C28BD88660006DEAB /* SerialListByCustomerIdCouponIdViewController.m in Sources */,
+				4F03DA7F28C0BEA7006DC15F /* CouponRedeemTableViewController.m in Sources */,
+				5C50182D28463A2400CD4C6A /* SceneDelegate.m in Sources */,
+				4F03DA6B28C0BBCB006DC15F /* OAuthTableViewController.m in Sources */,
+				4FFD12E228BD7D510006DEAB /* AccessTokenViewController.m in Sources */,
+				4F03DA7528C0BE8A006DC15F /* MerchantTableViewController.m in Sources */,
+				4FFD12E728BD7D930006DEAB /* RegisterViewController.m in Sources */,
+				4FFD131E28BD84370006DEAB /* IssueCouponRollbackViewController.m in Sources */,
+				4FFD131928BD83A80006DEAB /* IssueCouponViewController.m in Sources */,
+				4FFD130A28BD7EAE0006DEAB /* CustomerDetailsViewController.m in Sources */,
+				4F03DA7028C0BE81006DC15F /* CustomerTableViewController.m in Sources */,
+				4FFD133228BD872C0006DEAB /* SerialListByCustomerIdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C50183C28463A2600CD4C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C50184528463A2600CD4C6A /* testposTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C50184728463A2600CD4C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C50185028463A2700CD4C6A /* testposUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C50184228463A2600CD4C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C50182428463A2300CD4C6A /* testpos */;
+			targetProxy = 5C50184128463A2600CD4C6A /* PBXContainerItemProxy */;
+		};
+		5C50184D28463A2700CD4C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C50182428463A2300CD4C6A /* testpos */;
+			targetProxy = 5C50184C28463A2700CD4C6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C50183128463A2400CD4C6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C50183228463A2400CD4C6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C50183628463A2600CD4C6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C50183728463A2600CD4C6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C50185228463A2700CD4C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C50185328463A2700CD4C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C50185528463A2700CD4C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD318BE0B566053D81C26F2 /* Pods-testpos.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2LABZ99A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testpos",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = testpos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mezzofy.testpos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C50185628463A2700CD4C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EEF9408FEED6CA048221B58 /* Pods-testpos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2LABZ99A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testpos",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = testpos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mezzofy.testpos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5C50185828463A2700CD4C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8TLLAK8J8;
+				INFOPLIST_FILE = testposTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mezzofy.testposTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testpos.app/testpos";
+			};
+			name = Debug;
+		};
+		5C50185928463A2700CD4C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8TLLAK8J8;
+				INFOPLIST_FILE = testposTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mezzofy.testposTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testpos.app/testpos";
+			};
+			name = Release;
+		};
+		5C50185B28463A2700CD4C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8TLLAK8J8;
+				INFOPLIST_FILE = testposUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mezzofy.testposUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testpos;
+			};
+			name = Debug;
+		};
+		5C50185C28463A2700CD4C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8TLLAK8J8;
+				INFOPLIST_FILE = testposUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mezzofy.testposUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testpos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C50182028463A2300CD4C6A /* Build configuration list for PBXProject "testpos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C50185228463A2700CD4C6A /* Debug */,
+				5C50185328463A2700CD4C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C50185428463A2700CD4C6A /* Build configuration list for PBXNativeTarget "testpos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C50185528463A2700CD4C6A /* Debug */,
+				5C50185628463A2700CD4C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C50185728463A2700CD4C6A /* Build configuration list for PBXNativeTarget "testposTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C50185828463A2700CD4C6A /* Debug */,
+				5C50185928463A2700CD4C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C50185A28463A2700CD4C6A /* Build configuration list for PBXNativeTarget "testposUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C50185B28463A2700CD4C6A /* Debug */,
+				5C50185C28463A2700CD4C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C50181D28463A2300CD4C6A /* Project object */;
+}

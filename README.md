@@ -52,7 +52,7 @@ Login to Merchant Account
 
   
 
-![](https://mzcoupon.s3.ap-southeast-1.amazonaws.com/logo/apikeyscreen.png)
+![](https://mzcoupon.s3.ap-southeast-1.amazonaws.com/app/auth.png)
 
   
 
@@ -161,7 +161,7 @@ customer_status;
 
 
 **Call Function For CUSTOMER -Forgot Password** 
-![](https://mzcoupon.s3.ap-southeast-1.amazonaws.com/app/image_2022_06_02T06_14_27_135Z.png)
+![](https://mzcoupon.s3.ap-southeast-1.amazonaws.com/app/forget.PNG)
 ```objc
 
 MZLoginResponse *retval2= [[MZLoginResponse alloc]init];
@@ -214,7 +214,7 @@ customer_status;
 
 
 **Call Function For CUSTOMER -Update Customer Profile**
-![](https://mzcoupon.s3.ap-southeast-1.amazonaws.com/app/image_2022_06_02T06_14_40_713Z.png)
+![](https://mzcoupon.s3.ap-southeast-1.amazonaws.com/app/edit.jpg)
 ``` objc
 
 CustomerData *objcust2=[[CustomerData alloc]init];
@@ -874,7 +874,7 @@ coupon_images;
 
 
 **Call Function For Serial Detail By Customer and CouponId**
-![](https://mzcoupon.s3.ap-southeast-1.amazonaws.com/app/image_2022_06_02T06_15_21_306Z.png)
+![](https://mzcoupon.s3.ap-southeast-1.amazonaws.com/app/mycoupon.jpg)
 ``` objc
 
 MZCouponSerial* couponserial6=[[MZCouponSerial alloc]init];
@@ -895,7 +895,7 @@ outlets;
 coupon_images;
 
 **Call Function For Serial Detail By Serial**
-![](https://mzcoupon.s3.ap-southeast-1.amazonaws.com/app/image_2022_06_02T06_15_27_594Z.png)
+![](https://mzcoupon.s3.ap-southeast-1.amazonaws.com/app/qr.jpeg)
 ``` objc
 
 MZCouponSerial *couponserial=[[MZCouponSerial alloc]init];
@@ -1067,30 +1067,12 @@ transaction_details;
 
 
 
-  
-
-##### Click here for [Full Implementation Guide](https://github.com/mezzofy/mzcoupon-android-customer-lib-v2)
-
-  
-
-# Licenses
-
-  
-
-All source code is licensed under the [MIT License.](https://raw.githubusercontent.com/mezzofy/mzcoupon-android-customer-lib/9f6d85cdaa1a03f323a81d6adf45df36cebb4c75/LICENSE)
-
-  
-
-  
-
-### End
-
 
 ##### Click here for [Full Implementation Guide](https://github.com/mzsathya/mzcoupon-ios-customer-lib-v2)
 
   
 
 # Licenses
-All source code is licensed under the MIT License.
+All source code is licensed under the [MIT License.](https://raw.githubusercontent.com/mzsathya/mzcoupon-ios-customer-lib-v2/main/LICENSE)
 
 ### End

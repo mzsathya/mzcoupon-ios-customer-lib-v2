@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '10.0'
+
+target 'testpos' do 
+
+  pod 'MZCustomerCouponLib', '~> 1.0.5'
+  pod 'AFNetworking', '~> 4.0'
+ 
+
+end
+ 
